@@ -3,6 +3,7 @@
 # -*- coding: utf-8 -*-
 import logging
 import re
+import sys
 from subprocess import check_output, STDOUT, CalledProcessError
 from typing import List
 
@@ -26,11 +27,11 @@ class ModelTimeTester:
         logging.info("Slicing %s with definition %s and settings %s", model_name, definition, settings)
 
         arguments = [
-            "{}/CuraEngine/build/CuraEngine".format(Settings.CURA_DIR),
+            Settings.CURA_ENGINE,
             "slice", "-v",
-            "-o", "/dev/null",
-            "-j", "{}/Cura/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
-            "-e1", "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
+            "-o", "NUL" if sys.platform == "win32" else "/dev/null",
+            "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
+            "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
         ]
 
         for s in settings:

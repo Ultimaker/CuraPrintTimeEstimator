@@ -23,7 +23,6 @@ class TestCuraPrintTimeEstimator(TestCase):
 
         with open(CuraPrintTimeEstimator.OUTPUT_FILE) as f:
             result = json.load(f)
-        print(result)
 
         with open("tests/fixtures/expected_output.json") as f:
             expected = json.load(f)

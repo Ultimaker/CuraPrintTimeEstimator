@@ -20,10 +20,10 @@ class TestModelTimeTester(TestCase):
         self.assertEqual(33111, result)
 
         expected_params = [
-            '/srv/cura/CuraEngine/build/CuraEngine', 'slice', '-v', '-o', '/dev/null',
-            '-j', '/srv/cura/Cura/resources/definitions/definition.def.json',
-            '-e1', '-e0', '-l', '/usr/src/app/models/3D_Printer_test.stl',
-            '-s', 'settings1', '-s', 'settings2'
+            "/srv/cura/CuraEngine/build/CuraEngine", "slice", "-v", "-o", "/dev/null",
+            "-j", "/srv/cura/Cura/resources/definitions/definition.def.json",
+            "-e0", "-l", "/usr/src/app/models/3D_Printer_test.stl",
+            "-s", "settings1", "-s", "settings2"
         ]
 
         cura_mock.assert_called_once_with(expected_params, stderr=-2)

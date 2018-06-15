@@ -62,7 +62,7 @@
       "vertices": 44793
     }
   },
-  "jet_fighter": {
+  "cube10": {
     "print_times": {
       "ultimaker2": {
         "basic": 12,
@@ -71,6 +71,27 @@
       "ultimaker3": {
         "basic": 14,
         "default": 15
+      }
+    },
+    "model_statistics": {
+      "volume": 1000.0,
+      "surface_area": 600.0,
+      "area_faces": 12,
+      "box_volume": 1000.0,
+      "edges": 72,
+      "mass": 1000.0,
+      "vertices": 24
+    }
+  },
+  "jet_fighter": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 16,
+        "default": 17
+      },
+      "ultimaker3": {
+        "basic": 18,
+        "default": 19
       }
     },
     "model_statistics": {
@@ -86,12 +107,12 @@
   "jet_fighter_egg": {
     "print_times": {
       "ultimaker2": {
-        "basic": 16,
-        "default": 17
+        "basic": 20,
+        "default": 21
       },
       "ultimaker3": {
-        "basic": 18,
-        "default": 19
+        "basic": 22,
+        "default": 23
       }
     },
     "model_statistics": {
@@ -102,6 +123,27 @@
       "edges": 49812,
       "mass": 35973.97131121369,
       "vertices": 12429
+    }
+  },
+  "sphere": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 24,
+        "default": 25
+      },
+      "ultimaker3": {
+        "basic": 26,
+        "default": 27
+      }
+    },
+    "model_statistics": {
+      "volume": 998.3537941544812,
+      "surface_area": 483.1991996809991,
+      "area_faces": 9996,
+      "box_volume": 1907.0299552083618,
+      "edges": 59976,
+      "mass": 998.3537941544812,
+      "vertices": 15000
     }
   }
 }
