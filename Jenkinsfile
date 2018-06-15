@@ -4,7 +4,7 @@
 def appName = "cura-print-time-estimator"
 def imageTag = "${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
-node(defaultNode)
+node("docker")
 {
     stage("Checkout")
     {
