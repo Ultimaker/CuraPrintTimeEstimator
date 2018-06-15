@@ -1,0 +1,107 @@
+{
+  "3D_Printer_test": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 0,
+        "default": 1
+      },
+      "ultimaker3": {
+        "basic": 2,
+        "default": 3
+      }
+    },
+    "model_statistics": {
+      "volume": 48701.61174403118,
+      "surface_area": 42737.72194506444,
+      "area_faces": 63622,
+      "box_volume": 605222.3587036133,
+      "edges": 381732,
+      "mass": 48701.61174403118,
+      "vertices": 95391
+    }
+  },
+  "Air_Spinner_2_-_Hollow": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 4,
+        "default": 5
+      },
+      "ultimaker3": {
+        "basic": 6,
+        "default": 7
+      }
+    },
+    "model_statistics": {
+      "volume": 16815.73148891766,
+      "surface_area": 20522.53589781627,
+      "area_faces": 100548,
+      "box_volume": 36000.0,
+      "edges": 603288,
+      "mass": 16815.73148891766,
+      "vertices": 150786
+    }
+  },
+  "BASKET-OPTO": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 8,
+        "default": 9
+      },
+      "ultimaker3": {
+        "basic": 10,
+        "default": 11
+      }
+    },
+    "model_statistics": {
+      "volume": 9.499843987522258,
+      "surface_area": 209.6078300279836,
+      "area_faces": 29866,
+      "box_volume": 15.783750236038419,
+      "edges": 179196,
+      "mass": 9.499843987522258,
+      "vertices": 44793
+    }
+  },
+  "jet_fighter": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 12,
+        "default": 13
+      },
+      "ultimaker3": {
+        "basic": 14,
+        "default": 15
+      }
+    },
+    "model_statistics": {
+      "volume": 1549.7426558036707,
+      "surface_area": 2406.451136848821,
+      "area_faces": 4510,
+      "box_volume": 13864.77116985394,
+      "edges": 27060,
+      "mass": 1549.7426558036707,
+      "vertices": 6753
+    }
+  },
+  "jet_fighter_egg": {
+    "print_times": {
+      "ultimaker2": {
+        "basic": 16,
+        "default": 17
+      },
+      "ultimaker3": {
+        "basic": 18,
+        "default": 19
+      }
+    },
+    "model_statistics": {
+      "volume": 35973.97131121369,
+      "surface_area": 10254.242556793088,
+      "area_faces": 8302,
+      "box_volume": 76177.376995092,
+      "edges": 49812,
+      "mass": 35973.97131121369,
+      "vertices": 12429
+    }
+  }
+}
