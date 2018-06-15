@@ -18,21 +18,13 @@ class TestCuraPrintTimeEstimator(TestCase):
 
     @patch("curaPrintTimeEstimator.helpers.ModelTimeTester.ModelTimeTester.slice")
     def test_run(self, slice_mock):
-        slice_mock.side_effect = range(5)
+        slice_mock.side_effect = range(100)
         CuraPrintTimeEstimator().run()
 
-        with open(CuraPrintTimeEstimator.TIMINGS_FILE) as f:
-            result = f.read()
+        with open(CuraPrintTimeEstimator.OUTPUT_FILE) as f:
+            result = json.load(f)
 
-        expected = {
-            'basic': {
-                'ultimaker3.def': {
-                    '3D_Printer_test': 0,
-                    'Air_Spinner_2_-_Hollow': 1,
-                    'BASKET-OPTO': 2,
-                    'jet_fighter': 3,
-                    'jet_fighter_egg': 4,
-                }
-            }
-        }
-        self.assertEqual(expected, json.loads(result))
+        with open("tests/fixtures/expected_output.json") as f:
+            expected = json.load(f)
+
+        self.assertEqual(expected, result)

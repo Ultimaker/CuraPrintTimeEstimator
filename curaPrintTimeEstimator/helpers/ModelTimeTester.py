@@ -3,7 +3,8 @@
 # -*- coding: utf-8 -*-
 import logging
 import re
-from subprocess import check_output, STDOUT
+import sys
+from subprocess import check_output, STDOUT, CalledProcessError
 from typing import List
 
 from Settings import Settings
@@ -18,7 +19,7 @@ class ModelTimeTester:
         """
         Runs the slicer, returning the estimated amount of seconds to print the model.
         :param model_name: The name of the model, without the .stl extension.
-        :param definition: The definition file to be used, without the .json extension.
+        :param definition: The definition file to be used, without the .def.json extension.
         :param settings: The extra settings to be passed to the engine.
         :return: The amount of seconds Cura expects the printing will take.
         """
@@ -26,17 +27,21 @@ class ModelTimeTester:
         logging.info("Slicing %s with definition %s and settings %s", model_name, definition, settings)
 
         arguments = [
-            "{}/CuraEngine/build/CuraEngine".format(Settings.CURA_DIR),
+            Settings.CURA_ENGINE,
             "slice", "-v",
-            "-o", "/dev/null",
-            "-j", "{}/Cura/resources/definitions/{}.json".format(Settings.CURA_DIR, definition),
-            "-e1", "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
+            "-o", "NUL" if sys.platform == "win32" else "/dev/null",
+            "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
+            "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
         ]
 
         for s in settings:
             arguments.extend(["-s", s])
 
-        output = check_output(arguments, stderr=STDOUT).decode()
+        try:
+            output = check_output(arguments, stderr=STDOUT).decode()
+        except CalledProcessError as err:
+            logging.error(err.output)
+            raise
         return self._parsePrintTime(output)
 
     @staticmethod

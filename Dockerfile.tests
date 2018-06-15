@@ -1,9 +1,13 @@
+# Copyright (c) 2018 Ultimaker B.V.
 FROM python:3.6 AS base
 WORKDIR /usr/src/app
 RUN pip install --upgrade pip==9.0.*
 RUN pip install --no-cache-dir \
     pytest \
     coverage
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+
 ARG cache=1
 CMD ["pytest"]
 
