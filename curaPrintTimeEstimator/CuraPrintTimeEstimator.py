@@ -4,7 +4,7 @@
 import json
 import logging
 import os
-from typing import Iterable, List, Dict
+from typing import Iterable, List, Dict, Tuple
 
 from Settings import Settings
 from curaPrintTimeEstimator.helpers.ModelTimeTester import ModelTimeTester
@@ -15,16 +15,8 @@ class CuraPrintTimeEstimator:
     Main application file of the Cura Print time estimator.
     """
 
-    # which definition files should be used, excluding the .json extension.
-    DEFINITIONS = (
-        "ultimaker3.def",
-    )
-
-    # the different settings that we want to test.
-    SETTINGS = {
-        "basic": ["infill_line_distance=0"],
-        "default": [],
-    }  # type: Dict[str, List[str]]
+    # which definition files should be used, excluding the .def.json extension.
+    DEFINITIONS = ("ultimaker2", "ultimaker3")
 
     # The file will contain the output of the time estimation (see self.gatherPrintTimeData)
     OUTPUT_FILE = "{}/output.json".format(Settings.PROJECT_DIR)
@@ -34,6 +26,9 @@ class CuraPrintTimeEstimator:
 
     # The class responsible for calculating statistics about the model.
     model_reader = ModelStatisticsCalculator()
+
+    def __init__(self):
+        self.settings = dict(self._findSettings())
 
     def run(self) -> None:
         """
@@ -76,6 +71,19 @@ class CuraPrintTimeEstimator:
             if model.endswith(".stl"):
                 yield model[:-4]
 
+    @staticmethod
+    def _findSettings() -> Iterable[Tuple[str, List[str]]]:
+        """
+        Finds the TXT files available in the 'settings' sub folder.
+        :return: An iterable of lists of settings each format: (settings_name, settings_parameters).
+        """
+        directory = "{}/settings".format(Settings.PROJECT_DIR)
+        files = os.listdir(directory)
+        for name in sorted(files):
+            if name.endswith(".txt"):
+                with open("{}/{}".format(directory, name)) as f:
+                    yield name[:-4], f.readlines()
+
     def gatherModelStatistics(self, model) -> Dict[str, any]:
         """
         Gathers data about the model.
@@ -93,6 +101,6 @@ class CuraPrintTimeEstimator:
         result = {}
         for definition in self.DEFINITIONS:
             result[definition] = {}
-            for setting_name, settings_parameters in self.SETTINGS.items():
+            for setting_name, settings_parameters in self.settings.items():
                 result[definition][setting_name] = self.slicer.slice(model, definition, settings_parameters)
         return result

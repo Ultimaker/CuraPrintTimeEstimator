@@ -18,7 +18,7 @@ class ModelTimeTester:
         """
         Runs the slicer, returning the estimated amount of seconds to print the model.
         :param model_name: The name of the model, without the .stl extension.
-        :param definition: The definition file to be used, without the .json extension.
+        :param definition: The definition file to be used, without the .def.json extension.
         :param settings: The extra settings to be passed to the engine.
         :return: The amount of seconds Cura expects the printing will take.
         """
@@ -29,7 +29,7 @@ class ModelTimeTester:
             "{}/CuraEngine/build/CuraEngine".format(Settings.CURA_DIR),
             "slice", "-v",
             "-o", "/dev/null",
-            "-j", "{}/Cura/resources/definitions/{}.json".format(Settings.CURA_DIR, definition),
+            "-j", "{}/Cura/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
             "-e1", "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
         ]
 
