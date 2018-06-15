@@ -8,13 +8,12 @@ from typing import Iterable, List, Dict
 
 from Settings import Settings
 from curaPrintTimeEstimator.helpers.ModelTimeTester import ModelTimeTester
-
+from curaPrintTimeEstimator.helpers.ModelStatisticsCalculator import ModelStatisticsCalculator
 
 class CuraPrintTimeEstimator:
     """
     Main application file of the Cura Print time estimator.
     """
-
 
     # which definition files should be used, excluding the .json extension.
     DEFINITIONS = (
@@ -23,20 +22,48 @@ class CuraPrintTimeEstimator:
 
     # the different settings that we want to test.
     SETTINGS = {
-        "basic": ["infill_line_distance=0"]
+        "basic": ["infill_line_distance=0"],
+        "default": [],
     }  # type: Dict[str, List[str]]
 
     # The file will contain the output of the time estimation (see self.gatherPrintTimeData)
-    TIMINGS_FILE = "{}/output.json".format(Settings.PROJECT_DIR)
+    OUTPUT_FILE = "{}/output.json".format(Settings.PROJECT_DIR)
 
     # The class responsible for actually slicing.
     slicer = ModelTimeTester()
+
+    # The class responsible for calculating statistics about the model.
+    model_reader = ModelStatisticsCalculator()
 
     def run(self) -> None:
         """
         Runs the application.
         """
-        self.gatherPrintTimeData()
+        self.gatherData()
+
+    def gatherData(self) -> Dict[str, Dict[str, Dict[str, any]]]:
+        """
+        Gathers data about the estimated print time for one model, all settings and all definitions.
+        :return: A dict with the format {
+            model_name: {
+                "print_times": {
+                    definition: {settings_name: print_time},
+                },
+                "model_statistics": {""} TODO
+            }
+        }.
+        """
+        result = {}
+        for model in self._findModels():
+            result[model] = {
+                "print_times": self.gatherPrintTimeData(model),
+                "model_statistics": self.gatherModelStatistics(model),
+            }
+
+        with open(self.OUTPUT_FILE, "w") as f:
+            json.dump(result, f, indent=2)
+        logging.info("Results written to %s", self.OUTPUT_FILE)
+        return result
 
     @staticmethod
     def _findModels() -> Iterable[str]:
@@ -49,19 +76,23 @@ class CuraPrintTimeEstimator:
             if model.endswith(".stl"):
                 yield model[:-4]
 
-    def gatherPrintTimeData(self) -> Dict[str, Dict[str, Dict[str, int]]]:
+    def gatherModelStatistics(self, model) -> Dict[str, any]:
         """
-        Gathers data about the estimated print time for all models.
-        :return: A dict with the format {settings_name: {definition: {model_name: print_time}}}.
+        Gathers data about the model.
+        :param model: The name of the model file, without the .stl extension.
+        :return: The statistics about the model.
+        """
+        return self.model_reader.read(model)
+
+    def gatherPrintTimeData(self, model) -> Dict[str, Dict[str, int]]:
+        """
+        Gathers data about the estimated print time for one model, all settings and all definitions.
+        :param model: The name of the model file, without the .stl extension.
+        :return: A dict with the format {definition: {settings_name: print_time}}.
         """
         result = {}
-        for model in self._findModels():
+        for definition in self.DEFINITIONS:
+            result[definition] = {}
             for setting_name, settings_parameters in self.SETTINGS.items():
-                for definition in self.DEFINITIONS:
-                    print_time = self.slicer.slice(model, definition, settings_parameters)
-                    result.setdefault(setting_name, {}).setdefault(definition, {})[model] = print_time
-
-        with open(self.TIMINGS_FILE, "w") as f:
-            json.dump(result, f, indent=2)
-        logging.info("Results written to %s", self.TIMINGS_FILE)
+                result[definition][setting_name] = self.slicer.slice(model, definition, settings_parameters)
         return result

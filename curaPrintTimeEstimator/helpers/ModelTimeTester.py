@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 import logging
 import re
-from subprocess import check_output, STDOUT
+from subprocess import check_output, STDOUT, CalledProcessError
 from typing import List
 
 from Settings import Settings
@@ -36,7 +36,11 @@ class ModelTimeTester:
         for s in settings:
             arguments.extend(["-s", s])
 
-        output = check_output(arguments, stderr=STDOUT).decode()
+        try:
+            output = check_output(arguments, stderr=STDOUT).decode()
+        except CalledProcessError as err:
+            logging.error(err.output)
+            raise
         return self._parsePrintTime(output)
 
     @staticmethod
