@@ -9,7 +9,9 @@ You may run the application with docker:
 ./run_in_docker.sh
 ```
 
-If you have Cura environment in your local machine you may also run the application outside docker, by setting the Cura directory in the environment variable `CURA_DIR`:
+If you have Cura environment in your local machine you may also run the application outside docker, by setting the Cura directory in the environment variable `CURA_DIR` and the CuraEngine path to the executable in the environment variable `CURA_ENGINE`
 ```
-CURA_DIR="/cura/" python3 main.py
+export CURA_DIR="/cura/"
+export CURA_ENGINE="/cura/CuraEngine"
+python3 main.py
 ```

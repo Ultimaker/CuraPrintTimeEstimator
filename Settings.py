@@ -11,3 +11,4 @@ class Settings:
 
     PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
     CURA_DIR = os.getenv("CURA_DIR", "/srv/cura")
+    CURA_ENGINE = os.getenv("CURA_ENGINE", "{}/CuraEngine/build/CuraEngine".format(CURA_DIR))
