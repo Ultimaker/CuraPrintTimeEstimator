@@ -18,7 +18,7 @@ class ModelTimeTester:
     def slice(self, model_name: str, definition: str, settings: List[str]) -> int:
         """
         Runs the slicer, returning the estimated amount of seconds to print the model.
-        :param model_name: The name of the model, without the .stl extension.
+        :param model_name: The name of the model including the extension.
         :param definition: The definition file to be used, without the .def.json extension.
         :param settings: The extra settings to be passed to the engine.
         :return: The amount of seconds Cura expects the printing will take.
@@ -31,7 +31,7 @@ class ModelTimeTester:
             "slice", "-v",
             "-o", "NUL" if sys.platform == "win32" else "/dev/null",
             "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
-            "-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)
+            "-e0", "-l", "{}/models/{}".format(Settings.PROJECT_DIR, model_name)
         ]
 
         for s in settings:

@@ -18,10 +18,10 @@ class ModelStatisticsCalculator:
     def read(self, model: str) -> Dict[str, Union[int, float]]:
         """
         Gathers statistics about the model.
-        :param model: The name of the model file, without the .stl extension.
+        :param model: The name of the model file including the extension.
         :return: The statistics about the model with format: {name: value}.
         """
-        mesh = trimesh.load('models/{}.stl'.format(model))  # type: trimesh.Trimesh
+        mesh = trimesh.load('models/{}'.format(model))  # type: trimesh.Trimesh
         return {
             "volume": mesh.volume,
             "surface_area": mesh.area,

@@ -7,4 +7,5 @@ docker run -it \
     --volume $PWD:/srv/host \
     --env CURA_ENGINE_SEARCH_PATH=/srv/cura/Cura/resources/extruders \
     --workdir /srv/host \
-    cura-print-time-estimator:local
+    --entrypoint python3 \
+    cura-print-time-estimator:local scripts/download_models.py

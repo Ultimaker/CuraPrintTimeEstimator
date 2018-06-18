@@ -4,6 +4,8 @@
 import json
 import logging
 import os
+import re
+
 from typing import Iterable, List, Dict, Tuple
 
 from Settings import Settings
@@ -67,9 +69,10 @@ class CuraPrintTimeEstimator:
         :return: An iterable of model strings.
         """
         files = os.listdir("{}/models".format(Settings.PROJECT_DIR))
+        search = re.compile(".*\.(stl|obj)", re.IGNORECASE)
         for model in sorted(files):
-            if model.endswith(".stl"):
-                yield model[:-4]
+            if search.match(model):
+                yield model
 
     @staticmethod
     def _findSettings() -> Iterable[Tuple[str, List[str]]]:
@@ -87,7 +90,7 @@ class CuraPrintTimeEstimator:
     def gatherModelStatistics(self, model) -> Dict[str, any]:
         """
         Gathers data about the model.
-        :param model: The name of the model file, without the .stl extension.
+        :param model: The name of the model file including the extension.
         :return: The statistics about the model.
         """
         return self.model_reader.read(model)
@@ -95,7 +98,7 @@ class CuraPrintTimeEstimator:
     def gatherPrintTimeData(self, model) -> Dict[str, Dict[str, int]]:
         """
         Gathers data about the estimated print time for one model, all settings and all definitions.
-        :param model: The name of the model file, without the .stl extension.
+        :param model: The name of the model file, including the extension.
         :return: A dict with the format {definition: {settings_name: print_time}}.
         """
         result = {}
