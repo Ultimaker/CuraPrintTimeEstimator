@@ -1,0 +1,1652 @@
+{
+  "moon8inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Prusa_Enclosure_Door_Knob.stl": {
+    "ultimaker3": {
+      "basic": 8284,
+      "default": 10064
+    },
+    "ultimaker2": {
+      "basic": 8284,
+      "default": 10063
+    }
+  },
+  "Rear_Axel_Ruler.stl": {
+    "ultimaker3": {
+      "basic": 2027,
+      "default": 2473
+    },
+    "ultimaker2": {
+      "basic": 2028,
+      "default": 2474
+    }
+  },
+  "crossbow_front.stl": {
+    "ultimaker3": {
+      "basic": 1053,
+      "default": 1357
+    },
+    "ultimaker2": {
+      "basic": 1053,
+      "default": 1355
+    }
+  },
+  "jet_fighter.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Flat_stand.stl": {
+    "ultimaker3": {
+      "basic": 8615,
+      "default": 12085
+    },
+    "ultimaker2": {
+      "basic": 8613,
+      "default": 12082
+    }
+  },
+  "Flying_Wing_v2R.stl": {
+    "ultimaker3": {
+      "basic": 22245,
+      "default": 29323
+    },
+    "ultimaker2": {
+      "basic": 22245,
+      "default": 29326
+    }
+  },
+  "Heart_X_Cam.stl": {
+    "ultimaker3": {
+      "basic": 491,
+      "default": 601
+    },
+    "ultimaker2": {
+      "basic": 492,
+      "default": 602
+    }
+  },
+  "V2_stopper.stl": {
+    "ultimaker3": {
+      "basic": 1062,
+      "default": 1324
+    },
+    "ultimaker2": {
+      "basic": 1063,
+      "default": 1324
+    }
+  },
+  "crossbow_body_middle_2.stl": {
+    "ultimaker3": {
+      "basic": 1865,
+      "default": 2096
+    },
+    "ultimaker2": {
+      "basic": 1864,
+      "default": 2095
+    }
+  },
+  "X_Axle.stl": {
+    "ultimaker3": {
+      "basic": 4370,
+      "default": 4933
+    },
+    "ultimaker2": {
+      "basic": 4370,
+      "default": 4934
+    }
+  },
+  "Front_Wheel_Simple_-_PLA.stl": {
+    "ultimaker3": {
+      "basic": 6566,
+      "default": 9777
+    },
+    "ultimaker2": {
+      "basic": 6567,
+      "default": 10078
+    }
+  },
+  "Gnomon_Southern_NETFABBED.stl": {
+    "ultimaker3": {
+      "basic": 53549,
+      "default": 78513
+    },
+    "ultimaker2": {
+      "basic": 53568,
+      "default": 78559
+    }
+  },
+  "moon7inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "chain-700.stl": {
+    "ultimaker3": {
+      "basic": 78378,
+      "default": 85306
+    },
+    "ultimaker2": {
+      "basic": 78128,
+      "default": 85264
+    }
+  },
+  "V3_Main_Chassis_3.stl": {
+    "ultimaker3": {
+      "basic": 655,
+      "default": 709
+    },
+    "ultimaker2": {
+      "basic": 655,
+      "default": 709
+    }
+  },
+  "jet_fighter.STL": {
+    "ultimaker3": {
+      "basic": 2202,
+      "default": 2313
+    },
+    "ultimaker2": {
+      "basic": 2204,
+      "default": 2313
+    }
+  },
+  "moon4inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "ella_oc_a015R.stl": {
+    "ultimaker3": {
+      "basic": 21801,
+      "default": 36714
+    },
+    "ultimaker2": {
+      "basic": 21813,
+      "default": 36698
+    }
+  },
+  "V2_crank_handle_1.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "single-link.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Yellow_box_engraved.stl": {
+    "ultimaker3": {
+      "basic": 12508,
+      "default": 17012
+    },
+    "ultimaker2": {
+      "basic": 12513,
+      "default": 17022
+    }
+  },
+  "Gnomon_Southern_Half_2_of_2.stl": {
+    "ultimaker3": {
+      "basic": 29215,
+      "default": 41336
+    },
+    "ultimaker2": {
+      "basic": 29218,
+      "default": 41331
+    }
+  },
+  "Front_Bumper.stl": {
+    "ultimaker3": {
+      "basic": 5213,
+      "default": 7724
+    },
+    "ultimaker2": {
+      "basic": 5220,
+      "default": 7729
+    }
+  },
+  "Head_without_brim_lower_detail.stl": {
+    "ultimaker3": {
+      "basic": 12616,
+      "default": 34250
+    },
+    "ultimaker2": {
+      "basic": 12604,
+      "default": 34238
+    }
+  },
+  "measuring_cube_metric.STL": {
+    "ultimaker3": {
+      "basic": 58707,
+      "default": 91920
+    },
+    "ultimaker2": {
+      "basic": 58767,
+      "default": 92183
+    }
+  },
+  "Flying_Wing_v3_middle_fpv.stl": {
+    "ultimaker3": {
+      "basic": 9840,
+      "default": 13865
+    },
+    "ultimaker2": {
+      "basic": 9841,
+      "default": 13871
+    }
+  },
+  "Waving_Groot_15.5cm.stl": {
+    "ultimaker3": {
+      "basic": 39193,
+      "default": 84634
+    },
+    "ultimaker2": {
+      "basic": 39188,
+      "default": 84620
+    }
+  },
+  "Gnomon_Northen_Half_2_of_2.stl": {
+    "ultimaker3": {
+      "basic": 27827,
+      "default": 38093
+    },
+    "ultimaker2": {
+      "basic": 27808,
+      "default": 38086
+    }
+  },
+  "V2_crank_wheel.stl": {
+    "ultimaker3": {
+      "basic": 5888,
+      "default": 7661
+    },
+    "ultimaker2": {
+      "basic": 5884,
+      "default": 7658
+    }
+  },
+  "moon5inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Japanese_Fountain_Base_Rev_G.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "Turntable_Split_5pcs_1.stl": {
+    "ultimaker3": {
+      "basic": 11376,
+      "default": 16052
+    },
+    "ultimaker2": {
+      "basic": 11376,
+      "default": 16048
+    }
+  },
+  "Red_box_lattice.stl": {
+    "ultimaker3": {
+      "basic": 92489,
+      "default": 96450
+    },
+    "ultimaker2": {
+      "basic": 92414,
+      "default": 96407
+    }
+  },
+  "V4_Main_Chassis_1.stl": {
+    "ultimaker3": {
+      "basic": 1253,
+      "default": 1369
+    },
+    "ultimaker2": {
+      "basic": 1254,
+      "default": 1370
+    }
+  },
+  "chain-70.stl": {
+    "ultimaker3": {
+      "basic": 7703,
+      "default": 8266
+    },
+    "ultimaker2": {
+      "basic": 7633,
+      "default": 8257
+    }
+  },
+  "FilleniumMalcon-AlignmentPeg.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "FilleniumMalcon-FrontHalf_Pegged.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Gnomon_Northen_Half_1_of_2.stl": {
+    "ultimaker3": {
+      "basic": 25479,
+      "default": 39318
+    },
+    "ultimaker2": {
+      "basic": 25472,
+      "default": 39304
+    }
+  },
+  "Japanese_Fountain_Supply_Line_Rev_D.stl": {
+    "ultimaker3": {
+      "basic": 9852,
+      "default": 10481
+    },
+    "ultimaker2": {
+      "basic": 9853,
+      "default": 10469
+    }
+  },
+  "crossbow_body_middle_1.stl": {
+    "ultimaker3": {
+      "basic": 482,
+      "default": 509
+    },
+    "ultimaker2": {
+      "basic": 481,
+      "default": 504
+    }
+  },
+  "Heart_Y_Cam.stl": {
+    "ultimaker3": {
+      "basic": 3725,
+      "default": 4289
+    },
+    "ultimaker2": {
+      "basic": 3730,
+      "default": 4292
+    }
+  },
+  "Gnomon_Southern_Half_1_of_2.stl": {
+    "ultimaker3": {
+      "basic": 25410,
+      "default": 37946
+    },
+    "ultimaker2": {
+      "basic": 25394,
+      "default": 37920
+    }
+  },
+  "Star_X_Cam.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "Red_box_with_wall_engraved.stl": {
+    "ultimaker3": {
+      "basic": 73498,
+      "default": 95412
+    },
+    "ultimaker2": {
+      "basic": 73455,
+      "default": 95549
+    }
+  },
+  "Steering_-Rack-.stl": {
+    "ultimaker3": {
+      "basic": 756,
+      "default": 756
+    },
+    "ultimaker2": {
+      "basic": 756,
+      "default": 756
+    }
+  },
+  "crossbow_body_left.stl": {
+    "ultimaker3": {
+      "basic": 3361,
+      "default": 3831
+    },
+    "ultimaker2": {
+      "basic": 3371,
+      "default": 3856
+    }
+  },
+  "Yellow_box_mixed.stl": {
+    "ultimaker3": {
+      "basic": 12511,
+      "default": 17012
+    },
+    "ultimaker2": {
+      "basic": 12516,
+      "default": 17022
+    }
+  },
+  "Green_box_solid.stl": {
+    "ultimaker3": {
+      "basic": 26004,
+      "default": 37638
+    },
+    "ultimaker2": {
+      "basic": 25975,
+      "default": 37648
+    }
+  },
+  "Flying_Wing_v3.1_left.stl": {
+    "ultimaker3": {
+      "basic": 17892,
+      "default": 22737
+    },
+    "ultimaker2": {
+      "basic": 17892,
+      "default": 22749
+    }
+  },
+  "moon9inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "V29.2_Whistle_V29.stl": {
+    "ultimaker3": {
+      "basic": 8071,
+      "default": 10831
+    },
+    "ultimaker2": {
+      "basic": 8061,
+      "default": 10820
+    }
+  },
+  "jet_fighter_large_200.STL": {
+    "ultimaker3": {
+      "basic": 7650,
+      "default": 9664
+    },
+    "ultimaker2": {
+      "basic": 7653,
+      "default": 9666
+    }
+  },
+  "Star_Y_Cam.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "Rear_Drive_Gear_PLA_V1.stl": {
+    "ultimaker3": {
+      "basic": 2249,
+      "default": 2795
+    },
+    "ultimaker2": {
+      "basic": 2249,
+      "default": 2794
+    }
+  },
+  "moon2inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "M5.0_Nut.stl": {
+    "ultimaker3": {
+      "basic": 255,
+      "default": 257
+    },
+    "ultimaker2": {
+      "basic": 256,
+      "default": 258
+    }
+  },
+  "crossbow_backcap.stl": {
+    "ultimaker3": {
+      "basic": 1330,
+      "default": 1329
+    },
+    "ultimaker2": {
+      "basic": 1331,
+      "default": 1330
+    }
+  },
+  "moon6inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Right_Side_Guard-Air_Intake.stl": {
+    "ultimaker3": {
+      "basic": 8613,
+      "default": 10168
+    },
+    "ultimaker2": {
+      "basic": 8625,
+      "default": 10214
+    }
+  },
+  "chain-600.stl": {
+    "ultimaker3": {
+      "basic": 86150,
+      "default": 99853
+    },
+    "ultimaker2": {
+      "basic": 86472,
+      "default": 99626
+    }
+  },
+  "Phone_clamp_up_WITH_tab.stl": {
+    "ultimaker3": {
+      "basic": 2299,
+      "default": 2978
+    },
+    "ultimaker2": {
+      "basic": 2299,
+      "default": 2978
+    }
+  },
+  "Red_box_mixed.stl": {
+    "ultimaker3": {
+      "basic": 69226,
+      "default": 86658
+    },
+    "ultimaker2": {
+      "basic": 68737,
+      "default": 86057
+    }
+  },
+  "Red_box_engraved.stl": {
+    "ultimaker3": {
+      "basic": 57303,
+      "default": 78543
+    },
+    "ultimaker2": {
+      "basic": 57250,
+      "default": 78449
+    }
+  },
+  "M5_knob_for_phone_v4.stl": {
+    "ultimaker3": {
+      "basic": 1273,
+      "default": 1673
+    },
+    "ultimaker2": {
+      "basic": 1280,
+      "default": 1668
+    }
+  },
+  "Rear_Bumper.stl": {
+    "ultimaker3": {
+      "basic": 4866,
+      "default": 7419
+    },
+    "ultimaker2": {
+      "basic": 4864,
+      "default": 7397
+    }
+  },
+  "Phone_clamp_holder_v3.stl": {
+    "ultimaker3": {
+      "basic": 1933,
+      "default": 2695
+    },
+    "ultimaker2": {
+      "basic": 1930,
+      "default": 2693
+    }
+  },
+  "Top_part_NETFABBED.stl": {
+    "ultimaker3": {
+      "basic": 7339,
+      "default": 11790
+    },
+    "ultimaker2": {
+      "basic": 7345,
+      "default": 11792
+    }
+  },
+  "Rear_Wheel_-_Ninjaflex.stl": {
+    "ultimaker3": {
+      "basic": 11664,
+      "default": 21843
+    },
+    "ultimaker2": {
+      "basic": 11670,
+      "default": 22023
+    }
+  },
+  "Prusa_Enclosure_Bottom_Corners.stl": {
+    "ultimaker3": {
+      "basic": 52894,
+      "default": 88599
+    },
+    "ultimaker2": {
+      "basic": 52910,
+      "default": 88591
+    }
+  },
+  "Head_with_brim_lower_detail.stl": {
+    "ultimaker3": {
+      "basic": 16124,
+      "default": 38569
+    },
+    "ultimaker2": {
+      "basic": 16117,
+      "default": 38564
+    }
+  },
+  "Turntable_Split_5pcs_3.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "Groot_v1_1M_Merged.stl": {
+    "ultimaker3": {
+      "basic": 35729,
+      "default": 76675
+    },
+    "ultimaker2": {
+      "basic": 35739,
+      "default": 76690
+    }
+  },
+  "jet_fighter_egg.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "YODA_silhouette_for_v4.stl": {
+    "ultimaker3": {
+      "basic": 2331,
+      "default": 2431
+    },
+    "ultimaker2": {
+      "basic": 2329,
+      "default": 2430
+    }
+  },
+  "fire_truck.STL": {
+    "ultimaker3": {
+      "basic": 3709,
+      "default": 4312
+    },
+    "ultimaker2": {
+      "basic": 3708,
+      "default": 4296
+    }
+  },
+  "V2_chassis_cog_cover.stl": {
+    "ultimaker3": {
+      "basic": 1695,
+      "default": 1661
+    },
+    "ultimaker2": {
+      "basic": 1695,
+      "default": 1669
+    }
+  },
+  "Gnomon_Northen_NETFABBED.stl": {
+    "ultimaker3": {
+      "basic": 53297,
+      "default": 78106
+    },
+    "ultimaker2": {
+      "basic": 53335,
+      "default": 78115
+    }
+  },
+  "Red_box_with_wall_lattice.stl": {
+    "ultimaker3": {
+      "basic": 105310,
+      "default": 109857
+    },
+    "ultimaker2": {
+      "basic": 105240,
+      "default": 109822
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_NO_tab.stl": {
+    "ultimaker3": {
+      "basic": 2984,
+      "default": 3885
+    },
+    "ultimaker2": {
+      "basic": 2983,
+      "default": 3885
+    }
+  },
+  "fire_truck_egg.STL": {
+    "ultimaker3": {
+      "basic": 7473,
+      "default": 12133
+    },
+    "ultimaker2": {
+      "basic": 7470,
+      "default": 12138
+    }
+  },
+  "V2_Turn_Table.stl": {
+    "ultimaker3": {
+      "basic": 32126,
+      "default": 50406
+    },
+    "ultimaker2": {
+      "basic": 32119,
+      "default": 50395
+    }
+  },
+  "Green_box_lattice.stl": {
+    "ultimaker3": {
+      "basic": 53119,
+      "default": 56240
+    },
+    "ultimaker2": {
+      "basic": 53086,
+      "default": 56242
+    }
+  },
+  "crossbow_slider.stl": {
+    "ultimaker3": {
+      "basic": 1200,
+      "default": 1264
+    },
+    "ultimaker2": {
+      "basic": 1201,
+      "default": 1265
+    }
+  },
+  "Yellow_box_solid.stl": {
+    "ultimaker3": {
+      "basic": 10194,
+      "default": 13125
+    },
+    "ultimaker2": {
+      "basic": 10196,
+      "default": 13132
+    }
+  },
+  "V2_Cog.stl": {
+    "ultimaker3": {
+      "basic": 2920,
+      "default": 3905
+    },
+    "ultimaker2": {
+      "basic": 2919,
+      "default": 3904
+    }
+  },
+  "measuring_cube.STL": {
+    "ultimaker3": {
+      "basic": 55758,
+      "default": 86471
+    },
+    "ultimaker2": {
+      "basic": 55776,
+      "default": 86817
+    }
+  },
+  "Red_box_with_wall_mixed.stl": {
+    "ultimaker3": {
+      "basic": 85487,
+      "default": 103605
+    },
+    "ultimaker2": {
+      "basic": 85011,
+      "default": 103146
+    }
+  },
+  "Gimball_Test_Print.stl": {
+    "ultimaker3": {
+      "basic": 4144,
+      "default": 4524
+    },
+    "ultimaker2": {
+      "basic": 4144,
+      "default": 4525
+    }
+  },
+  "V3_Turn_Table_Split_3.stl": {
+    "ultimaker3": {
+      "basic": 11381,
+      "default": 16032
+    },
+    "ultimaker2": {
+      "basic": 11381,
+      "default": 16032
+    }
+  },
+  "FilleniumMalcon-RearHalf_Pegged.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "measuring_cube_version_2.STL": {
+    "ultimaker3": {
+      "basic": 57602,
+      "default": 90129
+    },
+    "ultimaker2": {
+      "basic": 57667,
+      "default": 90283
+    }
+  },
+  "Upper_Plate_Minimal_-_Upper_Plate_1.stl": {
+    "ultimaker3": {
+      "basic": 10496,
+      "default": 13058
+    },
+    "ultimaker2": {
+      "basic": 10504,
+      "default": 13069
+    }
+  },
+  "Green_box_engraved.stl": {
+    "ultimaker3": {
+      "basic": 34483,
+      "default": 47780
+    },
+    "ultimaker2": {
+      "basic": 34441,
+      "default": 47915
+    }
+  },
+  "USB-SD-MicroSD_Card_Holder_-_v2.0.stl": {
+    "ultimaker3": {
+      "basic": 19281,
+      "default": 30155
+    },
+    "ultimaker2": {
+      "basic": 19280,
+      "default": 30166
+    }
+  },
+  "single-link-hires.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Red_box_solid.stl": {
+    "ultimaker3": {
+      "basic": 42438,
+      "default": 62478
+    },
+    "ultimaker2": {
+      "basic": 42381,
+      "default": 62458
+    }
+  },
+  "moon3inches.stl": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "base_for_YODA_V4.stl": {
+    "ultimaker3": {
+      "basic": 11034,
+      "default": 17532
+    },
+    "ultimaker2": {
+      "basic": 11035,
+      "default": 17538
+    }
+  },
+  "Top_part.stl": {
+    "ultimaker3": {
+      "basic": 7322,
+      "default": 11789
+    },
+    "ultimaker2": {
+      "basic": 7324,
+      "default": 11787
+    }
+  },
+  "V2_Main_chassis_Combined.stl": {
+    "ultimaker3": {
+      "basic": 69388,
+      "default": 99580
+    },
+    "ultimaker2": {
+      "basic": 69391,
+      "default": 99564
+    }
+  },
+  "Rear_Wheel_-_PLA.stl": {
+    "ultimaker3": {
+      "basic": 7832,
+      "default": 12010
+    },
+    "ultimaker2": {
+      "basic": 7832,
+      "default": 12011
+    }
+  },
+  "crossbow_body_right.stl": {
+    "ultimaker3": {
+      "basic": 3641,
+      "default": 4185
+    },
+    "ultimaker2": {
+      "basic": 3645,
+      "default": 4204
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_WITH_tab.stl": {
+    "ultimaker3": {
+      "basic": 3533,
+      "default": 4509
+    },
+    "ultimaker2": {
+      "basic": 3536,
+      "default": 4513
+    }
+  },
+  "Turntable_Split_5pcs_4.stl": {
+    "ultimaker3": {
+      "basic": 11755,
+      "default": 16782
+    },
+    "ultimaker2": {
+      "basic": 11756,
+      "default": 16789
+    }
+  },
+  "chain-1000.stl": {
+    "ultimaker3": {
+      "basic": 134789,
+      "default": 152241
+    },
+    "ultimaker2": {
+      "basic": 134541,
+      "default": 153428
+    }
+  },
+  "chain-750.stl": {
+    "ultimaker3": {
+      "basic": 85609,
+      "default": 92799
+    },
+    "ultimaker2": {
+      "basic": 85358,
+      "default": 92977
+    }
+  },
+  "miniCube.STL": {
+    "ultimaker3": {
+      "basic": 41413,
+      "default": 63313
+    },
+    "ultimaker2": {
+      "basic": 41395,
+      "default": 63262
+    }
+  },
+  "V4_chassis_cog_cover_with_Turn_table_support.stl": {
+    "ultimaker3": {
+      "basic": 1865,
+      "default": 2138
+    },
+    "ultimaker2": {
+      "basic": 1865,
+      "default": 2146
+    }
+  },
+  "V3_Turn_Table_Split_1.stl": {
+    "ultimaker3": {
+      "basic": 9627,
+      "default": 16324
+    },
+    "ultimaker2": {
+      "basic": 9630,
+      "default": 16325
+    }
+  },
+  "chain-300.stl": {
+    "ultimaker3": {
+      "basic": 35283,
+      "default": 40043
+    },
+    "ultimaker2": {
+      "basic": 35680,
+      "default": 40241
+    }
+  },
+  "Head_with_brim_high_detail.stl": {
+    "ultimaker3": {
+      "basic": 16127,
+      "default": 38608
+    },
+    "ultimaker2": {
+      "basic": 16124,
+      "default": 38605
+    }
+  },
+  "chain-200.stl": {
+    "ultimaker3": {
+      "basic": 24291,
+      "default": 28174
+    },
+    "ultimaker2": {
+      "basic": 24391,
+      "default": 28093
+    }
+  },
+  "Red_box_with_wall_solid.stl": {
+    "ultimaker3": {
+      "basic": 48210,
+      "default": 71891
+    },
+    "ultimaker2": {
+      "basic": 48154,
+      "default": 71876
+    }
+  },
+  "YODA_V4_with_Silhouette_background.stl": {
+    "ultimaker3": {
+      "basic": 10059,
+      "default": 11966
+    },
+    "ultimaker2": {
+      "basic": 10083,
+      "default": 11948
+    }
+  },
+  "FilleniumMalcon-MiddleThird.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "crossbow_rail.stl": {
+    "ultimaker3": {
+      "basic": 362,
+      "default": 408
+    },
+    "ultimaker2": {
+      "basic": 363,
+      "default": 409
+    }
+  },
+  "V2_Main_Chassis_4.stl": {
+    "ultimaker3": {
+      "basic": 37670,
+      "default": 56007
+    },
+    "ultimaker2": {
+      "basic": 37669,
+      "default": 56064
+    }
+  },
+  "V2_Main_Chassis_2.stl": {
+    "ultimaker3": {
+      "basic": 32238,
+      "default": 44000
+    },
+    "ultimaker2": {
+      "basic": 32242,
+      "default": 43992
+    }
+  },
+  "V2_iPhone_cradle.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "Flying_Wing_v3.1_right.stl": {
+    "ultimaker3": {
+      "basic": 17889,
+      "default": 22718
+    },
+    "ultimaker2": {
+      "basic": 17895,
+      "default": 22718
+    }
+  },
+  "Y_Axle.stl": {
+    "ultimaker3": {
+      "basic": 4369,
+      "default": 4932
+    },
+    "ultimaker2": {
+      "basic": 4371,
+      "default": 4934
+    }
+  },
+  "Front_Wheel_Simple_-_Ninjaflex.stl": {
+    "ultimaker3": {
+      "basic": 9316,
+      "default": 22917
+    },
+    "ultimaker2": {
+      "basic": 9754,
+      "default": 23354
+    }
+  },
+  "Flying_Wing_v3_right.stl": {
+    "ultimaker3": {
+      "basic": 18055,
+      "default": 22982
+    },
+    "ultimaker2": {
+      "basic": 18068,
+      "default": 22992
+    }
+  },
+  "Upper_Plate.stl": {
+    "ultimaker3": {
+      "basic": 10442,
+      "default": 12906
+    },
+    "ultimaker2": {
+      "basic": 10445,
+      "default": 12920
+    }
+  },
+  "FilleniumMalcon-RearThird.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube_ver3.STL": {
+    "ultimaker3": {
+      "basic": 54497,
+      "default": 82109
+    },
+    "ultimaker2": {
+      "basic": 54518,
+      "default": 82679
+    }
+  },
+  "Japanese_Fountain_Strut_Rev_A.stl": {
+    "ultimaker3": {
+      "basic": 2226,
+      "default": 3400
+    },
+    "ultimaker2": {
+      "basic": 2227,
+      "default": 3402
+    }
+  },
+  "crossbow_trigger.stl": {
+    "ultimaker3": {
+      "basic": 388,
+      "default": 427
+    },
+    "ultimaker2": {
+      "basic": 389,
+      "default": 429
+    }
+  },
+  "crossbow_limb.stl": {
+    "ultimaker3": {
+      "basic": 1166,
+      "default": 1182
+    },
+    "ultimaker2": {
+      "basic": 1166,
+      "default": 1182
+    }
+  },
+  "Phone_clamp_down_v3.stl": {
+    "ultimaker3": {
+      "basic": 2673,
+      "default": 3350
+    },
+    "ultimaker2": {
+      "basic": 2673,
+      "default": 3350
+    }
+  },
+  "PredatorActionPliers.stl": {
+    "ultimaker3": {
+      "basic": 22339,
+      "default": 29891
+    },
+    "ultimaker2": {
+      "basic": 22392,
+      "default": 29868
+    }
+  },
+  "V3_Turn_Table_Split_2.stl": {
+    "ultimaker3": {
+      "basic": 11773,
+      "default": 16805
+    },
+    "ultimaker2": {
+      "basic": 11774,
+      "default": 16817
+    }
+  },
+  "Left_Side_Guard-Air_Intake.stl": {
+    "ultimaker3": {
+      "basic": 9057,
+      "default": 10696
+    },
+    "ultimaker2": {
+      "basic": 9110,
+      "default": 10758
+    }
+  },
+  "Front_Wheel_-_PLA.stl": {
+    "ultimaker3": {
+      "basic": 6540,
+      "default": 9714
+    },
+    "ultimaker2": {
+      "basic": 6538,
+      "default": 9702
+    }
+  },
+  "V2_crank_handle_2.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "moon10inches.stl": {
+    "ultimaker3": {
+      "basic": 337611,
+      "default": 382690
+    },
+    "ultimaker2": {
+      "basic": 338022,
+      "default": 382964
+    }
+  },
+  "V29D_Fixed.stl": {
+    "ultimaker3": {
+      "basic": 9632,
+      "default": 12454
+    },
+    "ultimaker2": {
+      "basic": 9629,
+      "default": 12441
+    }
+  },
+  "Green_box_mixed.stl": {
+    "ultimaker3": {
+      "basic": 41217,
+      "default": 51852
+    },
+    "ultimaker2": {
+      "basic": 41196,
+      "default": 51969
+    }
+  },
+  "Gnomon_Southern.stl": {
+    "ultimaker3": {
+      "basic": 53602,
+      "default": 78599
+    },
+    "ultimaker2": {
+      "basic": 53617,
+      "default": 78646
+    }
+  },
+  "eyeball4_2.STL": {
+    "ultimaker3": {
+      "basic": 10459,
+      "default": 11313
+    },
+    "ultimaker2": {
+      "basic": 10454,
+      "default": 11300
+    }
+  },
+  "Turntable_Split_5pcs_2.stl": {
+    "ultimaker3": {
+      "basic": 0,
+      "default": 0
+    },
+    "ultimaker2": {
+      "basic": 0,
+      "default": 0
+    }
+  },
+  "cube10.stl": {
+    "ultimaker3": {
+      "basic": 602,
+      "default": 622
+    },
+    "ultimaker2": {
+      "basic": 604,
+      "default": 623
+    }
+  },
+  "Prusa_Enclosure_PSU_Holder.stl": {
+    "ultimaker3": {
+      "basic": 19721,
+      "default": 36149
+    },
+    "ultimaker2": {
+      "basic": 19708,
+      "default": 36418
+    }
+  },
+  "chain-500.stl": {
+    "ultimaker3": {
+      "basic": 66366,
+      "default": 75508
+    },
+    "ultimaker2": {
+      "basic": 66192,
+      "default": 75827
+    }
+  },
+  "Prusa_Enclosure_Top_Corners.stl": {
+    "ultimaker3": {
+      "basic": 49987,
+      "default": 100445
+    },
+    "ultimaker2": {
+      "basic": 49982,
+      "default": 100395
+    }
+  },
+  "Rear_Wheel_Simple_-_PLA.stl": {
+    "ultimaker3": {
+      "basic": 8928,
+      "default": 13580
+    },
+    "ultimaker2": {
+      "basic": 8929,
+      "default": 13992
+    }
+  },
+  "Flying_Wing_v2L.stl": {
+    "ultimaker3": {
+      "basic": 22224,
+      "default": 29243
+    },
+    "ultimaker2": {
+      "basic": 22209,
+      "default": 29226
+    }
+  },
+  "Yoda_Ver_4.stl": {
+    "ultimaker3": {
+      "basic": 9736,
+      "default": 11691
+    },
+    "ultimaker2": {
+      "basic": 9700,
+      "default": 11671
+    }
+  },
+  "Front_Wheel_-_Ninjaflex.stl": {
+    "ultimaker3": {
+      "basic": 12186,
+      "default": 22526
+    },
+    "ultimaker2": {
+      "basic": 12185,
+      "default": 22551
+    }
+  },
+  "chain-1500.stl": {
+    "ultimaker3": {
+      "basic": 306611,
+      "default": 368634
+    },
+    "ultimaker2": {
+      "basic": 305828,
+      "default": 369223
+    }
+  },
+  "sphere.stl": {
+    "ultimaker3": {
+      "basic": 389,
+      "default": 395
+    },
+    "ultimaker2": {
+      "basic": 390,
+      "default": 396
+    }
+  },
+  "jet_fighter_egg.STL": {
+    "ultimaker3": {
+      "basic": 7141,
+      "default": 13318
+    },
+    "ultimaker2": {
+      "basic": 7142,
+      "default": 13322
+    }
+  },
+  "Headphone_holder.stl": {
+    "ultimaker3": {
+      "basic": 6756,
+      "default": 11452
+    },
+    "ultimaker2": {
+      "basic": 6756,
+      "default": 11452
+    }
+  },
+  "Yellow_box_lattice.stl": {
+    "ultimaker3": {
+      "basic": 17066,
+      "default": 18635
+    },
+    "ultimaker2": {
+      "basic": 17068,
+      "default": 18647
+    }
+  },
+  "Gnomon_Northen.stl": {
+    "ultimaker3": {
+      "basic": 53239,
+      "default": 78034
+    },
+    "ultimaker2": {
+      "basic": 53290,
+      "default": 78076
+    }
+  },
+  "Rear_Wheel_Simple_-_Ninjaflex.stl": {
+    "ultimaker3": {
+      "basic": 12400,
+      "default": 31813
+    },
+    "ultimaker2": {
+      "basic": 12838,
+      "default": 32250
+    }
+  },
+  "Japanese_Fountain_Tube_Rev_C.stl": {
+    "ultimaker3": {
+      "basic": 19055,
+      "default": 34410
+    },
+    "ultimaker2": {
+      "basic": 19058,
+      "default": 34413
+    }
+  },
+  "Prusa_Enclosure_Spool_Holder.stl": {
+    "ultimaker3": {
+      "basic": 29452,
+      "default": 37095
+    },
+    "ultimaker2": {
+      "basic": 29443,
+      "default": 37062
+    }
+  },
+  "Flying_Wing_v3_left.stl": {
+    "ultimaker3": {
+      "basic": 18047,
+      "default": 22961
+    },
+    "ultimaker2": {
+      "basic": 18057,
+      "default": 22968
+    }
+  },
+  "Prusa_Enclosure_Cable_clip.stl": {
+    "ultimaker3": {
+      "basic": 10702,
+      "default": 13781
+    },
+    "ultimaker2": {
+      "basic": 10700,
+      "default": 13784
+    }
+  },
+  "jet_fighter_large_300.STL": {
+    "ultimaker3": {
+      "basic": 16090,
+      "default": 23209
+    },
+    "ultimaker2": {
+      "basic": 16091,
+      "default": 23209
+    }
+  },
+  "MakerBot_Headphone_Stand.STL": {
+    "ultimaker3": {
+      "basic": 43804,
+      "default": 85443
+    },
+    "ultimaker2": {
+      "basic": 43828,
+      "default": 85485
+    }
+  },
+  "FilleniumMalcon-FrontThird.obj": {
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Front_Plate.stl": {
+    "ultimaker3": {
+      "basic": 14519,
+      "default": 19503
+    },
+    "ultimaker2": {
+      "basic": 14405,
+      "default": 19351
+    }
+  }
+}

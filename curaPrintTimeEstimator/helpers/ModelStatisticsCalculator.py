@@ -1,6 +1,7 @@
 # Copyright (c) 2018 Ultimaker B.V.
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
 
 from typing import Dict, Union
 
@@ -21,7 +22,9 @@ class ModelStatisticsCalculator:
         :param model: The name of the model file including the extension.
         :return: The statistics about the model with format: {name: value}.
         """
-        mesh = trimesh.load('models/{}'.format(model))  # type: trimesh.Trimesh
+        file_name = 'models/{}'.format(model)
+        file_size = os.path.getsize(file_name)
+        mesh = trimesh.load(file_name)  # type: trimesh.Trimesh
         return {
             "volume": mesh.volume,
             "surface_area": mesh.area,
@@ -30,4 +33,5 @@ class ModelStatisticsCalculator:
             "edges": mesh.edges.size,
             "mass": mesh.mass,
             "vertices": mesh.vertices.size,
+            "file_size": file_size,
         }

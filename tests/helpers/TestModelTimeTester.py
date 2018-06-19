@@ -16,13 +16,13 @@ class TestModelTimeTester(TestCase):
             cura_mock.return_value = f.read()
 
         tester = ModelTimeTester()
-        result = tester.slice("3D_Printer_test", "definition", ["settings1", "settings2"])
+        result = tester.slice("3D_Printer_test_fixed_stl_3rd_gen.STL", "definition", ["settings1", "settings2"])
         self.assertEqual(33111, result)
 
         expected_params = [
             "/srv/cura/CuraEngine/build/CuraEngine", "slice", "-v", "-o", "/dev/null",
             "-j", "/srv/cura/Cura/resources/definitions/definition.def.json",
-            "-e0", "-l", "/usr/src/app/models/3D_Printer_test.stl",
+            "-e0", "-l", "/usr/src/app/models/3D_Printer_test_fixed_stl_3rd_gen.STL",
             "-s", "settings1", "-s", "settings2"
         ]
 
