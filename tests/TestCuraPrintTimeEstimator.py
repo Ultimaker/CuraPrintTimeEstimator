@@ -16,8 +16,10 @@ from curaPrintTimeEstimator.helpers.ModelTimeTester import ModelTimeTester
 class TestCuraPrintTimeEstimator(TestCase):
     maxDiff = None
 
+    @patch("curaPrintTimeEstimator.CuraPrintTimeEstimator.CuraPrintTimeEstimator._findModels")
     @patch("curaPrintTimeEstimator.helpers.ModelTimeTester.ModelTimeTester.slice")
-    def test_run(self, slice_mock):
+    def test_run(self, slice_mock, find_models_mock):
+        find_models_mock.return_value = ["3D_Printer_test", "jet_fighter", "cube10"]
         slice_mock.side_effect = range(100)
         CuraPrintTimeEstimator().run()
 
@@ -28,3 +30,7 @@ class TestCuraPrintTimeEstimator(TestCase):
             expected = json.load(f)
 
         self.assertEqual(expected, result)
+
+    def test__findModels(self):
+        result = list(CuraPrintTimeEstimator._findModels())
+        self.assertEqual(7, len(result))
