@@ -8,7 +8,6 @@ from typing import Dict, Optional
 from Settings import Settings
 
 from curaPrintTimeEstimator.helpers.ModelStatisticsCalculator import ModelStatisticsCalculator
-from curaPrintTimeEstimator.helpers.NeuralNetwork import NeuralNetwork
 
 
 class CuraPrintTimeEstimator:
@@ -26,7 +25,7 @@ class CuraPrintTimeEstimator:
     model_reader = ModelStatisticsCalculator()
 
     # Neural network
-    neural_network = NeuralNetwork()
+    neural_network = None  #TODO
 
     @staticmethod
     def run() -> None:

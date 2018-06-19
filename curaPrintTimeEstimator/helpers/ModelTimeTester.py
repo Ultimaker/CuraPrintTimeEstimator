@@ -57,12 +57,14 @@ class ModelTimeTester:
         else:
             result = {}
 
-        for model in self._findModels():
-            result[model] = self.gatherPrintTimeData(model, settings, result.get(model))
+        try:
+            for model in self._findModels():
+                result[model] = self.gatherPrintTimeData(model, settings, prev_results=result.get(model))
+        finally:
+            with open(self.OUTPUT_FILE, "w") as f:
+                json.dump(result, f, indent=2)
+            logging.info("Results written to %s", self.OUTPUT_FILE)
 
-        with open(self.OUTPUT_FILE, "w") as f:
-            json.dump(result, f, indent=2)
-        logging.info("Results written to %s", self.OUTPUT_FILE)
         return result
 
     @classmethod
@@ -91,12 +93,13 @@ class ModelTimeTester:
                     yield name[:-4], f.readlines()
 
     def gatherPrintTimeData(self, model: str, settings: Dict[str, List[str]],
-                            prev_results: Optional[Dict[str, Dict[str, Optional[int]]]]
+                            prev_results: Optional[Dict[str, Dict[str, Optional[int]]]] = None
                             ) -> Dict[str, Dict[str, Optional[int]]]:
         """
         Gathers data about the estimated print time for one model, all settings and all definitions.
         :param model: The name of the model file, including the extension.
         :param settings: A dict with the settings file name and a list of settings for each of the files.
+        :param prev_results: The previous results read from the output file.
         :return: A dict with the format {definition: {settings_name: print_time}}.
         """
         result = prev_results or {}
