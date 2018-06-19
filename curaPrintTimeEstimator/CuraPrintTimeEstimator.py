@@ -5,9 +5,14 @@ import logging
 import json
 import copy
 from typing import List, Dict, Tuple, Optional
+from sklearn.model_selection import train_test_split
+import numpy as np
+import tensorflow as tf
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+from curaPrintTimeEstimator.neuralnetwork.CuraNeuralNetworkModel import CuraNeuralNetworkModel
+
 
 class CuraPrintTimeEstimator:
     """
@@ -24,16 +29,13 @@ class CuraPrintTimeEstimator:
     def __init__(self):
         self.inputs, self.targets = self._parseData(self._mask())
         logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\n\nTARGETS: {targets}".format(inputs=self.inputs, targets=self.targets))
+        self.neural_network = CuraNeuralNetworkModel(len(self.inputs[0]), 1, 10)
 
-    def run(self):
-        self.train()
-        self.validate()
+    def run(self) -> None:
+        self.neural_network.train()
 
-    def train(self):
-        pass
-
-    def validate(self):
-        pass
+    def train(self) -> None:
+        X_train, X_test, y_train, y_test = train_test_split(self.inputs, self.targets, test_size = 0.25)
 
     def _mask(self) -> Dict[str, List[str]]:
         """
