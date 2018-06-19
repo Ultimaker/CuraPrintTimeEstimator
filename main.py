@@ -4,9 +4,9 @@
 import logging
 import os
 
-from curaPrintTimeEstimator.CuraPrintTimeEstimator import CuraPrintTimeEstimator
+from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s [%(levelname)s] %(module)s:%(lineno)s: %(message)s",
                         level=os.getenv("LOGGING_LEVEL", "DEBUG"))
-    CuraPrintTimeEstimator().run()
+    ModelDataGenerator().run()
