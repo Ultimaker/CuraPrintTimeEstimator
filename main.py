@@ -5,10 +5,7 @@ import sys
 
 if __name__ == "__main__":
     app = sys.argv[1]
-    if app == "download":
-        from curaPrintTimeEstimator.helpers.ThingiverseModelDownloader import ThingiverseModelDownloader
-        ThingiverseModelDownloader.run()
-    elif app == "generate":
+    if app == "generate":
         from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
         ModelDataGenerator.run()
     elif app == "estimate":
