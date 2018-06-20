@@ -39,7 +39,7 @@ class TestModelTimeCalculator(TestCase):
 
     @patch("curaPrintTimeEstimator.helpers.ModelTimeCalculator.check_output")
     def test_slice_error(self, cura_mock):
-        cura_mock.side_effect = CalledProcessError(2, "cmd")
+        cura_mock.side_effect = CalledProcessError(2, "cmd", b"error")
 
         tester = ModelTimeCalculator()
         with self.assertRaises(CalledProcessError):

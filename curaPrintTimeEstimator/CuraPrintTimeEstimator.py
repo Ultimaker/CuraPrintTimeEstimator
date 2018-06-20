@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+from curaPrintTimeEstimator.helpers import findModels
 from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
 from curaPrintTimeEstimator.neuralnetwork.CuraNeuralNetworkModel import CuraNeuralNetworkModel
 
@@ -60,15 +61,18 @@ class CuraPrintTimeEstimator:
         with open(CuraPrintTimeEstimator.SLICE_FILE) as f:
             slice_data = json.load(f)
 
-        for model_name, sliced_model in slice_data.items():
+        for model_name in findModels():
             if model_name not in stats_data:
                 logging.warning("Cannot find stats for %s", model_name)
+                continue
+            if model_name not in slice_data:
+                logging.warning("Cannot find print times for %s", model_name)
                 continue
 
             # Use the statistics that are the same for the same model
             model_stats = list(stats_data[model_name][key] for key in mask_data["model_statistics"])
 
-            for definition, settings_profiles in sliced_model.items():
+            for definition, settings_profiles in slice_data[model_name].items():
                 for settings_profile, print_time in settings_profiles.items():
                     if not print_time:
                         continue
@@ -84,6 +88,6 @@ class CuraPrintTimeEstimator:
 
     def _readSettings(self, settings_profile: str) -> Dict[str, float]:
         with open("{}/{}.txt".format(self.SETTINGS_DIR, settings_profile)) as s:
-            contents = [l.split("=", 2) for l in s.readlines()]  # type: List[Tuple[str, str]]
+            contents = [line.split("=", 2) for line in s.readlines()]  # type: List[Tuple[str, str]]
 
         return {key.rstrip(): float(value.lstrip()) for key, value in contents}

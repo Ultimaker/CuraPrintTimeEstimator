@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # Copyright (c) 2018 Ultimaker B.V.
 
+echo " ****** Running tests ****** "
+docker build \
+    --tag cura-print-time-estimator:tests \
+    --file Dockerfile.tests . \
+    || exit $?  # TODO: use main image.
+
 echo " ****** Building our tensorflow image ****** "
 docker build \
     --tag cura-print-time-estimator:local \
