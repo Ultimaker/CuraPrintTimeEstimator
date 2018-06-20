@@ -27,7 +27,7 @@ class CuraNeuralNetworkModel:
         self.target = tf.placeholder(tf.float32, [None, output_nr], name = "target")
 
         # Create connections from the input layer to the hidden layer
-        W1 = tf.Variable(tf.truncated_normal([feature_nr,hidden_layer_neuron_nr], stddev = 0.03), name = 'W1')
+        W1 = tf.Variable(tf.truncated_normal([feature_nr, hidden_layer_neuron_nr], stddev = 0.03), name = 'W1')
         b1 = tf.Variable(tf.truncated_normal([hidden_layer_neuron_nr]), name = 'b1')
         hidden_out = tf.nn.relu(tf.add(tf.matmul(self.input, W1), b1))   # activation of the hidden layer using rectified linear TODO test with tanh or other activation functions
 
@@ -65,7 +65,12 @@ class CuraNeuralNetworkModel:
                     })
                     avg_cost += cost / batch_nr
                 if (epoch + 1) % 10 == 0:
-                    logging.debug("Epoch: {epoch} - cost = {cost:.3f}".format(epoch = epoch + 1, cost =avg_cost))
+                    logging.debug("Epoch: {epoch} - cost = {cost:.3f}".format(epoch = epoch + 1, cost = avg_cost))
 
     def validate(self, data_test: List[List[float]], target_test: List[List[float]]):
         logging.info("################### TEST ###################")
+        with tf.Session() as sess:
+            # Initialize the variables
+            sess.run(tf.global_variables_initializer())
+            # Validate the NN with the provided test data
+            logging.debug("{output}".format(output = sess.run(self.cost_function, feed_dict = {self.input: data_test, self.target: target_test})))
