@@ -1,106 +1,93 @@
 # Copyright (c) 2018 Ultimaker B.V.
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json
 import logging
-import os
-from typing import Iterable, List, Dict, Tuple
+import json
+import copy
+from typing import List, Dict, Tuple, Optional
+from sklearn.model_selection import train_test_split
 
 from Settings import Settings
-from curaPrintTimeEstimator.helpers.ModelTimeTester import ModelTimeTester
-from curaPrintTimeEstimator.helpers.ModelStatisticsCalculator import ModelStatisticsCalculator
+from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+from curaPrintTimeEstimator.helpers import findModels
+from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
+from curaPrintTimeEstimator.neuralnetwork.CuraNeuralNetworkModel import CuraNeuralNetworkModel
+
 
 class CuraPrintTimeEstimator:
     """
-    Main application file of the Cura Print time estimator.
+    Main application file to run the estimator. It includes read the data that was generated in previous steps, train
+    the NN and make a test/validation process.
     """
 
-    # which definition files should be used, excluding the .def.json extension.
-    DEFINITIONS = ("ultimaker2", "ultimaker3")
+    # The file that contains the input settings for the training data
+    MASK_FILE = "{}/mask.json".format(Settings.PROJECT_DIR)
 
-    # The file will contain the output of the time estimation (see self.gatherPrintTimeData)
-    OUTPUT_FILE = "{}/output.json".format(Settings.PROJECT_DIR)
+    # The file that contains information we gather in a previous step
+    STATS_FILE = ModelDataGenerator.OUTPUT_FILE
+    SLICE_FILE = ModelTimeCalculator.OUTPUT_FILE
 
-    # The class responsible for actually slicing.
-    slicer = ModelTimeTester()
-
-    # The class responsible for calculating statistics about the model.
-    model_reader = ModelStatisticsCalculator()
-
-    def __init__(self):
-        self.settings = dict(self._findSettings())
+    SETTINGS_DIR = "{}/settings".format(Settings.PROJECT_DIR)
 
     def run(self) -> None:
-        """
-        Runs the application.
-        """
-        self.gatherData()
+        inputs, targets = self._flattenData(self._getMask())
+        x_train, x_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
+        logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}"
+                     .format(inputs=inputs, targets=targets))
 
-    def gatherData(self) -> Dict[str, Dict[str, Dict[str, any]]]:
-        """
-        Gathers data about the estimated print time for one model, all settings and all definitions.
-        :return: A dict with the format {
-            model_name: {
-                "print_times": {
-                    definition: {settings_name: print_time},
-                },
-                "model_statistics": {""} TODO
-            }
-        }.
-        """
-        result = {}
-        for model in self._findModels():
-            result[model] = {
-                "print_times": self.gatherPrintTimeData(model),
-                "model_statistics": self.gatherModelStatistics(model),
-            }
+        neural_network = CuraNeuralNetworkModel(len(inputs[0]), 1)
+        neural_network.train(x_train, y_train)
+        neural_network.validate(x_test, y_test)
 
-        with open(self.OUTPUT_FILE, "w") as f:
-            json.dump(result, f, indent=2)
-        logging.info("Results written to %s", self.OUTPUT_FILE)
-        return result
+    def _getMask(self) -> Dict[str, List[str]]:
+        """
+        Loads the settings we are using for train the the regression algorithm.
+        :return: The parsed contents of the mask file.
+        """
+        with open(CuraPrintTimeEstimator.MASK_FILE) as f:
+            return json.load(f)
 
-    @staticmethod
-    def _findModels() -> Iterable[str]:
+    def _flattenData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[Optional[float]]], List[List[float]]]:
         """
-        Finds the STL files available in the 'models' sub folder.
-        :return: An iterable of model strings.
+        Organizes the data collected in previous steps in inputs and target values.
+        :return: A list of values used as the input for the NN and the printing times as the target values
         """
-        files = os.listdir("{}/models".format(Settings.PROJECT_DIR))
-        for model in sorted(files):
-            if model.endswith(".stl"):
-                yield model[:-4]
+        inputs = []
+        targets = []
 
-    @staticmethod
-    def _findSettings() -> Iterable[Tuple[str, List[str]]]:
-        """
-        Finds the TXT files available in the 'settings' sub folder.
-        :return: An iterable of lists of settings each format: (settings_name, settings_parameters).
-        """
-        directory = "{}/settings".format(Settings.PROJECT_DIR)
-        files = os.listdir(directory)
-        for name in sorted(files):
-            if name.endswith(".txt"):
-                with open("{}/{}".format(directory, name)) as f:
-                    yield name[:-4], f.readlines()
+        with open(CuraPrintTimeEstimator.STATS_FILE) as f:
+            stats_data = json.load(f)
 
-    def gatherModelStatistics(self, model) -> Dict[str, any]:
-        """
-        Gathers data about the model.
-        :param model: The name of the model file, without the .stl extension.
-        :return: The statistics about the model.
-        """
-        return self.model_reader.read(model)
+        with open(CuraPrintTimeEstimator.SLICE_FILE) as f:
+            slice_data = json.load(f)
 
-    def gatherPrintTimeData(self, model) -> Dict[str, Dict[str, int]]:
-        """
-        Gathers data about the estimated print time for one model, all settings and all definitions.
-        :param model: The name of the model file, without the .stl extension.
-        :return: A dict with the format {definition: {settings_name: print_time}}.
-        """
-        result = {}
-        for definition in self.DEFINITIONS:
-            result[definition] = {}
-            for setting_name, settings_parameters in self.settings.items():
-                result[definition][setting_name] = self.slicer.slice(model, definition, settings_parameters)
-        return result
+        for model_name in findModels():
+            if model_name not in stats_data:
+                logging.warning("Cannot find stats for %s", model_name)
+                continue
+            if model_name not in slice_data:
+                logging.warning("Cannot find print times for %s", model_name)
+                continue
+
+            # Use the statistics that are the same for the same model
+            model_stats = list(stats_data[model_name][key] for key in mask_data["model_statistics"])
+
+            for definition, settings_profiles in slice_data[model_name].items():
+                for settings_profile, print_time in settings_profiles.items():
+                    if not print_time:
+                        continue
+                    targets.append(print_time)   # We store the target times
+
+                    # Take the values from the setting profiles that are in the mask
+                    settings = self._readSettings(settings_profile)
+
+                    settings_data = [settings.get(mask_setting) for mask_setting in mask_data["settings"]]
+                    inputs.append(list(model_stats) + settings_data)
+
+        return inputs, targets
+
+    def _readSettings(self, settings_profile: str) -> Dict[str, float]:
+        with open("{}/{}.txt".format(self.SETTINGS_DIR, settings_profile)) as s:
+            contents = [line.split("=", 2) for line in s.readlines()]  # type: List[Tuple[str, str]]
+
+        return {key.rstrip(): float(value.lstrip()) for key, value in contents}

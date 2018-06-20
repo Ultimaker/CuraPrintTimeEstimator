@@ -1,0 +1,3 @@
+layer_height=0.1
+wall_line_count=2
+infill_line_distance=4.0

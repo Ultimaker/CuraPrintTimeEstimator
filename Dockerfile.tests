@@ -13,4 +13,4 @@ CMD ["pytest"]
 
 ADD . .
 RUN coverage run --source="curaPrintTimeEstimator" -m pytest
-RUN coverage report --skip-covered --show-missing --fail-under=100
+RUN coverage report --skip-covered --show-missing --fail-under=40
