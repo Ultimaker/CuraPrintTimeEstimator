@@ -112,12 +112,18 @@ class ModelTimeCalculator:
             Settings.CURA_ENGINE,
             "slice", "-v",
             "-o", "NUL" if sys.platform == "win32" else "/dev/null",
-            "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
-            "-e0", "-l", "{}/models/{}".format(Settings.PROJECT_DIR, model_name)
+            "-j", os.path.join(Settings.CURA_DIR, "resources", "definitions", "{}.def.json".format(definition)),
         ]
 
+        # Add the global settings
         for s in settings:
             arguments.extend(["-s", s])
+
+        # Add the extruder0 settings
+        for s in settings:
+            arguments.extend(["-e0", "-s", s])
+
+        arguments.extend(["-e0", "-l", os.path.join(Settings.PROJECT_DIR, "models", model_name)])
 
         try:
             output = check_output(arguments, stderr=STDOUT).decode()

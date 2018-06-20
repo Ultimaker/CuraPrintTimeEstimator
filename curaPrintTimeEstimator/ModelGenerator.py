@@ -25,6 +25,8 @@ class ModelGenerator:
             mesh = trimesh.load(file_name)  # type: trimesh.Trimesh
             mesh.apply_scale(scale)
             mesh.vertices -= mesh.center_mass
-            new_file_name = file_name.replace(".stl", "{0:04.1f}.stl".format(scale))
+
+            name, _, ext = file_name.rpartition(".")
+            new_file_name = "{0}{1:04.1f}.{2}".format(name, scale, ext)
             mesh.export(new_file_name)
             logging.info("Generated %s", new_file_name)

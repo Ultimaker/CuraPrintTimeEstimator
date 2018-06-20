@@ -22,8 +22,9 @@ class TestModelTimeCalculator(TestCase):
         expected_params = [
             "/srv/cura/CuraEngine/build/CuraEngine", "slice", "-v", "-o", "/dev/null",
             "-j", "/srv/cura/Cura/resources/definitions/definition.def.json",
+            "-s", "settings1", "-s", "settings2",
+            "-e0", "-s", "settings1", "-e0", "-s", "settings2",
             "-e0", "-l", "/usr/src/app/models/3D_Printer_test_fixed_stl_3rd_gen.STL",
-            "-s", "settings1", "-s", "settings2"
         ]
 
         cura_mock.assert_called_once_with(expected_params, stderr=-2)
