@@ -9,6 +9,8 @@ from sklearn.model_selection import train_test_split
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+from curaPrintTimeEstimator.helpers import findModels
+from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
 from curaPrintTimeEstimator.neuralnetwork.CuraNeuralNetworkModel import CuraNeuralNetworkModel
 
 
@@ -22,27 +24,30 @@ class CuraPrintTimeEstimator:
     MASK_FILE = "{}/mask.json".format(Settings.PROJECT_DIR)
 
     # The file that contains information we gather in a previous step
-    INPUT_FILE = ModelDataGenerator.OUTPUT_FILE
+    STATS_FILE = ModelDataGenerator.OUTPUT_FILE
+    SLICE_FILE = ModelTimeCalculator.OUTPUT_FILE
 
-    def __init__(self):
-        self.inputs, self.targets = self._parseData(self._mask())
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.inputs, self.targets, test_size = 0.25)
-        logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}".format(inputs=self.inputs, targets=self.targets))
-        self.neural_network = CuraNeuralNetworkModel(len(self.inputs[0]), 1)
+    SETTINGS_DIR = "{}/settings".format(Settings.PROJECT_DIR)
 
     def run(self) -> None:
-        self.neural_network.train(self.X_train, self.y_train)
-        self.neural_network.validate(self.X_test, self.y_test)
+        inputs, targets = self._flattenData(self._getMask())
+        x_train, x_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
+        logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}"
+                     .format(inputs=inputs, targets=targets))
 
-    def _mask(self) -> Dict[str, List[str]]:
+        neural_network = CuraNeuralNetworkModel(len(inputs[0]), 1)
+        neural_network.train(x_train, y_train)
+        neural_network.validate(x_test, y_test)
+
+    def _getMask(self) -> Dict[str, List[str]]:
         """
         Loads the settings we are using for train the the regression algorithm.
-        :return: An iterable of lists of settings each format: (settings_name, settings_parameters).
+        :return: The parsed contents of the mask file.
         """
         with open(CuraPrintTimeEstimator.MASK_FILE) as f:
             return json.load(f)
 
-    def _parseData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[float]], List[List[float]]]:
+    def _flattenData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[Optional[float]]], List[List[float]]]:
         """
         Organizes the data collected in previous steps in inputs and target values.
         :return: A list of values used as the input for the NN and the printing times as the target values
@@ -50,38 +55,39 @@ class CuraPrintTimeEstimator:
         inputs = []
         targets = []
 
-        with open(CuraPrintTimeEstimator.INPUT_FILE) as f:
-            data = json.load(f)
-            for model_name in data:
-                model_data = data[model_name]
-                statistics = []
-                # Take some model statistics as inputs as indicated in the mask
-                for mask_model_stat in mask_data["model_statistics"]:
-                    statistics.append(model_data["model_statistics"][mask_model_stat])
+        with open(CuraPrintTimeEstimator.STATS_FILE) as f:
+            stats_data = json.load(f)
 
-                for definition in model_data["print_times"]:
-                    for settings_profile in model_data["print_times"][definition]:
-                        targets.append([model_data["print_times"][definition][settings_profile]])   # We store the target times
-                        # Use the statistics that are the same for the same model
-                        input = copy.copy(statistics)
+        with open(CuraPrintTimeEstimator.SLICE_FILE) as f:
+            slice_data = json.load(f)
 
-                        # Take the values from the setting profiles that are in the mask
-                        settings_directory = "{}/settings".format(Settings.PROJECT_DIR)
-                        with open("{}/{}.txt".format(settings_directory, settings_profile)) as s:
-                            contents = s.readlines()
-                            for mask_setting in mask_data["settings"]:
-                                value = self._findSettingValue(contents, mask_setting)
-                                if value:
-                                    input.append(value)
+        for model_name in findModels():
+            if model_name not in stats_data:
+                logging.warning("Cannot find stats for %s", model_name)
+                continue
+            if model_name not in slice_data:
+                logging.warning("Cannot find print times for %s", model_name)
+                continue
 
-                        inputs.append(input)
+            # Use the statistics that are the same for the same model
+            model_stats = list(stats_data[model_name][key] for key in mask_data["model_statistics"])
+
+            for definition, settings_profiles in slice_data[model_name].items():
+                for settings_profile, print_time in settings_profiles.items():
+                    if not print_time:
+                        continue
+                    targets.append(print_time)   # We store the target times
+
+                    # Take the values from the setting profiles that are in the mask
+                    settings = self._readSettings(settings_profile)
+
+                    settings_data = [settings.get(mask_setting) for mask_setting in mask_data["settings"]]
+                    inputs.append(list(model_stats) + settings_data)
+
         return inputs, targets
 
+    def _readSettings(self, settings_profile: str) -> Dict[str, float]:
+        with open("{}/{}.txt".format(self.SETTINGS_DIR, settings_profile)) as s:
+            contents = [line.split("=", 2) for line in s.readlines()]  # type: List[Tuple[str, str]]
 
-    def _findSettingValue(self, contents: List[str], setting: str) -> Optional[float]:
-        for line in contents:
-            name, value = line[:line.find("=")].rstrip(), line[line.find("=")+1:].lstrip()
-            if name == setting:
-                return float(value)
-        return None
-
+        return {key.rstrip(): float(value.lstrip()) for key, value in contents}

@@ -5,17 +5,16 @@ import json
 from unittest import TestCase
 from unittest.mock import patch
 
-from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
-from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
+from curaPrintTimeEstimator.helpers import findModels
 
 
 class TestModelDataGenerator(TestCase):
     maxDiff = None
 
-    @patch("curaPrintTimeEstimator.helpers.ModelTimeCalculator.ModelTimeCalculator.slice")
-    def test_run(self, slice_mock):
-        slice_mock.side_effect = range(100)
+    @patch("curaPrintTimeEstimator.ModelDataGenerator.findModels")
+    def test_run(self, find_models_mock):
+        find_models_mock.return_value = ["cube.stl", "sphere.stl"]
         ModelDataGenerator().run()
 
         with open(ModelDataGenerator.OUTPUT_FILE) as f:
@@ -24,4 +23,9 @@ class TestModelDataGenerator(TestCase):
         with open("tests/fixtures/expected_output.json") as f:
             expected = json.load(f)
 
+        print(result)
         self.assertEqual(expected, result)
+
+    def test_findModels(self):
+        result = list(findModels())
+        self.assertEqual(200, len(result))

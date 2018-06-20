@@ -16,14 +16,15 @@ class TestModelTimeCalculator(TestCase):
             cura_mock.return_value = f.read()
 
         tester = ModelTimeCalculator()
-        result = tester.slice("3D_Printer_test", "definition", ["settings1", "settings2"])
+        result = tester.slice("3D_Printer_test_fixed_stl_3rd_gen.STL", "definition", ["settings1", "settings2"])
         self.assertEqual(33111, result)
 
         expected_params = [
             "/srv/cura/CuraEngine/build/CuraEngine", "slice", "-v", "-o", "/dev/null",
             "-j", "/srv/cura/Cura/resources/definitions/definition.def.json",
-            "-e0", "-l", "/usr/src/app/models/3D_Printer_test.stl",
-            "-s", "settings1", "-s", "settings2"
+            "-s", "settings1", "-s", "settings2",
+            "-e0", "-s", "settings1", "-e0", "-s", "settings2",
+            "-e0", "-l", "/usr/src/app/models/3D_Printer_test_fixed_stl_3rd_gen.STL",
         ]
 
         cura_mock.assert_called_once_with(expected_params, stderr=-2)
@@ -39,7 +40,7 @@ class TestModelTimeCalculator(TestCase):
 
     @patch("curaPrintTimeEstimator.helpers.ModelTimeCalculator.check_output")
     def test_slice_error(self, cura_mock):
-        cura_mock.side_effect = CalledProcessError(2, "cmd")
+        cura_mock.side_effect = CalledProcessError(2, "cmd", b"error")
 
         tester = ModelTimeCalculator()
         with self.assertRaises(CalledProcessError):

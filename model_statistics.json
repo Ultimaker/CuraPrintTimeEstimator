@@ -1,0 +1,102 @@
+{
+  "cube90.stl": {
+    "area_faces": 12,
+    "box_volume": 729000.0,
+    "edges": 72,
+    "volume": 729000.0,
+    "vertices": 24,
+    "surface_area": 48600.0,
+    "mass": 729000.0,
+    "file_size": 684
+  },
+  "cube100.stl": {
+    "area_faces": 12,
+    "box_volume": 1000000.0,
+    "edges": 72,
+    "volume": 1000000.0,
+    "vertices": 24,
+    "surface_area": 60000.0,
+    "mass": 1000000.0,
+    "file_size": 684
+  },
+  "cube50.stl": {
+    "area_faces": 12,
+    "box_volume": 125000.0,
+    "edges": 72,
+    "volume": 125000.0,
+    "vertices": 24,
+    "surface_area": 15000.0,
+    "mass": 125000.0,
+    "file_size": 684
+  },
+  "cube70.stl": {
+    "area_faces": 12,
+    "box_volume": 343000.0,
+    "edges": 72,
+    "volume": 343000.0,
+    "vertices": 24,
+    "surface_area": 29400.0,
+    "mass": 343000.0,
+    "file_size": 684
+  },
+  "cube60.stl": {
+    "area_faces": 12,
+    "box_volume": 216000.0,
+    "edges": 72,
+    "volume": 216000.0,
+    "vertices": 24,
+    "surface_area": 21600.0,
+    "mass": 216000.0,
+    "file_size": 684
+  },
+  "cube20.stl": {
+    "area_faces": 12,
+    "box_volume": 8000.0,
+    "edges": 72,
+    "volume": 8000.0,
+    "vertices": 24,
+    "surface_area": 2400.0,
+    "mass": 8000.0,
+    "file_size": 684
+  },
+  "cube80.stl": {
+    "area_faces": 12,
+    "box_volume": 512000.0,
+    "edges": 72,
+    "volume": 512000.0,
+    "vertices": 24,
+    "surface_area": 38400.0,
+    "mass": 512000.0,
+    "file_size": 684
+  },
+  "cube40.stl": {
+    "area_faces": 12,
+    "box_volume": 64000.0,
+    "edges": 72,
+    "volume": 64000.0,
+    "vertices": 24,
+    "surface_area": 9600.0,
+    "mass": 64000.0,
+    "file_size": 684
+  },
+  "cube30.stl": {
+    "area_faces": 12,
+    "box_volume": 27000.0,
+    "edges": 72,
+    "volume": 27000.0,
+    "vertices": 24,
+    "surface_area": 5400.0,
+    "mass": 27000.0,
+    "file_size": 684
+  },
+  "cube10.stl": {
+    "area_faces": 12,
+    "box_volume": 1000.0,
+    "edges": 72,
+    "volume": 1000.0,
+    "vertices": 24,
+    "surface_area": 600.0,
+    "mass": 1000.0,
+    "file_size": 1503
+  }
+}
