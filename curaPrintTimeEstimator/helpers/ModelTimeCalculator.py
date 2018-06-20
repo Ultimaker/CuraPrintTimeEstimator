@@ -38,7 +38,7 @@ class ModelTimeCalculator:
         """
         Runs the application.
         """
-        ModelTimeTester().gatherData()
+        ModelTimeCalculator().gatherData()
 
     def gatherData(self) -> Dict[str, Dict[str, Dict[str, Optional[int]]]]:
         """
@@ -93,13 +93,12 @@ class ModelTimeCalculator:
                     yield name[:-4], f.readlines()
 
     def gatherPrintTimeData(self, model: str, settings: Dict[str, List[str]],
-                            prev_results: Optional[Dict[str, Dict[str, Optional[int]]]] = None
+                            prev_results: Optional[Dict[str, Dict[str, Optional[int]]]]
                             ) -> Dict[str, Dict[str, Optional[int]]]:
         """
         Gathers data about the estimated print time for one model, all settings and all definitions.
         :param model: The name of the model file, including the extension.
         :param settings: A dict with the settings file name and a list of settings for each of the files.
-        :param prev_results: The previous results read from the output file.
         :return: A dict with the format {definition: {settings_name: print_time}}.
         """
         result = prev_results or {}
@@ -121,6 +120,7 @@ class ModelTimeCalculator:
         :param settings: The extra settings to be passed to the engine.
         :return: The amount of seconds Cura expects the printing will take.
         """
+        return None
 
         logging.info("Slicing %s with definition %s and settings %s", model_name, definition, settings)
 
@@ -128,18 +128,12 @@ class ModelTimeCalculator:
             Settings.CURA_ENGINE,
             "slice", "-v",
             "-o", "NUL" if sys.platform == "win32" else "/dev/null",
-            "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition)
+            "-j", "{}/resources/definitions/{}.def.json".format(Settings.CURA_DIR, definition),
+            "-e0", "-l", "{}/models/{}".format(Settings.PROJECT_DIR, model_name)
         ]
 
-        # Add the global settings
         for s in settings:
             arguments.extend(["-s", s])
-
-        # Add the extruder0 settings
-        for s in settings:
-            arguments.extend(["-e0", "-s", s])
-
-        arguments.extend(["-e0", "-l", "{}/models/{}.stl".format(Settings.PROJECT_DIR, model_name)])
 
         try:
             output = check_output(arguments, stderr=STDOUT).decode()

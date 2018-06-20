@@ -1,0 +1,5238 @@
+{
+  "chain-750.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 92977,
+        "basic": 85358
+      },
+      "ultimaker3": {
+        "default": 92799,
+        "basic": 85609
+      }
+    },
+    "model_statistics": {
+      "mass": 45203.92573420906,
+      "volume": 45203.92573420906,
+      "edges": 5730798,
+      "surface_area": 103043.96763014479,
+      "box_volume": 204018.33378286485,
+      "vertices": 1459887,
+      "area_faces": 955133,
+      "file_size": 47756734
+    }
+  },
+  "measuring_cube_version_2.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 90283,
+        "basic": 57667
+      },
+      "ultimaker3": {
+        "default": 90129,
+        "basic": 57602
+      }
+    },
+    "model_statistics": {
+      "mass": 172687.75096319857,
+      "volume": 172687.75096319857,
+      "edges": 307692,
+      "surface_area": 79244.04547548661,
+      "box_volume": 729000.0,
+      "vertices": 76929,
+      "area_faces": 51282,
+      "file_size": 2564184
+    }
+  },
+  "Front_Bumper.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 7729,
+        "basic": 5220
+      },
+      "ultimaker3": {
+        "default": 7724,
+        "basic": 5213
+      }
+    },
+    "model_statistics": {
+      "mass": 18593.446852087807,
+      "volume": 18593.446852087807,
+      "edges": 402756,
+      "surface_area": 8676.906154095828,
+      "box_volume": 95889.98002243042,
+      "vertices": 100671,
+      "area_faces": 67126,
+      "file_size": 3356384
+    }
+  },
+  "3DBenchy.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 15550.53101510276,
+      "volume": 15550.53101510276,
+      "edges": 1354236,
+      "surface_area": 9431.089101581792,
+      "box_volume": 89293.00937803782,
+      "vertices": 337707,
+      "area_faces": 225706,
+      "file_size": 11285384
+    }
+  },
+  "C-Label.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 585.6691106655368,
+      "volume": 585.6691106655368,
+      "edges": 3480,
+      "surface_area": 1256.9239159370395,
+      "box_volume": 1251.9122042404301,
+      "vertices": 876,
+      "area_faces": 580,
+      "file_size": 29084
+    }
+  },
+  "single-link.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 59.998683040080984,
+      "volume": 59.998683040080984,
+      "edges": 4068,
+      "surface_area": 139.02454613632906,
+      "box_volume": 149.0306165216545,
+      "vertices": 1017,
+      "area_faces": 678,
+      "file_size": 33984
+    }
+  },
+  "3D_Printer_test_stl.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 48677.158358196684,
+      "volume": 48677.158358196684,
+      "edges": 306552,
+      "surface_area": 42746.768346532415,
+      "box_volume": 605222.3587036133,
+      "vertices": 76596,
+      "area_faces": 51092,
+      "file_size": 2554684
+    }
+  },
+  "Axis_change_connector_v3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 3732.9837423537947,
+      "volume": 3732.9837423537947,
+      "edges": 50388,
+      "surface_area": 3337.3288146464365,
+      "box_volume": 9240.000303745262,
+      "vertices": 12573,
+      "area_faces": 8398,
+      "file_size": 419984
+    }
+  },
+  "chain-200.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 28093,
+        "basic": 24391
+      },
+      "ultimaker3": {
+        "default": 28174,
+        "basic": 24291
+      }
+    },
+    "model_statistics": {
+      "mass": 7425.505606597069,
+      "volume": 7425.505606597069,
+      "edges": 1544346,
+      "surface_area": 27812.029141325373,
+      "box_volume": 70357.21323119408,
+      "vertices": 393777,
+      "area_faces": 257391,
+      "file_size": 12869634
+    }
+  },
+  "YODA_V4_with_Silhouette_background.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11948,
+        "basic": 10083
+      },
+      "ultimaker3": {
+        "default": 11966,
+        "basic": 10059
+      }
+    },
+    "model_statistics": {
+      "mass": 12656.842320654327,
+      "volume": 12656.842320654327,
+      "edges": 290112,
+      "surface_area": 17962.595446789583,
+      "box_volume": 30150.0,
+      "vertices": 72492,
+      "area_faces": 48352,
+      "file_size": 2417684
+    }
+  },
+  "Blue_box_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 37124.36686534548,
+      "volume": 37124.36686534548,
+      "edges": 162732,
+      "surface_area": 56672.669461778496,
+      "box_volume": 258666.76195428945,
+      "vertices": 35847,
+      "area_faces": 27122,
+      "file_size": 1356184
+    }
+  },
+  "V3_Main_Chassis_3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 709,
+        "basic": 655
+      },
+      "ultimaker3": {
+        "default": 709,
+        "basic": 655
+      }
+    },
+    "model_statistics": {
+      "mass": 119226.23964433216,
+      "volume": 119226.23964433216,
+      "edges": 17280,
+      "surface_area": 52980.59485249457,
+      "box_volume": 882188.9808654677,
+      "vertices": 4314,
+      "area_faces": 2880,
+      "file_size": 144084
+    }
+  },
+  "Air_Spinner_2_-_Solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 22827.830341596484,
+      "volume": 22827.830341596484,
+      "edges": 539400,
+      "surface_area": 15552.164860068846,
+      "box_volume": 36000.0,
+      "vertices": 134856,
+      "area_faces": 89900,
+      "file_size": 4495084
+    }
+  },
+  "bridge_test.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 13312.000778198251,
+      "volume": 13312.000778198251,
+      "edges": 8064,
+      "surface_area": 10752.000000000044,
+      "box_volume": 21952.0,
+      "vertices": 1536,
+      "area_faces": 1344,
+      "file_size": 67284
+    }
+  },
+  "Red_box_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 78449,
+        "basic": 57250
+      },
+      "ultimaker3": {
+        "default": 78543,
+        "basic": 57303
+      }
+    },
+    "model_statistics": {
+      "mass": 152238.9985298252,
+      "volume": 152238.9985298252,
+      "edges": 501444,
+      "surface_area": 130241.81082754146,
+      "box_volume": 1088155.5820570136,
+      "vertices": 125373,
+      "area_faces": 83574,
+      "file_size": 4178784
+    }
+  },
+  "cube_ver3.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 82679,
+        "basic": 54518
+      },
+      "ultimaker3": {
+        "default": 82109,
+        "basic": 54497
+      }
+    },
+    "model_statistics": {
+      "mass": 135222.54913355096,
+      "volume": 135222.54913355096,
+      "edges": 678480,
+      "surface_area": 77484.79599501008,
+      "box_volume": 700227.0088308115,
+      "vertices": 169626,
+      "area_faces": 113080,
+      "file_size": 5654084
+    }
+  },
+  "Green_box_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 51969,
+        "basic": 41196
+      },
+      "ultimaker3": {
+        "default": 51852,
+        "basic": 41217
+      }
+    },
+    "model_statistics": {
+      "mass": 89001.97271217627,
+      "volume": 89001.97271217627,
+      "edges": 342540,
+      "surface_area": 92954.73276186123,
+      "box_volume": 597181.6348691452,
+      "vertices": 83673,
+      "area_faces": 57090,
+      "file_size": 2854584
+    }
+  },
+  "Red_box_with_wall_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 95549,
+        "basic": 73455
+      },
+      "ultimaker3": {
+        "default": 95412,
+        "basic": 73498
+      }
+    },
+    "model_statistics": {
+      "mass": 170857.93952491606,
+      "volume": 170857.93952491606,
+      "edges": 537948,
+      "surface_area": 141541.76267409424,
+      "box_volume": 1088155.5820570136,
+      "vertices": 134499,
+      "area_faces": 89658,
+      "file_size": 4482984
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Chimney_top_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 68.32176270368652,
+      "volume": 68.32176270368652,
+      "edges": 96216,
+      "surface_area": 155.89215354902487,
+      "box_volume": 160.67403995002073,
+      "vertices": 24042,
+      "area_faces": 16036,
+      "file_size": 801884
+    }
+  },
+  "Bottom_Plate.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 45562.11670812013,
+      "volume": 45562.11670812013,
+      "edges": 237048,
+      "surface_area": 29030.656392311634,
+      "box_volume": 60795.0,
+      "vertices": 59112,
+      "area_faces": 39508,
+      "file_size": 1975484
+    }
+  },
+  "Bat_X_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 26279.672762141872,
+      "volume": 26279.672762141872,
+      "edges": 32016,
+      "surface_area": 10920.754995876807,
+      "box_volume": 83437.78820181619,
+      "vertices": 8004,
+      "area_faces": 5336,
+      "file_size": 1558883
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Bridge_walls_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 2092.799120207151,
+      "volume": 2092.799120207151,
+      "edges": 20844,
+      "surface_area": 2614.439541486887,
+      "box_volume": 10318.35734890842,
+      "vertices": 5199,
+      "area_faces": 3474,
+      "file_size": 173784
+    }
+  },
+  "Flying_Wing_v3_left.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22968,
+        "basic": 18057
+      },
+      "ultimaker3": {
+        "default": 22961,
+        "basic": 18047
+      }
+    },
+    "model_statistics": {
+      "mass": 49164.19705187026,
+      "volume": 49164.19705187026,
+      "edges": 3372,
+      "surface_area": 26618.88487815312,
+      "box_volume": 342272.20365075103,
+      "vertices": 843,
+      "area_faces": 562,
+      "file_size": 28184
+    }
+  },
+  "Gnomon_Southern_NETFABBED.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 78559,
+        "basic": 53568
+      },
+      "ultimaker3": {
+        "default": 78513,
+        "basic": 53549
+      }
+    },
+    "model_statistics": {
+      "mass": 169391.99073040235,
+      "volume": 169391.99073040235,
+      "edges": 130872,
+      "surface_area": 88958.91733880964,
+      "box_volume": 358630.90369643026,
+      "vertices": 29316,
+      "area_faces": 21812,
+      "file_size": 1090684
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Stern_name_plate_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 3.4536702904590584,
+      "volume": 3.4536702904590584,
+      "edges": 59496,
+      "surface_area": 79.7792413457536,
+      "box_volume": 45.919364733425475,
+      "vertices": 14790,
+      "area_faces": 9916,
+      "file_size": 495884
+    }
+  },
+  "crossbow_body_right.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4204,
+        "basic": 3645
+      },
+      "ultimaker3": {
+        "default": 4185,
+        "basic": 3641
+      }
+    },
+    "model_statistics": {
+      "mass": 5003.7126236674685,
+      "volume": 5003.7126236674685,
+      "edges": 145932,
+      "surface_area": 5342.190241989294,
+      "box_volume": 24691.64003446361,
+      "vertices": 36417,
+      "area_faces": 24322,
+      "file_size": 6572462
+    }
+  },
+  "cube50.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 125000.0,
+      "volume": 125000.0,
+      "edges": 72,
+      "surface_area": 15000.0,
+      "box_volume": 125000.0,
+      "vertices": 24,
+      "area_faces": 12,
+      "file_size": 684
+    }
+  },
+  "Yellow_box_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13132,
+        "basic": 10196
+      },
+      "ultimaker3": {
+        "default": 13125,
+        "basic": 10194
+      }
+    },
+    "model_statistics": {
+      "mass": 78918.91674760295,
+      "volume": 78918.91674760295,
+      "edges": 255996,
+      "surface_area": 52158.71145951585,
+      "box_volume": 410393.06422593945,
+      "vertices": 64011,
+      "area_faces": 42666,
+      "file_size": 2133384
+    }
+  },
+  "V2_Main_chassis_Combined.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 99564,
+        "basic": 69391
+      },
+      "ultimaker3": {
+        "default": 99580,
+        "basic": 69388
+      }
+    },
+    "model_statistics": {
+      "mass": 503289.55987564346,
+      "volume": 503289.55987564346,
+      "edges": 53988,
+      "surface_area": 216586.62462127276,
+      "box_volume": 3262271.88525761,
+      "vertices": 13437,
+      "area_faces": 8998,
+      "file_size": 449984
+    }
+  },
+  "crossbow_body_left.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 3856,
+        "basic": 3371
+      },
+      "ultimaker3": {
+        "default": 3831,
+        "basic": 3361
+      }
+    },
+    "model_statistics": {
+      "mass": 5168.319879138737,
+      "volume": 5168.319879138737,
+      "edges": 136476,
+      "surface_area": 5050.101093219429,
+      "box_volume": 24691.618126399833,
+      "vertices": 34095,
+      "area_faces": 22746,
+      "file_size": 6145933
+    }
+  },
+  "Axle_Mount_Side_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1829.1093452154241,
+      "volume": 1829.1093452154241,
+      "edges": 36048,
+      "surface_area": 1789.4102083408675,
+      "box_volume": 11109.096187231193,
+      "vertices": 9000,
+      "area_faces": 6008,
+      "file_size": 300484
+    }
+  },
+  "Japanese_Fountain_Tube_Rev_C.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 34413,
+        "basic": 19058
+      },
+      "ultimaker3": {
+        "default": 34410,
+        "basic": 19055
+      }
+    },
+    "model_statistics": {
+      "mass": 105832.22686510843,
+      "volume": 105832.22686510843,
+      "edges": 3132,
+      "surface_area": 32897.986610462656,
+      "box_volume": 283180.48145396635,
+      "vertices": 783,
+      "area_faces": 522,
+      "file_size": 26184
+    }
+  },
+  "crossbow_slider.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1265,
+        "basic": 1201
+      },
+      "ultimaker3": {
+        "default": 1264,
+        "basic": 1200
+      }
+    },
+    "model_statistics": {
+      "mass": 1409.6769115885365,
+      "volume": 1409.6769115885365,
+      "edges": 2964,
+      "surface_area": 1174.4012073626898,
+      "box_volume": 3511.1255846694,
+      "vertices": 741,
+      "area_faces": 494,
+      "file_size": 133462
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Cargo_box_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 535.4069000518158,
+      "volume": 535.4069000518158,
+      "edges": 2184,
+      "surface_area": 743.3715215809596,
+      "box_volume": 1187.8499505955128,
+      "vertices": 546,
+      "area_faces": 364,
+      "file_size": 18284
+    }
+  },
+  "cube10.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 623,
+        "basic": 604
+      },
+      "ultimaker3": {
+        "default": 622,
+        "basic": 602
+      }
+    },
+    "model_statistics": {
+      "mass": 1000.0,
+      "volume": 1000.0,
+      "edges": 72,
+      "surface_area": 600.0,
+      "box_volume": 1000.0,
+      "vertices": 24,
+      "area_faces": 12,
+      "file_size": 684
+    }
+  },
+  "Green_box_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 56242,
+        "basic": 53086
+      },
+      "ultimaker3": {
+        "default": 56240,
+        "basic": 53119
+      }
+    },
+    "model_statistics": {
+      "mass": 64614.52990549682,
+      "volume": 64614.52990549682,
+      "edges": 330636,
+      "surface_area": 106781.41809160679,
+      "box_volume": 597181.6348691452,
+      "vertices": 73023,
+      "area_faces": 55106,
+      "file_size": 2755384
+    }
+  },
+  "jet_fighter_large_300.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 23209,
+        "basic": 16091
+      },
+      "ultimaker3": {
+        "default": 23209,
+        "basic": 16090
+      }
+    },
+    "model_statistics": {
+      "mass": 42571.14207895451,
+      "volume": 42571.14207895451,
+      "edges": 27000,
+      "surface_area": 21626.992557750193,
+      "box_volume": 374348.8317048247,
+      "vertices": 6738,
+      "area_faces": 4500,
+      "file_size": 225084
+    }
+  },
+  "Green_box_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 47915,
+        "basic": 34441
+      },
+      "ultimaker3": {
+        "default": 47780,
+        "basic": 34483
+      }
+    },
+    "model_statistics": {
+      "mass": 99951.14510994597,
+      "volume": 99951.14510994597,
+      "edges": 350292,
+      "surface_area": 83123.01874223107,
+      "box_volume": 597181.6348691452,
+      "vertices": 87585,
+      "area_faces": 58382,
+      "file_size": 2919184
+    }
+  },
+  "crossbow_backcap.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1330,
+        "basic": 1331
+      },
+      "ultimaker3": {
+        "default": 1329,
+        "basic": 1330
+      }
+    },
+    "model_statistics": {
+      "mass": 850.7894942690455,
+      "volume": 850.7894942690455,
+      "edges": 14112,
+      "surface_area": 1562.2867923032954,
+      "box_volume": 5028.898192499991,
+      "vertices": 3534,
+      "area_faces": 2352,
+      "file_size": 637009
+    }
+  },
+  "V2_Main_Chassis_4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 56064,
+        "basic": 37669
+      },
+      "ultimaker3": {
+        "default": 56007,
+        "basic": 37670
+      }
+    },
+    "model_statistics": {
+      "mass": 119322.15895419975,
+      "volume": 119322.15895419975,
+      "edges": 18552,
+      "surface_area": 51513.42459052929,
+      "box_volume": 769163.0635439685,
+      "vertices": 4632,
+      "area_faces": 3092,
+      "file_size": 154684
+    }
+  },
+  "moon8inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 175492.08257723035,
+      "volume": 175492.08257723035,
+      "edges": 6203520,
+      "surface_area": 248360.49964778783,
+      "box_volume": 7076877.777469634,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Gunwale_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 375.35067909961555,
+      "volume": 375.35067909961555,
+      "edges": 332904,
+      "surface_area": 1029.1232717444445,
+      "box_volume": 34473.243990188734,
+      "vertices": 83226,
+      "area_faces": 55484,
+      "file_size": 2774284
+    }
+  },
+  "Clip_UM2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 12752.048441024246,
+      "volume": 12752.048441024246,
+      "edges": 33840,
+      "surface_area": 7254.939395782167,
+      "box_volume": 53550.0,
+      "vertices": 8448,
+      "area_faces": 5640,
+      "file_size": 282084
+    }
+  },
+  "Crank_Gear.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 152103.27917654935,
+      "volume": 152103.27917654935,
+      "edges": 54648,
+      "surface_area": 11921.605466418041,
+      "box_volume": 214110.78381124444,
+      "vertices": 13641,
+      "area_faces": 9108,
+      "file_size": 2766114
+    }
+  },
+  "crossbow_rail.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 409,
+        "basic": 363
+      },
+      "ultimaker3": {
+        "default": 408,
+        "basic": 362
+      }
+    },
+    "model_statistics": {
+      "mass": 423.7003942393397,
+      "volume": 423.7003942393397,
+      "edges": 26952,
+      "surface_area": 609.7750388774765,
+      "box_volume": 433.7569763684081,
+      "vertices": 6744,
+      "area_faces": 4492,
+      "file_size": 1214223
+    }
+  },
+  "thin_wall.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 687.666764308633,
+      "volume": 687.666764308633,
+      "edges": 1920,
+      "surface_area": 3232.9868476020783,
+      "box_volume": 16000.003111362614,
+      "vertices": 480,
+      "area_faces": 320,
+      "file_size": 16084
+    }
+  },
+  "V4_chassis_cog_cover_with_Turn_table_support.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2146,
+        "basic": 1865
+      },
+      "ultimaker3": {
+        "default": 2138,
+        "basic": 1865
+      }
+    },
+    "model_statistics": {
+      "mass": 4459.256228038992,
+      "volume": 4459.256228038992,
+      "edges": 3444,
+      "surface_area": 4234.1890402081335,
+      "box_volume": 37887.64888143333,
+      "vertices": 861,
+      "area_faces": 574,
+      "file_size": 28784
+    }
+  },
+  "Arm_v3_Straight_150.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 21759.3941203154,
+      "volume": 21759.3941203154,
+      "edges": 62652,
+      "surface_area": 12832.340425606453,
+      "box_volume": 44087.937441255606,
+      "vertices": 15627,
+      "area_faces": 10442,
+      "file_size": 522184
+    }
+  },
+  "Top_part.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11787,
+        "basic": 7324
+      },
+      "ultimaker3": {
+        "default": 11789,
+        "basic": 7322
+      }
+    },
+    "model_statistics": {
+      "mass": 71407.74832548338,
+      "volume": 71407.74832548338,
+      "edges": 34116,
+      "surface_area": 17310.834258002917,
+      "box_volume": 231525.0,
+      "vertices": 8505,
+      "area_faces": 5686,
+      "file_size": 1020582
+    }
+  },
+  "Phone_clamp_down_v3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 3350,
+        "basic": 2673
+      },
+      "ultimaker3": {
+        "default": 3350,
+        "basic": 2673
+      }
+    },
+    "model_statistics": {
+      "mass": 11232.65583368025,
+      "volume": 11232.65583368025,
+      "edges": 51132,
+      "surface_area": 8133.729972782418,
+      "box_volume": 74670.00217437744,
+      "vertices": 12777,
+      "area_faces": 8522,
+      "file_size": 426184
+    }
+  },
+  "Head_with_brim_lower_detail.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 38564,
+        "basic": 16117
+      },
+      "ultimaker3": {
+        "default": 38569,
+        "basic": 16124
+      }
+    },
+    "model_statistics": {
+      "mass": 133330.78312549312,
+      "volume": 133330.78312549312,
+      "edges": 3600192,
+      "surface_area": 20455.57131774203,
+      "box_volume": 453296.94691503415,
+      "vertices": 900054,
+      "area_faces": 600032,
+      "file_size": 30001684
+    }
+  },
+  "5mm_Flange_Spacer.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 221.65736708934332,
+      "volume": 221.65736708934332,
+      "edges": 15552,
+      "surface_area": 394.3278565122929,
+      "box_volume": 720.0,
+      "vertices": 3888,
+      "area_faces": 2592,
+      "file_size": 129684
+    }
+  },
+  "USB-SD-MicroSD_Card_Holder_-_v2.0.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 30166,
+        "basic": 19280
+      },
+      "ultimaker3": {
+        "default": 30155,
+        "basic": 19281
+      }
+    },
+    "model_statistics": {
+      "mass": 58154.17298224628,
+      "volume": 58154.17298224628,
+      "edges": 19932,
+      "surface_area": 30731.19174674531,
+      "box_volume": 85892.54150390625,
+      "vertices": 4851,
+      "area_faces": 3322,
+      "file_size": 166184
+    }
+  },
+  "Upper_Plate.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 12920,
+        "basic": 10445
+      },
+      "ultimaker3": {
+        "default": 12906,
+        "basic": 10442
+      }
+    },
+    "model_statistics": {
+      "mass": 25547.503345037927,
+      "volume": 25547.503345037927,
+      "edges": 187464,
+      "surface_area": 17632.47942195817,
+      "box_volume": 49987.0,
+      "vertices": 46764,
+      "area_faces": 31244,
+      "file_size": 1562284
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_WITH_tab.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4513,
+        "basic": 3536
+      },
+      "ultimaker3": {
+        "default": 4509,
+        "basic": 3533
+      }
+    },
+    "model_statistics": {
+      "mass": 14341.786671251104,
+      "volume": 14341.786671251104,
+      "edges": 80124,
+      "surface_area": 8339.065108821756,
+      "box_volume": 102690.0,
+      "vertices": 20019,
+      "area_faces": 13354,
+      "file_size": 667784
+    }
+  },
+  "moon9inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 222565.97616228872,
+      "volume": 222565.97616228872,
+      "edges": 6203520,
+      "surface_area": 311718.4286910926,
+      "box_volume": 10076257.616594683,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "chain-70.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 8257,
+        "basic": 7633
+      },
+      "ultimaker3": {
+        "default": 8266,
+        "basic": 7703
+      }
+    },
+    "model_statistics": {
+      "mass": 2437.8400951654494,
+      "volume": 2437.8400951654494,
+      "edges": 540486,
+      "surface_area": 9734.197927530455,
+      "box_volume": 36451.542854792075,
+      "vertices": 137772,
+      "area_faces": 90081,
+      "file_size": 4504134
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Window_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 86.45076529025587,
+      "volume": 86.45076529025587,
+      "edges": 2688,
+      "surface_area": 288.2901429283036,
+      "box_volume": 535.2927181659442,
+      "vertices": 672,
+      "area_faces": 448,
+      "file_size": 22484
+    }
+  },
+  "Heart_Y_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4292,
+        "basic": 3730
+      },
+      "ultimaker3": {
+        "default": 4289,
+        "basic": 3725
+      }
+    },
+    "model_statistics": {
+      "mass": 17060.609476913058,
+      "volume": 17060.609476913058,
+      "edges": 34116,
+      "surface_area": 11602.514488631086,
+      "box_volume": 75199.203602758,
+      "vertices": 8550,
+      "area_faces": 5686,
+      "file_size": 1722653
+    }
+  },
+  "AAA-Shapeways.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 65213.94266945163,
+      "volume": 65213.94266945163,
+      "edges": 23052,
+      "surface_area": 54747.801870307405,
+      "box_volume": 365293.22796163644,
+      "vertices": 5154,
+      "area_faces": 3842,
+      "file_size": 192184
+    }
+  },
+  "Upper_Plate_Minimal_-_Upper_Plate_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13069,
+        "basic": 10504
+      },
+      "ultimaker3": {
+        "default": 13058,
+        "basic": 10496
+      }
+    },
+    "model_statistics": {
+      "mass": 25553.91746451569,
+      "volume": 25553.91746451569,
+      "edges": 16380,
+      "surface_area": 17632.64926626463,
+      "box_volume": 49987.0,
+      "vertices": 3993,
+      "area_faces": 2730,
+      "file_size": 136584
+    }
+  },
+  "V2_crank_wheel.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 7658,
+        "basic": 5884
+      },
+      "ultimaker3": {
+        "default": 7661,
+        "basic": 5888
+      }
+    },
+    "model_statistics": {
+      "mass": 27435.336311182782,
+      "volume": 27435.336311182782,
+      "edges": 44364,
+      "surface_area": 12953.434233655073,
+      "box_volume": 284153.6841201782,
+      "vertices": 10929,
+      "area_faces": 7394,
+      "file_size": 369784
+    }
+  },
+  "Blue_box_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 53697.51871468517,
+      "volume": 53697.51871468517,
+      "edges": 174372,
+      "surface_area": 45962.998653910916,
+      "box_volume": 258666.76195428945,
+      "vertices": 43605,
+      "area_faces": 29062,
+      "file_size": 1453184
+    }
+  },
+  "measuring_cube_metric.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 92183,
+        "basic": 58767
+      },
+      "ultimaker3": {
+        "default": 91920,
+        "basic": 58707
+      }
+    },
+    "model_statistics": {
+      "mass": 176804.64020712013,
+      "volume": 176804.64020712013,
+      "edges": 282336,
+      "surface_area": 82389.13236072153,
+      "box_volume": 804356.9340133667,
+      "vertices": 70590,
+      "area_faces": 47056,
+      "file_size": 2352884
+    }
+  },
+  "Y_Axle.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4934,
+        "basic": 4371
+      },
+      "ultimaker3": {
+        "default": 4932,
+        "basic": 4369
+      }
+    },
+    "model_statistics": {
+      "mass": 2754.016901482304,
+      "volume": 2754.016901482304,
+      "edges": 5772,
+      "surface_area": 1575.4342394164685,
+      "box_volume": 5177.051272921909,
+      "vertices": 1449,
+      "area_faces": 962,
+      "file_size": 292569
+    }
+  },
+  "Bottom_part_with_breakable_support.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 36811.437160570036,
+      "volume": 36811.437160570036,
+      "edges": 99612,
+      "surface_area": 32300.02209733423,
+      "box_volume": 193523.66177759998,
+      "vertices": 24708,
+      "area_faces": 16602,
+      "file_size": 3126695
+    }
+  },
+  "C-Cover.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 39400.9509265107,
+      "volume": 39400.9509265107,
+      "edges": 4992,
+      "surface_area": 27294.39628132482,
+      "box_volume": 289268.55320265034,
+      "vertices": 1248,
+      "area_faces": 832,
+      "file_size": 41684
+    }
+  },
+  "AAA-Label.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 686.8756716093009,
+      "volume": 686.8756716093009,
+      "edges": 5232,
+      "surface_area": 1490.0859628026076,
+      "box_volume": 1414.9846199956667,
+      "vertices": 1314,
+      "area_faces": 872,
+      "file_size": 43684
+    }
+  },
+  "Gnomon_Northen_NETFABBED.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 78115,
+        "basic": 53335
+      },
+      "ultimaker3": {
+        "default": 78106,
+        "basic": 53297
+      }
+    },
+    "model_statistics": {
+      "mass": 169391.9803410101,
+      "volume": 169391.9803410101,
+      "edges": 130608,
+      "surface_area": 88958.84099133417,
+      "box_volume": 358630.90369643026,
+      "vertices": 29250,
+      "area_faces": 21768,
+      "file_size": 1088484
+    }
+  },
+  "PredatorActionPliers.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 29868,
+        "basic": 22392
+      },
+      "ultimaker3": {
+        "default": 29891,
+        "basic": 22339
+      }
+    },
+    "model_statistics": {
+      "mass": 74422.9998182933,
+      "volume": 74422.9998182933,
+      "edges": 1136184,
+      "surface_area": 51815.854814038285,
+      "box_volume": 361279.3879013188,
+      "vertices": 283998,
+      "area_faces": 189364,
+      "file_size": 9468284
+    }
+  },
+  "Red_box_with_wall_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 109822,
+        "basic": 105240
+      },
+      "ultimaker3": {
+        "default": 109857,
+        "basic": 105310
+      }
+    },
+    "model_statistics": {
+      "mass": 104328.17431248413,
+      "volume": 104328.17431248413,
+      "edges": 527496,
+      "surface_area": 185444.30062511997,
+      "box_volume": 1088155.5820570136,
+      "vertices": 113736,
+      "area_faces": 87916,
+      "file_size": 4395884
+    }
+  },
+  "Japanese_Fountain_Base_Rev_G.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 469612.36057802156,
+      "volume": 469612.36057802156,
+      "edges": 9384,
+      "surface_area": 98301.24441384622,
+      "box_volume": 1374011.9267056584,
+      "vertices": 2328,
+      "area_faces": 1564,
+      "file_size": 78284
+    }
+  },
+  "AA-Label.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 688.0984817990412,
+      "volume": 688.0984817990412,
+      "edges": 3168,
+      "surface_area": 1492.3097167947733,
+      "box_volume": 1414.023348877961,
+      "vertices": 798,
+      "area_faces": 528,
+      "file_size": 26484
+    }
+  },
+  "V3_Turn_Table_Split_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 16817,
+        "basic": 11774
+      },
+      "ultimaker3": {
+        "default": 16805,
+        "basic": 11773
+      }
+    },
+    "model_statistics": {
+      "mass": 53567.449191647596,
+      "volume": 53567.449191647596,
+      "edges": 21420,
+      "surface_area": 36521.85617254538,
+      "box_volume": 410665.99380100815,
+      "vertices": 5361,
+      "area_faces": 3570,
+      "file_size": 178584
+    }
+  },
+  "hand_OK.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 424524.1214422223,
+      "volume": 424524.1214422223,
+      "edges": 603192,
+      "surface_area": 46902.956559374936,
+      "box_volume": 1572737.5224117178,
+      "vertices": 150798,
+      "area_faces": 100532,
+      "file_size": 5026684
+    }
+  },
+  "fox.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 133586.53380373176,
+      "volume": 133586.53380373176,
+      "edges": 2256,
+      "surface_area": 18228.95590225586,
+      "box_volume": 532413.9862940904,
+      "vertices": 570,
+      "area_faces": 376,
+      "file_size": 18884
+    }
+  },
+  "V2_crank_handle_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 6651.46482160181,
+      "volume": 6651.46482160181,
+      "edges": 34464,
+      "surface_area": 2463.777642769812,
+      "box_volume": 16136.416494171586,
+      "vertices": 8622,
+      "area_faces": 5744,
+      "file_size": 287284
+    }
+  },
+  "Red_box_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 86057,
+        "basic": 68737
+      },
+      "ultimaker3": {
+        "default": 86658,
+        "basic": 69226
+      }
+    },
+    "model_statistics": {
+      "mass": 135758.83887741022,
+      "volume": 135758.83887741022,
+      "edges": 489924,
+      "surface_area": 145154.98050307896,
+      "box_volume": 1088155.5820570136,
+      "vertices": 119535,
+      "area_faces": 81654,
+      "file_size": 4082784
+    }
+  },
+  "V3_Turn_Table_Split_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 16325,
+        "basic": 9630
+      },
+      "ultimaker3": {
+        "default": 16324,
+        "basic": 9627
+      }
+    },
+    "model_statistics": {
+      "mass": 87099.09971379854,
+      "volume": 87099.09971379854,
+      "edges": 20928,
+      "surface_area": 24711.927583753895,
+      "box_volume": 494336.353376732,
+      "vertices": 5232,
+      "area_faces": 3488,
+      "file_size": 174484
+    }
+  },
+  "Bolt.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1533.7435148304794,
+      "volume": 1533.7435148304794,
+      "edges": 5928,
+      "surface_area": 1143.0881931058557,
+      "box_volume": 3438.6369915471178,
+      "vertices": 1488,
+      "area_faces": 988,
+      "file_size": 300039
+    }
+  },
+  "Flying_Wing_v2R.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 29326,
+        "basic": 22245
+      },
+      "ultimaker3": {
+        "default": 29323,
+        "basic": 22245
+      }
+    },
+    "model_statistics": {
+      "mass": 65774.72413841808,
+      "volume": 65774.72413841808,
+      "edges": 1260,
+      "surface_area": 32657.361251586655,
+      "box_volume": 261032.80954250158,
+      "vertices": 327,
+      "area_faces": 210,
+      "file_size": 10584
+    }
+  },
+  "Back_Plate_v2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 51072.43904551926,
+      "volume": 51072.43904551926,
+      "edges": 25920,
+      "surface_area": 24009.827999709825,
+      "box_volume": 774547.1200707535,
+      "vertices": 6465,
+      "area_faces": 4320,
+      "file_size": 1341275
+    }
+  },
+  "Red_box_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 96407,
+        "basic": 92414
+      },
+      "ultimaker3": {
+        "default": 96450,
+        "basic": 92489
+      }
+    },
+    "model_statistics": {
+      "mass": 93908.95251623985,
+      "volume": 93908.95251623985,
+      "edges": 465252,
+      "surface_area": 167791.71828166235,
+      "box_volume": 1088155.5820570136,
+      "vertices": 100107,
+      "area_faces": 77542,
+      "file_size": 3877184
+    }
+  },
+  "crossbow_front.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1355,
+        "basic": 1053
+      },
+      "ultimaker3": {
+        "default": 1357,
+        "basic": 1053
+      }
+    },
+    "model_statistics": {
+      "mass": 1536.866157720958,
+      "volume": 1536.866157720958,
+      "edges": 15012,
+      "surface_area": 1597.684488975302,
+      "box_volume": 3494.988070859127,
+      "vertices": 3753,
+      "area_faces": 2502,
+      "file_size": 676845
+    }
+  },
+  "Camera_screw.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 584.5725502059133,
+      "volume": 584.5725502059133,
+      "edges": 97452,
+      "surface_area": 661.6050979178057,
+      "box_volume": 1881.0554437221394,
+      "vertices": 24372,
+      "area_faces": 16242,
+      "file_size": 812184
+    }
+  },
+  "Heart_X_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 602,
+        "basic": 492
+      },
+      "ultimaker3": {
+        "default": 601,
+        "basic": 491
+      }
+    },
+    "model_statistics": {
+      "mass": 25198.984833625367,
+      "volume": 25198.984833625367,
+      "edges": 32352,
+      "surface_area": 10009.516678576128,
+      "box_volume": 73095.69856640157,
+      "vertices": 8088,
+      "area_faces": 5392,
+      "file_size": 1659457
+    }
+  },
+  "Black_box_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 574335.2425206023,
+      "volume": 574335.2425206023,
+      "edges": 1816908,
+      "surface_area": 511663.6381145148,
+      "box_volume": 7081885.999040042,
+      "vertices": 454239,
+      "area_faces": 302818,
+      "file_size": 15140984
+    }
+  },
+  "chain-600.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 99626,
+        "basic": 86472
+      },
+      "ultimaker3": {
+        "default": 99853,
+        "basic": 86150
+      }
+    },
+    "model_statistics": {
+      "mass": 35575.7549510306,
+      "volume": 35575.7549510306,
+      "edges": 4568952,
+      "surface_area": 82184.78579989995,
+      "box_volume": 167488.78618354117,
+      "vertices": 1164132,
+      "area_faces": 761492,
+      "file_size": 38074684
+    }
+  },
+  "Front_Plate.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 19351,
+        "basic": 14405
+      },
+      "ultimaker3": {
+        "default": 19503,
+        "basic": 14519
+      }
+    },
+    "model_statistics": {
+      "mass": 27913.66044248292,
+      "volume": 27913.66044248292,
+      "edges": 12504,
+      "surface_area": 14949.928740298206,
+      "box_volume": 209627.17774614613,
+      "vertices": 3096,
+      "area_faces": 2084,
+      "file_size": 633559
+    }
+  },
+  "moon2inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 10369.839264855696,
+      "volume": 10369.839264855696,
+      "edges": 6203520,
+      "surface_area": 20755.861116586384,
+      "box_volume": 110576.21527296303,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "Rear_Drive_Gear_PLA_V1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2794,
+        "basic": 2249
+      },
+      "ultimaker3": {
+        "default": 2795,
+        "basic": 2249
+      }
+    },
+    "model_statistics": {
+      "mass": 4490.3182154303195,
+      "volume": 4490.3182154303195,
+      "edges": 779112,
+      "surface_area": 3796.921572168926,
+      "box_volume": 8094.389486638852,
+      "vertices": 194742,
+      "area_faces": 129852,
+      "file_size": 6492684
+    }
+  },
+  "moon4inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 43063.71818432298,
+      "volume": 43063.71818432298,
+      "edges": 6203520,
+      "surface_area": 68012.13943369006,
+      "box_volume": 884609.7221837043,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Wheel_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 64.82025860893012,
+      "volume": 64.82025860893012,
+      "edges": 8928,
+      "surface_area": 212.76941516954776,
+      "box_volume": 228.79291066733086,
+      "vertices": 2238,
+      "area_faces": 1488,
+      "file_size": 74484
+    }
+  },
+  "V2_stopper.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1324,
+        "basic": 1063
+      },
+      "ultimaker3": {
+        "default": 1324,
+        "basic": 1062
+      }
+    },
+    "model_statistics": {
+      "mass": 1822.441000524171,
+      "volume": 1822.441000524171,
+      "edges": 1104,
+      "surface_area": 1736.6264462333206,
+      "box_volume": 3087.2482122816145,
+      "vertices": 282,
+      "area_faces": 184,
+      "file_size": 9284
+    }
+  },
+  "Bottom_part_with_breakable_support_NETFABBED.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 36793.47116537001,
+      "volume": 36793.47116537001,
+      "edges": 103032,
+      "surface_area": 32276.328516175323,
+      "box_volume": 193533.67355855848,
+      "vertices": 25737,
+      "area_faces": 17172,
+      "file_size": 858684
+    }
+  },
+  "AA-Base.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 43187.10551983054,
+      "volume": 43187.10551983054,
+      "edges": 11100,
+      "surface_area": 27503.471407159625,
+      "box_volume": 346333.49989447027,
+      "vertices": 2793,
+      "area_faces": 1850,
+      "file_size": 92584
+    }
+  },
+  "fire_truck_egg.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 12138,
+        "basic": 7470
+      },
+      "ultimaker3": {
+        "default": 12133,
+        "basic": 7473
+      }
+    },
+    "model_statistics": {
+      "mass": 26892.252155730275,
+      "volume": 26892.252155730275,
+      "edges": 38832,
+      "surface_area": 10340.255803542015,
+      "box_volume": 64908.922698341325,
+      "vertices": 9696,
+      "area_faces": 6472,
+      "file_size": 323684
+    }
+  },
+  "Star_Y_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 17549.019169007115,
+      "volume": 17549.019169007115,
+      "edges": 32508,
+      "surface_area": 12035.251592194616,
+      "box_volume": 80560.59900403803,
+      "vertices": 8127,
+      "area_faces": 5418,
+      "file_size": 1624646
+    }
+  },
+  "V2_Cog.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 3904,
+        "basic": 2919
+      },
+      "ultimaker3": {
+        "default": 3905,
+        "basic": 2920
+      }
+    },
+    "model_statistics": {
+      "mass": 14713.255397720106,
+      "volume": 14713.255397720106,
+      "edges": 7656,
+      "surface_area": 6703.625755486527,
+      "box_volume": 38911.98523454505,
+      "vertices": 1914,
+      "area_faces": 1276,
+      "file_size": 63884
+    }
+  },
+  "moon10inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 382964,
+        "basic": 338022
+      },
+      "ultimaker3": {
+        "default": 382690,
+        "basic": 337611
+      }
+    },
+    "model_statistics": {
+      "mass": 275226.5609636299,
+      "volume": 275226.5609636299,
+      "edges": 6203520,
+      "surface_area": 382438.28324875433,
+      "box_volume": 13822026.909120379,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "eyeball4_2.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11300,
+        "basic": 10454
+      },
+      "ultimaker3": {
+        "default": 11313,
+        "basic": 10459
+      }
+    },
+    "model_statistics": {
+      "mass": 26732.963004610156,
+      "volume": 26732.963004610156,
+      "edges": 683544,
+      "surface_area": 43886.0425878473,
+      "box_volume": 152398.28345588627,
+      "vertices": 170748,
+      "area_faces": 113924,
+      "file_size": 5696284
+    }
+  },
+  "aligator.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 2456.398575209221,
+      "volume": 2456.398575209221,
+      "edges": 1656,
+      "surface_area": 2393.665423320535,
+      "box_volume": 5290.543228662822,
+      "vertices": 414,
+      "area_faces": 276,
+      "file_size": 13884
+    }
+  },
+  "chain-300.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 40241,
+        "basic": 35680
+      },
+      "ultimaker3": {
+        "default": 40043,
+        "basic": 35283
+      }
+    },
+    "model_statistics": {
+      "mass": 14629.074663977313,
+      "volume": 14629.074663977313,
+      "edges": 2248194,
+      "surface_area": 40466.540181404824,
+      "box_volume": 96880.18604954188,
+      "vertices": 573018,
+      "area_faces": 374699,
+      "file_size": 18735034
+    }
+  },
+  "ella_oc_a015R.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 36698,
+        "basic": 21813
+      },
+      "ultimaker3": {
+        "default": 36714,
+        "basic": 21801
+      }
+    },
+    "model_statistics": {
+      "mass": 80730.19164218532,
+      "volume": 80730.19164218532,
+      "edges": 1057584,
+      "surface_area": 33132.41478443225,
+      "box_volume": 519322.1543096247,
+      "vertices": 264324,
+      "area_faces": 176264,
+      "file_size": 8813284
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_NO_tab.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 3885,
+        "basic": 2983
+      },
+      "ultimaker3": {
+        "default": 3885,
+        "basic": 2984
+      }
+    },
+    "model_statistics": {
+      "mass": 13193.680637481015,
+      "volume": 13193.680637481015,
+      "edges": 59160,
+      "surface_area": 7281.848567472699,
+      "box_volume": 82530.04197692871,
+      "vertices": 14790,
+      "area_faces": 9860,
+      "file_size": 493084
+    }
+  },
+  "Flying_Wing_v2L.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 29226,
+        "basic": 22209
+      },
+      "ultimaker3": {
+        "default": 29243,
+        "basic": 22224
+      }
+    },
+    "model_statistics": {
+      "mass": 65771.89414088923,
+      "volume": 65771.89414088923,
+      "edges": 1260,
+      "surface_area": 32664.986993245675,
+      "box_volume": 261155.24725955032,
+      "vertices": 327,
+      "area_faces": 210,
+      "file_size": 10584
+    }
+  },
+  "Prusa_Enclosure_PSU_Holder.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 36418,
+        "basic": 19708
+      },
+      "ultimaker3": {
+        "default": 36149,
+        "basic": 19721
+      }
+    },
+    "model_statistics": {
+      "mass": 102639.77810291029,
+      "volume": 102639.77810291029,
+      "edges": 24708,
+      "surface_area": 32670.843536892073,
+      "box_volume": 625580.2032190831,
+      "vertices": 6171,
+      "area_faces": 4118,
+      "file_size": 205984
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_port_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 14.049746060227221,
+      "volume": 14.049746060227221,
+      "edges": 23352,
+      "surface_area": 77.16752708275493,
+      "box_volume": 137.16199686967366,
+      "vertices": 5838,
+      "area_faces": 3892,
+      "file_size": 194684
+    }
+  },
+  "miniCube.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 63262,
+        "basic": 41395
+      },
+      "ultimaker3": {
+        "default": 63313,
+        "basic": 41413
+      }
+    },
+    "model_statistics": {
+      "mass": 111303.05304185924,
+      "volume": 111303.05304185924,
+      "edges": 386496,
+      "surface_area": 57573.28133806824,
+      "box_volume": 442450.79597223527,
+      "vertices": 96630,
+      "area_faces": 64416,
+      "file_size": 3220884
+    }
+  },
+  "Crank.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 8926.66046588992,
+      "volume": 8926.66046588992,
+      "edges": 14556,
+      "surface_area": 3963.8046833523886,
+      "box_volume": 77549.00852823468,
+      "vertices": 3645,
+      "area_faces": 2426,
+      "file_size": 738490
+    }
+  },
+  "C_Clamp_Arm_80.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 39010.475605623884,
+      "volume": 39010.475605623884,
+      "edges": 165756,
+      "surface_area": 12772.006567682043,
+      "box_volume": 124980.84411621108,
+      "vertices": 41421,
+      "area_faces": 27626,
+      "file_size": 1381384
+    }
+  },
+  "Club_X_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 83983.31630634764,
+      "volume": 83983.31630634764,
+      "edges": 26820,
+      "surface_area": 10790.003101170301,
+      "box_volume": 81253.51934205736,
+      "vertices": 6708,
+      "area_faces": 4470,
+      "file_size": 1319995
+    }
+  },
+  "Bat_Y_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 17889.978830302753,
+      "volume": 17889.978830302753,
+      "edges": 37524,
+      "surface_area": 12307.437762043732,
+      "box_volume": 83278.03113167945,
+      "vertices": 9381,
+      "area_faces": 6254,
+      "file_size": 1866884
+    }
+  },
+  "V2_iPhone_cradle.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 87060.58134101312,
+      "volume": 87060.58134101312,
+      "edges": 10776,
+      "surface_area": 36063.404412694836,
+      "box_volume": 688535.1480523412,
+      "vertices": 2682,
+      "area_faces": 1796,
+      "file_size": 89884
+    }
+  },
+  "Turntable_Split_5pcs_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 16048,
+        "basic": 11376
+      },
+      "ultimaker3": {
+        "default": 16052,
+        "basic": 11376
+      }
+    },
+    "model_statistics": {
+      "mass": 26404.64020138038,
+      "volume": 26404.64020138038,
+      "edges": 11868,
+      "surface_area": 18324.50325102907,
+      "box_volume": 199759.22591441183,
+      "vertices": 2973,
+      "area_faces": 1978,
+      "file_size": 98984
+    }
+  },
+  "moon5inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 67790.73261806104,
+      "volume": 67790.73261806104,
+      "edges": 6203520,
+      "surface_area": 102221.7966369078,
+      "box_volume": 1727753.3636400474,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "Rear_Wheel_-_PLA.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 12011,
+        "basic": 7832
+      },
+      "ultimaker3": {
+        "default": 12010,
+        "basic": 7832
+      }
+    },
+    "model_statistics": {
+      "mass": 23037.53542946026,
+      "volume": 23037.53542946026,
+      "edges": 34272,
+      "surface_area": 12861.825326107923,
+      "box_volume": 61740.0,
+      "vertices": 8544,
+      "area_faces": 5712,
+      "file_size": 285684
+    }
+  },
+  "3D_Printer_test_fixed_stl_3rd_gen.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 48701.61174403118,
+      "volume": 48701.61174403118,
+      "edges": 381732,
+      "surface_area": 42737.72194506444,
+      "box_volume": 605222.3587036133,
+      "vertices": 95391,
+      "area_faces": 63622,
+      "file_size": 3181184
+    }
+  },
+  "Red_box_with_wall_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 103146,
+        "basic": 85011
+      },
+      "ultimaker3": {
+        "default": 103605,
+        "basic": 85487
+      }
+    },
+    "model_statistics": {
+      "mass": 154015.10755484403,
+      "volume": 154015.10755484403,
+      "edges": 526428,
+      "surface_area": 156337.2342296888,
+      "box_volume": 1088155.5820570136,
+      "vertices": 128661,
+      "area_faces": 87738,
+      "file_size": 4386984
+    }
+  },
+  "Turntable_Split_5pcs_4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 16789,
+        "basic": 11756
+      },
+      "ultimaker3": {
+        "default": 16782,
+        "basic": 11755
+      }
+    },
+    "model_statistics": {
+      "mass": 27320.27400365621,
+      "volume": 27320.27400365621,
+      "edges": 12180,
+      "surface_area": 18948.29525500793,
+      "box_volume": 205708.95023999969,
+      "vertices": 3051,
+      "area_faces": 2030,
+      "file_size": 101584
+    }
+  },
+  "Gnomon_Southern_Half_1_of_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 37920,
+        "basic": 25394
+      },
+      "ultimaker3": {
+        "default": 37946,
+        "basic": 25410
+      }
+    },
+    "model_statistics": {
+      "mass": 83414.92001462143,
+      "volume": 83414.92001462143,
+      "edges": 53628,
+      "surface_area": 40274.38412926769,
+      "box_volume": 176383.34634361454,
+      "vertices": 12711,
+      "area_faces": 8938,
+      "file_size": 446984
+    }
+  },
+  "YODA_silhouette_for_v4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2430,
+        "basic": 2329
+      },
+      "ultimaker3": {
+        "default": 2431,
+        "basic": 2331
+      }
+    },
+    "model_statistics": {
+      "mass": 2992.269738686098,
+      "volume": 2992.269738686098,
+      "edges": 225672,
+      "surface_area": 3946.454014700999,
+      "box_volume": 5218.184416413993,
+      "vertices": 56430,
+      "area_faces": 37612,
+      "file_size": 1880684
+    }
+  },
+  "Top_part_NETFABBED.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11792,
+        "basic": 7345
+      },
+      "ultimaker3": {
+        "default": 11790,
+        "basic": 7339
+      }
+    },
+    "model_statistics": {
+      "mass": 71404.36283084896,
+      "volume": 71404.36283084896,
+      "edges": 35628,
+      "surface_area": 17310.682911905405,
+      "box_volume": 231518.44377360342,
+      "vertices": 8871,
+      "area_faces": 5938,
+      "file_size": 296984
+    }
+  },
+  "Gnomon_Southern.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 78646,
+        "basic": 53617
+      },
+      "ultimaker3": {
+        "default": 78599,
+        "basic": 53602
+      }
+    },
+    "model_statistics": {
+      "mass": 173934.16849474638,
+      "volume": 173934.16849474638,
+      "edges": 131658,
+      "surface_area": 94582.66414432385,
+      "box_volume": 358642.07999999996,
+      "vertices": 28827,
+      "area_faces": 21943,
+      "file_size": 3804810
+    }
+  },
+  "jet_fighter_egg.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13322,
+        "basic": 7142
+      },
+      "ultimaker3": {
+        "default": 13318,
+        "basic": 7141
+      }
+    },
+    "model_statistics": {
+      "mass": 35973.97131121369,
+      "volume": 35973.97131121369,
+      "edges": 49812,
+      "surface_area": 10254.242556793088,
+      "box_volume": 76177.376995092,
+      "vertices": 12429,
+      "area_faces": 8302,
+      "file_size": 415184
+    }
+  },
+  "Gnomon_Northen_Half_2_of_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 38086,
+        "basic": 27808
+      },
+      "ultimaker3": {
+        "default": 38093,
+        "basic": 27827
+      }
+    },
+    "model_statistics": {
+      "mass": 76427.49523247486,
+      "volume": 76427.49523247486,
+      "edges": 76584,
+      "surface_area": 49218.215090758,
+      "box_volume": 177529.63222090047,
+      "vertices": 16464,
+      "area_faces": 12764,
+      "file_size": 638284
+    }
+  },
+  "Blue_box_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 49332.51682705697,
+      "volume": 49332.51682705697,
+      "edges": 171156,
+      "surface_area": 49999.23651460949,
+      "box_volume": 258666.76195428945,
+      "vertices": 41979,
+      "area_faces": 28526,
+      "file_size": 1426384
+    }
+  },
+  "Prusa_Enclosure_Cable_clip.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13784,
+        "basic": 10700
+      },
+      "ultimaker3": {
+        "default": 13781,
+        "basic": 10702
+      }
+    },
+    "model_statistics": {
+      "mass": 15291.70269150752,
+      "volume": 15291.70269150752,
+      "edges": 112800,
+      "surface_area": 18894.57284697619,
+      "box_volume": 55795.8233139107,
+      "vertices": 28200,
+      "area_faces": 18800,
+      "file_size": 940084
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Fishing-rod-holder_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 74.03709483539156,
+      "volume": 74.03709483539156,
+      "edges": 54216,
+      "surface_area": 180.34551661387917,
+      "box_volume": 225.86489809638843,
+      "vertices": 13539,
+      "area_faces": 9036,
+      "file_size": 451884
+    }
+  },
+  "Phone_clamp_up_WITH_tab.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2978,
+        "basic": 2299
+      },
+      "ultimaker3": {
+        "default": 2978,
+        "basic": 2299
+      }
+    },
+    "model_statistics": {
+      "mass": 13031.60462297111,
+      "volume": 13031.60462297111,
+      "edges": 77304,
+      "surface_area": 7919.28037010056,
+      "box_volume": 83130.0,
+      "vertices": 19314,
+      "area_faces": 12884,
+      "file_size": 644284
+    }
+  },
+  "moon6inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 98104.46770855263,
+      "volume": 98104.46770855263,
+      "edges": 6203520,
+      "surface_area": 143645.72143924,
+      "box_volume": 2985557.812370002,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "Left_Side_Guard-Air_Intake.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10758,
+        "basic": 9110
+      },
+      "ultimaker3": {
+        "default": 10696,
+        "basic": 9057
+      }
+    },
+    "model_statistics": {
+      "mass": 12372.122873916867,
+      "volume": 12372.122873916867,
+      "edges": 235644,
+      "surface_area": 12683.42428522893,
+      "box_volume": 164813.34148406982,
+      "vertices": 58893,
+      "area_faces": 39274,
+      "file_size": 1963784
+    }
+  },
+  "Flat_stand.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 12082,
+        "basic": 8613
+      },
+      "ultimaker3": {
+        "default": 12085,
+        "basic": 8615
+      }
+    },
+    "model_statistics": {
+      "mass": 24152.24339055784,
+      "volume": 24152.24339055784,
+      "edges": 33852,
+      "surface_area": 11905.327261263274,
+      "box_volume": 575595.3725609113,
+      "vertices": 8451,
+      "area_faces": 5642,
+      "file_size": 282184
+    }
+  },
+  "Rear_Bumper.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 7397,
+        "basic": 4864
+      },
+      "ultimaker3": {
+        "default": 7419,
+        "basic": 4866
+      }
+    },
+    "model_statistics": {
+      "mass": 18199.598060680502,
+      "volume": 18199.598060680502,
+      "edges": 349956,
+      "surface_area": 8441.206954678571,
+      "box_volume": 73477.3871013034,
+      "vertices": 87471,
+      "area_faces": 58326,
+      "file_size": 2916384
+    }
+  },
+  "Flying_Wing_v3_middle_fpv.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13871,
+        "basic": 9841
+      },
+      "ultimaker3": {
+        "default": 13865,
+        "basic": 9840
+      }
+    },
+    "model_statistics": {
+      "mass": 33876.27582053686,
+      "volume": 33876.27582053686,
+      "edges": 8412,
+      "surface_area": 14748.63462490304,
+      "box_volume": 120533.76820579192,
+      "vertices": 2109,
+      "area_faces": 1402,
+      "file_size": 70184
+    }
+  },
+  "C_Clamp_Arm_40.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 26569.0889680779,
+      "volume": 26569.0889680779,
+      "edges": 151716,
+      "surface_area": 9440.707612927015,
+      "box_volume": 70668.88767242439,
+      "vertices": 37911,
+      "area_faces": 25286,
+      "file_size": 1264384
+    }
+  },
+  "C_Clamp_Bolt_40.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 6508.446212390992,
+      "volume": 6508.446212390992,
+      "edges": 315228,
+      "surface_area": 4194.293982223357,
+      "box_volume": 18225.0,
+      "vertices": 78813,
+      "area_faces": 52538,
+      "file_size": 2626984
+    }
+  },
+  "Arm_v3_90.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 17254.47850610459,
+      "volume": 17254.47850610459,
+      "edges": 60996,
+      "surface_area": 9357.374777040068,
+      "box_volume": 57833.59811973572,
+      "vertices": 15219,
+      "area_faces": 10166,
+      "file_size": 508384
+    }
+  },
+  "Rear_Wheel_Simple_-_Ninjaflex.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 32250,
+        "basic": 12838
+      },
+      "ultimaker3": {
+        "default": 31813,
+        "basic": 12400
+      }
+    },
+    "model_statistics": {
+      "mass": 47964.683671001054,
+      "volume": 47964.683671001054,
+      "edges": 7056,
+      "surface_area": 21003.341273060483,
+      "box_volume": 147594.7385787964,
+      "vertices": 1764,
+      "area_faces": 1176,
+      "file_size": 58884
+    }
+  },
+  "V2_Main_Chassis_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 43992,
+        "basic": 32242
+      },
+      "ultimaker3": {
+        "default": 44000,
+        "basic": 32238
+      }
+    },
+    "model_statistics": {
+      "mass": 75987.62971037552,
+      "volume": 75987.62971037552,
+      "edges": 13332,
+      "surface_area": 43646.11089969872,
+      "box_volume": 654273.8312156713,
+      "vertices": 3327,
+      "area_faces": 2222,
+      "file_size": 111184
+    }
+  },
+  "Flying_Wing_v3.1_left.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22749,
+        "basic": 17892
+      },
+      "ultimaker3": {
+        "default": 22737,
+        "basic": 17892
+      }
+    },
+    "model_statistics": {
+      "mass": 48727.246190054095,
+      "volume": 48727.246190054095,
+      "edges": 2964,
+      "surface_area": 26358.049422000928,
+      "box_volume": 342271.73680344626,
+      "vertices": 735,
+      "area_faces": 494,
+      "file_size": 24784
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Complete_17_shells_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 15546.895708041244,
+      "volume": 15546.895708041244,
+      "edges": 1983780,
+      "surface_area": 14705.007205371225,
+      "box_volume": 89280.01046648565,
+      "vertices": 427113,
+      "area_faces": 330630,
+      "file_size": 16531584
+    }
+  },
+  "measuring_cube.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 86817,
+        "basic": 55776
+      },
+      "ultimaker3": {
+        "default": 86471,
+        "basic": 55758
+      }
+    },
+    "model_statistics": {
+      "mass": 161694.373409063,
+      "volume": 161694.373409063,
+      "edges": 284208,
+      "surface_area": 78346.9880601015,
+      "box_volume": 729000.0,
+      "vertices": 71058,
+      "area_faces": 47368,
+      "file_size": 2368484
+    }
+  },
+  "Yellow_box_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 17022,
+        "basic": 12516
+      },
+      "ultimaker3": {
+        "default": 17012,
+        "basic": 12511
+      }
+    },
+    "model_statistics": {
+      "mass": 66592.12212187555,
+      "volume": 66592.12212187555,
+      "edges": 283452,
+      "surface_area": 64709.160913423635,
+      "box_volume": 410393.06422593945,
+      "vertices": 68751,
+      "area_faces": 47242,
+      "file_size": 2362184
+    }
+  },
+  "V3_Turn_Table_Split_3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 16032,
+        "basic": 11381
+      },
+      "ultimaker3": {
+        "default": 16032,
+        "basic": 11381
+      }
+    },
+    "model_statistics": {
+      "mass": 53879.58579308972,
+      "volume": 53879.58579308972,
+      "edges": 21984,
+      "surface_area": 37020.03258768602,
+      "box_volume": 433526.4806589235,
+      "vertices": 5502,
+      "area_faces": 3664,
+      "file_size": 183284
+    }
+  },
+  "moon7inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 134004.91507387187,
+      "volume": 134004.91507387187,
+      "edges": 6203520,
+      "surface_area": 192345.32106240344,
+      "box_volume": 4740955.014387071,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "Club_Y_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": -40076.457355583705,
+      "volume": -40076.457355583705,
+      "edges": 32472,
+      "surface_area": 12178.185293984972,
+      "box_volume": 81954.31381654035,
+      "vertices": 8121,
+      "area_faces": 5412,
+      "file_size": 1634860
+    }
+  },
+  "crossbow_limb.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1182,
+        "basic": 1166
+      },
+      "ultimaker3": {
+        "default": 1182,
+        "basic": 1166
+      }
+    },
+    "model_statistics": {
+      "mass": 960.760114097325,
+      "volume": 960.760114097325,
+      "edges": 14928,
+      "surface_area": 1736.6407420950763,
+      "box_volume": 10229.834792856356,
+      "vertices": 3732,
+      "area_faces": 2488,
+      "file_size": 669163
+    }
+  },
+  "Prusa_Enclosure_Spool_Holder.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 37062,
+        "basic": 29443
+      },
+      "ultimaker3": {
+        "default": 37095,
+        "basic": 29452
+      }
+    },
+    "model_statistics": {
+      "mass": 64269.64099153138,
+      "volume": 64269.64099153138,
+      "edges": 273444,
+      "surface_area": 43341.82863608773,
+      "box_volume": 1083883.432769474,
+      "vertices": 68385,
+      "area_faces": 45574,
+      "file_size": 2278784
+    }
+  },
+  "V29.2_Whistle_V29.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10820,
+        "basic": 8061
+      },
+      "ultimaker3": {
+        "default": 10831,
+        "basic": 8071
+      }
+    },
+    "model_statistics": {
+      "mass": 13360.379553001174,
+      "volume": 13360.379553001174,
+      "edges": 295668,
+      "surface_area": 11731.241021492298,
+      "box_volume": 35439.777327570475,
+      "vertices": 73953,
+      "area_faces": 49278,
+      "file_size": 2463984
+    }
+  },
+  "Right_Side_Guard-Air_Intake.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10214,
+        "basic": 8625
+      },
+      "ultimaker3": {
+        "default": 10168,
+        "basic": 8613
+      }
+    },
+    "model_statistics": {
+      "mass": 11658.464553278174,
+      "volume": 11658.464553278174,
+      "edges": 237612,
+      "surface_area": 11980.876986171954,
+      "box_volume": 164813.34148406982,
+      "vertices": 59385,
+      "area_faces": 39602,
+      "file_size": 1980184
+    }
+  },
+  "Gnomon_Southern_Half_2_of_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 41331,
+        "basic": 29218
+      },
+      "ultimaker3": {
+        "default": 41336,
+        "basic": 29215
+      }
+    },
+    "model_statistics": {
+      "mass": 84248.95377052056,
+      "volume": 84248.95377052056,
+      "edges": 79524,
+      "surface_area": 51286.40389247278,
+      "box_volume": 179994.03419410918,
+      "vertices": 17181,
+      "area_faces": 13254,
+      "file_size": 662784
+    }
+  },
+  "Connector.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 61970.173508163614,
+      "volume": 61970.173508163614,
+      "edges": 18678,
+      "surface_area": 15578.456648272973,
+      "box_volume": 119340.00000000003,
+      "vertices": 4320,
+      "area_faces": 3113,
+      "file_size": 537585
+    }
+  },
+  "cube20_hollow.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1560.0,
+      "volume": 1560.0,
+      "edges": 144,
+      "surface_area": 3128.0,
+      "box_volume": 4800.0,
+      "vertices": 48,
+      "area_faces": 24,
+      "file_size": 6069
+    }
+  },
+  "Arm_v3_Reverse_90.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 17268.15119103606,
+      "volume": 17268.15119103606,
+      "edges": 64260,
+      "surface_area": 9374.702137293534,
+      "box_volume": 57833.59811973572,
+      "vertices": 16035,
+      "area_faces": 10710,
+      "file_size": 535584
+    }
+  },
+  "AAA-Cover.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 24862.861259627833,
+      "volume": 24862.861259627833,
+      "edges": 6720,
+      "surface_area": 27610.134442487753,
+      "box_volume": 270064.9759213725,
+      "vertices": 1680,
+      "area_faces": 1120,
+      "file_size": 56084
+    }
+  },
+  "Rear_Wheel_-_Ninjaflex.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22023,
+        "basic": 11670
+      },
+      "ultimaker3": {
+        "default": 21843,
+        "basic": 11664
+      }
+    },
+    "model_statistics": {
+      "mass": 41722.55456158657,
+      "volume": 41722.55456158657,
+      "edges": 183648,
+      "surface_area": 18075.07982664951,
+      "box_volume": 125989.55383300781,
+      "vertices": 45912,
+      "area_faces": 30608,
+      "file_size": 1530484
+    }
+  },
+  "Japanese_Fountain_Supply_Line_Rev_D.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10469,
+        "basic": 9853
+      },
+      "ultimaker3": {
+        "default": 10481,
+        "basic": 9852
+      }
+    },
+    "model_statistics": {
+      "mass": 8172.017930353681,
+      "volume": 8172.017930353681,
+      "edges": 576,
+      "surface_area": 16436.012733464373,
+      "box_volume": 312001.3620193003,
+      "vertices": 144,
+      "area_faces": 96,
+      "file_size": 4884
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_starboard_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 104.59288448518551,
+      "volume": 104.59288448518551,
+      "edges": 4248,
+      "surface_area": 357.64228962992047,
+      "box_volume": 1011.9151234262262,
+      "vertices": 1068,
+      "area_faces": 708,
+      "file_size": 35484
+    }
+  },
+  "V29D_Fixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 12441,
+        "basic": 9629
+      },
+      "ultimaker3": {
+        "default": 12454,
+        "basic": 9632
+      }
+    },
+    "model_statistics": {
+      "mass": 13388.066309657283,
+      "volume": 13388.066309657283,
+      "edges": 287292,
+      "surface_area": 11665.005961241177,
+      "box_volume": 35441.82796028235,
+      "vertices": 71859,
+      "area_faces": 47882,
+      "file_size": 2394184
+    }
+  },
+  "V4_Main_Chassis_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1370,
+        "basic": 1254
+      },
+      "ultimaker3": {
+        "default": 1369,
+        "basic": 1253
+      }
+    },
+    "model_statistics": {
+      "mass": 190361.20031549086,
+      "volume": 190361.20031549086,
+      "edges": 30624,
+      "surface_area": 77181.69592520341,
+      "box_volume": 1032878.6788046836,
+      "vertices": 7632,
+      "area_faces": 5104,
+      "file_size": 255284
+    }
+  },
+  "Red_box_with_wall_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 71876,
+        "basic": 48154
+      },
+      "ultimaker3": {
+        "default": 71891,
+        "basic": 48210
+      }
+    },
+    "model_statistics": {
+      "mass": 188670.8937806862,
+      "volume": 188670.8937806862,
+      "edges": 438444,
+      "surface_area": 116501.87072095566,
+      "box_volume": 1088155.5820570136,
+      "vertices": 109623,
+      "area_faces": 73074,
+      "file_size": 3653784
+    }
+  },
+  "Gimball_Test_Print.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4525,
+        "basic": 4144
+      },
+      "ultimaker3": {
+        "default": 4524,
+        "basic": 4144
+      }
+    },
+    "model_statistics": {
+      "mass": 7707.914375051469,
+      "volume": 7707.914375051469,
+      "edges": 1300788,
+      "surface_area": 12644.084432719825,
+      "box_volume": 27040.0,
+      "vertices": 325197,
+      "area_faces": 216798,
+      "file_size": 10839984
+    }
+  },
+  "Black_box_mixed.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 507583.38217708445,
+      "volume": 507583.38217708445,
+      "edges": 1771452,
+      "surface_area": 570088.936013324,
+      "box_volume": 7081885.999040042,
+      "vertices": 431301,
+      "area_faces": 295242,
+      "file_size": 14762184
+    }
+  },
+  "precision_block.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 3680.8056200460037,
+      "volume": 3680.8056200460037,
+      "edges": 2316,
+      "surface_area": 3056.26128487362,
+      "box_volume": 5952.27528,
+      "vertices": 549,
+      "area_faces": 386,
+      "file_size": 97144
+    }
+  },
+  "Black_box_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 320137.34787567134,
+      "volume": 320137.34787567134,
+      "edges": 1644612,
+      "surface_area": 665714.4144331649,
+      "box_volume": 7081865.738737931,
+      "vertices": 340281,
+      "area_faces": 274102,
+      "file_size": 13705184
+    }
+  },
+  "ESC_Mount.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1797.6017301509028,
+      "volume": 1797.6017301509028,
+      "edges": 11664,
+      "surface_area": 1838.2645974660963,
+      "box_volume": 7650.0,
+      "vertices": 2910,
+      "area_faces": 1944,
+      "file_size": 97284
+    }
+  },
+  "Axis_change_connector.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 3794.72235707693,
+      "volume": 3794.72235707693,
+      "edges": 52836,
+      "surface_area": 3353.222662620071,
+      "box_volume": 9239.999198913574,
+      "vertices": 13185,
+      "area_faces": 8806,
+      "file_size": 440384
+    }
+  },
+  "Front_Wheel_-_PLA.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 9702,
+        "basic": 6538
+      },
+      "ultimaker3": {
+        "default": 9714,
+        "basic": 6540
+      }
+    },
+    "model_statistics": {
+      "mass": 17769.939638110285,
+      "volume": 17769.939638110285,
+      "edges": 22944,
+      "surface_area": 10941.988958149319,
+      "box_volume": 55225.00000000001,
+      "vertices": 5712,
+      "area_faces": 3824,
+      "file_size": 191284
+    }
+  },
+  "M5_knob_for_phone_v4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1668,
+        "basic": 1280
+      },
+      "ultimaker3": {
+        "default": 1673,
+        "basic": 1273
+      }
+    },
+    "model_statistics": {
+      "mass": 1651.1047255932874,
+      "volume": 1651.1047255932874,
+      "edges": 178704,
+      "surface_area": 2168.277913710814,
+      "box_volume": 4162.5,
+      "vertices": 44337,
+      "area_faces": 29784,
+      "file_size": 1489284
+    }
+  },
+  "Prusa_Enclosure_Door_Knob.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10063,
+        "basic": 8284
+      },
+      "ultimaker3": {
+        "default": 10064,
+        "basic": 8284
+      }
+    },
+    "model_statistics": {
+      "mass": 14377.349517818424,
+      "volume": 14377.349517818424,
+      "edges": 13296,
+      "surface_area": 12103.984307835704,
+      "box_volume": 93882.91212690398,
+      "vertices": 3330,
+      "area_faces": 2216,
+      "file_size": 110884
+    }
+  },
+  "Steering_-Rack-.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 756,
+        "basic": 756
+      },
+      "ultimaker3": {
+        "default": 756,
+        "basic": 756
+      }
+    },
+    "model_statistics": {
+      "mass": 4047.166815010034,
+      "volume": 4047.166815010034,
+      "edges": 72048,
+      "surface_area": 3373.9894367685106,
+      "box_volume": 11643.75,
+      "vertices": 17976,
+      "area_faces": 12008,
+      "file_size": 600484
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_v02_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 12926.228841505466,
+      "volume": 12926.228841505466,
+      "edges": 826788,
+      "surface_area": 8455.306404125033,
+      "box_volume": 85213.67537340023,
+      "vertices": 201009,
+      "area_faces": 137798,
+      "file_size": 6889984
+    }
+  },
+  "Prusa_Enclosure_Bottom_Corners.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 88591,
+        "basic": 52910
+      },
+      "ultimaker3": {
+        "default": 88599,
+        "basic": 52894
+      }
+    },
+    "model_statistics": {
+      "mass": 226294.3921982368,
+      "volume": 226294.3921982368,
+      "edges": 127200,
+      "surface_area": 87789.76527656241,
+      "box_volume": 676738.620220609,
+      "vertices": 31812,
+      "area_faces": 21200,
+      "file_size": 1060084
+    }
+  },
+  "Arm_v3_Reverse_60.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 13774.479232584767,
+      "volume": 13774.479232584767,
+      "edges": 55908,
+      "surface_area": 7217.964978942551,
+      "box_volume": 41465.598651885986,
+      "vertices": 13947,
+      "area_faces": 9318,
+      "file_size": 465984
+    }
+  },
+  "AAA-Base.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 39591.85826954007,
+      "volume": 39591.85826954007,
+      "edges": 10740,
+      "surface_area": 25390.918811119172,
+      "box_volume": 320358.503656783,
+      "vertices": 2673,
+      "area_faces": 1790,
+      "file_size": 89584
+    }
+  },
+  "Japanese_Fountain_Strut_Rev_A.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 3402,
+        "basic": 2227
+      },
+      "ultimaker3": {
+        "default": 3400,
+        "basic": 2226
+      }
+    },
+    "model_statistics": {
+      "mass": 7833.885944362353,
+      "volume": 7833.885944362353,
+      "edges": 984,
+      "surface_area": 3357.5590911732666,
+      "box_volume": 17490.886688232422,
+      "vertices": 252,
+      "area_faces": 164,
+      "file_size": 8284
+    }
+  },
+  "X_Axle.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4934,
+        "basic": 4370
+      },
+      "ultimaker3": {
+        "default": 4933,
+        "basic": 4370
+      }
+    },
+    "model_statistics": {
+      "mass": 2753.2417302434087,
+      "volume": 2753.2417302434087,
+      "edges": 5856,
+      "surface_area": 1577.779148472358,
+      "box_volume": 5177.051272907796,
+      "vertices": 1470,
+      "area_faces": 976,
+      "file_size": 297667
+    }
+  },
+  "tower50.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 5000.0,
+      "volume": 5000.0,
+      "edges": 72,
+      "surface_area": 2200.0,
+      "box_volume": 5000.0,
+      "vertices": 24,
+      "area_faces": 12,
+      "file_size": 3053
+    }
+  },
+  "moon3inches.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 23923.420382388023,
+      "volume": 23923.420382388023,
+      "edges": 6203520,
+      "surface_area": 40916.29545274041,
+      "box_volume": 373194.7265462502,
+      "vertices": 1550892,
+      "area_faces": 1033920,
+      "file_size": 51696084
+    }
+  },
+  "V2_Turn_Table.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 50395,
+        "basic": 32119
+      },
+      "ultimaker3": {
+        "default": 50406,
+        "basic": 32126
+      }
+    },
+    "model_statistics": {
+      "mass": 194835.26425691484,
+      "volume": 194835.26425691484,
+      "edges": 47784,
+      "surface_area": 94063.29858519693,
+      "box_volume": 2199245.7369886683,
+      "vertices": 11946,
+      "area_faces": 7964,
+      "file_size": 398284
+    }
+  },
+  "Flying_Wing_v3.1_right.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22718,
+        "basic": 17895
+      },
+      "ultimaker3": {
+        "default": 22718,
+        "basic": 17889
+      }
+    },
+    "model_statistics": {
+      "mass": 48727.24644969722,
+      "volume": 48727.24644969722,
+      "edges": 2964,
+      "surface_area": 26358.049649569162,
+      "box_volume": 342271.740251722,
+      "vertices": 735,
+      "area_faces": 494,
+      "file_size": 24784
+    }
+  },
+  "Axle_Mount_Side_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1829.0561540855244,
+      "volume": 1829.0561540855244,
+      "edges": 35724,
+      "surface_area": 1789.4960780818888,
+      "box_volume": 11109.096187231193,
+      "vertices": 8919,
+      "area_faces": 5954,
+      "file_size": 297784
+    }
+  },
+  "Gnomon_Northen.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 78076,
+        "basic": 53290
+      },
+      "ultimaker3": {
+        "default": 78034,
+        "basic": 53239
+      }
+    },
+    "model_statistics": {
+      "mass": 169489.30721157047,
+      "volume": 169489.30721157047,
+      "edges": 132090,
+      "surface_area": 93365.35906173955,
+      "box_volume": 358642.07999999996,
+      "vertices": 28926,
+      "area_faces": 22015,
+      "file_size": 3799295
+    }
+  },
+  "Front_Wheel_-_Ninjaflex.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22551,
+        "basic": 12185
+      },
+      "ultimaker3": {
+        "default": 22526,
+        "basic": 12186
+      }
+    },
+    "model_statistics": {
+      "mass": 36318.81500481552,
+      "volume": 36318.81500481552,
+      "edges": 178800,
+      "surface_area": 14030.681055905894,
+      "box_volume": 105606.58931732178,
+      "vertices": 44700,
+      "area_faces": 29800,
+      "file_size": 1490084
+    }
+  },
+  "crossbow_body_middle_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 504,
+        "basic": 481
+      },
+      "ultimaker3": {
+        "default": 509,
+        "basic": 482
+      }
+    },
+    "model_statistics": {
+      "mass": 384.7544875043844,
+      "volume": 384.7544875043844,
+      "edges": 4512,
+      "surface_area": 804.6539693541777,
+      "box_volume": 2004.678382726212,
+      "vertices": 1122,
+      "area_faces": 752,
+      "file_size": 203667
+    }
+  },
+  "V2_chassis_cog_cover.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 1669,
+        "basic": 1695
+      },
+      "ultimaker3": {
+        "default": 1661,
+        "basic": 1695
+      }
+    },
+    "model_statistics": {
+      "mass": 2612.392919135794,
+      "volume": 2612.392919135794,
+      "edges": 1980,
+      "surface_area": 3209.4755185027398,
+      "box_volume": 26709.578361157004,
+      "vertices": 495,
+      "area_faces": 330,
+      "file_size": 16584
+    }
+  },
+  "jet_fighter_large_200.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 9666,
+        "basic": 7653
+      },
+      "ultimaker3": {
+        "default": 9664,
+        "basic": 7650
+      }
+    },
+    "model_statistics": {
+      "mass": 12611.545999362017,
+      "volume": 12611.545999362017,
+      "edges": 27000,
+      "surface_area": 9610.397719608707,
+      "box_volume": 110918.1683128688,
+      "vertices": 6738,
+      "area_faces": 4500,
+      "file_size": 225084
+    }
+  },
+  "C-Base.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 45404.16031799589,
+      "volume": 45404.16031799589,
+      "edges": 11100,
+      "surface_area": 28408.628388281813,
+      "box_volume": 378593.46702235454,
+      "vertices": 2793,
+      "area_faces": 1850,
+      "file_size": 92584
+    }
+  },
+  "Prusa_Enclosure_Top_Corners.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 100395,
+        "basic": 49982
+      },
+      "ultimaker3": {
+        "default": 100445,
+        "basic": 49987
+      }
+    },
+    "model_statistics": {
+      "mass": 308736.1982194348,
+      "volume": 308736.1982194348,
+      "edges": 80472,
+      "surface_area": 79504.52845169941,
+      "box_volume": 1055853.3518975975,
+      "vertices": 20070,
+      "area_faces": 13412,
+      "file_size": 670684
+    }
+  },
+  "base_for_YODA_V4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 17538,
+        "basic": 11035
+      },
+      "ultimaker3": {
+        "default": 17532,
+        "basic": 11034
+      }
+    },
+    "model_statistics": {
+      "mass": 20999.55559707327,
+      "volume": 20999.55559707327,
+      "edges": 432,
+      "surface_area": 22239.89962239273,
+      "box_volume": 486246.8113693073,
+      "vertices": 120,
+      "area_faces": 72,
+      "file_size": 3684
+    }
+  },
+  "chain-500.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 75827,
+        "basic": 66192
+      },
+      "ultimaker3": {
+        "default": 75508,
+        "basic": 66366
+      }
+    },
+    "model_statistics": {
+      "mass": 27752.64451312898,
+      "volume": 27752.64451312898,
+      "edges": 3794784,
+      "surface_area": 68278.67943984624,
+      "box_volume": 143487.03179280832,
+      "vertices": 967011,
+      "area_faces": 632464,
+      "file_size": 31623284
+    }
+  },
+  "MakerBot_Headphone_Stand.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 85485,
+        "basic": 43828
+      },
+      "ultimaker3": {
+        "default": 85443,
+        "basic": 43804
+      }
+    },
+    "model_statistics": {
+      "mass": 246451.50410879406,
+      "volume": 246451.50410879406,
+      "edges": 133200,
+      "surface_area": 51783.49027753908,
+      "box_volume": 6680683.567290186,
+      "vertices": 33300,
+      "area_faces": 22200,
+      "file_size": 1110084
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 12938.039478485458,
+      "volume": 12938.039478485458,
+      "edges": 837252,
+      "surface_area": 8607.62211902433,
+      "box_volume": 85213.67537340023,
+      "vertices": 203283,
+      "area_faces": 139542,
+      "file_size": 6977184
+    }
+  },
+  "crossbow_trigger.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 429,
+        "basic": 389
+      },
+      "ultimaker3": {
+        "default": 427,
+        "basic": 388
+      }
+    },
+    "model_statistics": {
+      "mass": 500.22014153379257,
+      "volume": 500.22014153379257,
+      "edges": 4176,
+      "surface_area": 688.2228935786885,
+      "box_volume": 1657.9127501985427,
+      "vertices": 1050,
+      "area_faces": 696,
+      "file_size": 188563
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_port_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 104.6703962577858,
+      "volume": 104.6703962577858,
+      "edges": 4248,
+      "surface_area": 357.68659001852615,
+      "box_volume": 1013.1120038749469,
+      "vertices": 1068,
+      "area_faces": 708,
+      "file_size": 35484
+    }
+  },
+  "Front_Wheel_Simple_-_PLA.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 10078,
+        "basic": 6567
+      },
+      "ultimaker3": {
+        "default": 9777,
+        "basic": 6566
+      }
+    },
+    "model_statistics": {
+      "mass": 17728.33737097716,
+      "volume": 17728.33737097716,
+      "edges": 18624,
+      "surface_area": 10978.110638782768,
+      "box_volume": 55225.00000000001,
+      "vertices": 4632,
+      "area_faces": 3104,
+      "file_size": 155284
+    }
+  },
+  "9g_Servo_Mount.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 2885.5301739192973,
+      "volume": 2885.5301739192973,
+      "edges": 18144,
+      "surface_area": 2484.1966654044313,
+      "box_volume": 8874.0,
+      "vertices": 4518,
+      "area_faces": 3024,
+      "file_size": 151284
+    }
+  },
+  "Red_box_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 62458,
+        "basic": 42381
+      },
+      "ultimaker3": {
+        "default": 62478,
+        "basic": 42438
+      }
+    },
+    "model_statistics": {
+      "mass": 170586.5799575085,
+      "volume": 170586.5799575085,
+      "edges": 400788,
+      "surface_area": 104982.70383172011,
+      "box_volume": 1088155.5820570136,
+      "vertices": 100209,
+      "area_faces": 66798,
+      "file_size": 3339984
+    }
+  },
+  "Head_without_brim_lower_detail.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 34238,
+        "basic": 12604
+      },
+      "ultimaker3": {
+        "default": 34250,
+        "basic": 12616
+      }
+    },
+    "model_statistics": {
+      "mass": 128649.81825381846,
+      "volume": 128649.81825381846,
+      "edges": 3599964,
+      "surface_area": 15212.623207103084,
+      "box_volume": 396328.51511771756,
+      "vertices": 899997,
+      "area_faces": 599994,
+      "file_size": 29999784
+    }
+  },
+  "Front_Wheel_Simple_-_Ninjaflex.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 23354,
+        "basic": 9754
+      },
+      "ultimaker3": {
+        "default": 22917,
+        "basic": 9316
+      }
+    },
+    "model_statistics": {
+      "mass": 34260.48833642932,
+      "volume": 34260.48833642932,
+      "edges": 7056,
+      "surface_area": 15785.483499875874,
+      "box_volume": 105424.81327056885,
+      "vertices": 1764,
+      "area_faces": 1176,
+      "file_size": 58884
+    }
+  },
+  "Turntable_Split_5pcs_3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 26248.639866383008,
+      "volume": 26248.639866383008,
+      "edges": 11532,
+      "surface_area": 18102.62156410205,
+      "box_volume": 199116.89240052502,
+      "vertices": 2889,
+      "area_faces": 1922,
+      "file_size": 96184
+    }
+  },
+  "Arm_v3_60.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 13774.480051809922,
+      "volume": 13774.480051809922,
+      "edges": 57684,
+      "surface_area": 7217.963534945932,
+      "box_volume": 41465.598651885986,
+      "vertices": 14391,
+      "area_faces": 9614,
+      "file_size": 480784
+    }
+  },
+  "Phone_clamp_holder_v3.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2693,
+        "basic": 1930
+      },
+      "ultimaker3": {
+        "default": 2695,
+        "basic": 1933
+      }
+    },
+    "model_statistics": {
+      "mass": 5393.988709077673,
+      "volume": 5393.988709077673,
+      "edges": 54972,
+      "surface_area": 4123.5901445145555,
+      "box_volume": 28819.93430367974,
+      "vertices": 13737,
+      "area_faces": 9162,
+      "file_size": 458184
+    }
+  },
+  "Flying_Wing_v3_right.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 22992,
+        "basic": 18068
+      },
+      "ultimaker3": {
+        "default": 22982,
+        "basic": 18055
+      }
+    },
+    "model_statistics": {
+      "mass": 49197.68549490924,
+      "volume": 49197.68549490924,
+      "edges": 3564,
+      "surface_area": 26622.02807841407,
+      "box_volume": 342290.3348072673,
+      "vertices": 882,
+      "area_faces": 594,
+      "file_size": 29784
+    }
+  },
+  "Yellow_box_engraved.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 17022,
+        "basic": 12513
+      },
+      "ultimaker3": {
+        "default": 17012,
+        "basic": 12508
+      }
+    },
+    "model_statistics": {
+      "mass": 73075.4414396089,
+      "volume": 73075.4414396089,
+      "edges": 290916,
+      "surface_area": 60599.274973009306,
+      "box_volume": 410393.06422593945,
+      "vertices": 72735,
+      "area_faces": 48486,
+      "file_size": 2424384
+    }
+  },
+  "Headphone_holder.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11452,
+        "basic": 6756
+      },
+      "ultimaker3": {
+        "default": 11452,
+        "basic": 6756
+      }
+    },
+    "model_statistics": {
+      "mass": 30830.496591214156,
+      "volume": 30830.496591214156,
+      "edges": 82032,
+      "surface_area": 8554.896230220684,
+      "box_volume": 61020.0,
+      "vertices": 20502,
+      "area_faces": 13672,
+      "file_size": 683684
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_starboard_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 14.05011660251004,
+      "volume": 14.05011660251004,
+      "edges": 22092,
+      "surface_area": 77.1207484180375,
+      "box_volume": 137.107901941688,
+      "vertices": 5523,
+      "area_faces": 3682,
+      "file_size": 184184
+    }
+  },
+  "sphere.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 396,
+        "basic": 390
+      },
+      "ultimaker3": {
+        "default": 395,
+        "basic": 389
+      }
+    },
+    "model_statistics": {
+      "mass": 998.3538021210297,
+      "volume": 998.3538021210297,
+      "edges": 59976,
+      "surface_area": 483.1992022550013,
+      "box_volume": 1907.0298905850796,
+      "vertices": 15000,
+      "area_faces": 9996,
+      "file_size": 499884
+    }
+  },
+  "Star_X_Cam.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 25988.615437055625,
+      "volume": 25988.615437055625,
+      "edges": 26976,
+      "surface_area": 10658.588845730304,
+      "box_volume": 81985.41716589425,
+      "vertices": 6744,
+      "area_faces": 4496,
+      "file_size": 1321194
+    }
+  },
+  "chain-700.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 85264,
+        "basic": 78128
+      },
+      "ultimaker3": {
+        "default": 85306,
+        "basic": 78378
+      }
+    },
+    "model_statistics": {
+      "mass": 43494.021153137306,
+      "volume": 43494.021153137306,
+      "edges": 5343144,
+      "surface_area": 96090.89533543745,
+      "box_volume": 191341.71914188407,
+      "vertices": 1361241,
+      "area_faces": 890524,
+      "file_size": 44526284
+    }
+  },
+  "Blue_box_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 59164.51028570619,
+      "volume": 59164.51028570619,
+      "edges": 143532,
+      "surface_area": 38173.30681117035,
+      "box_volume": 258666.76195428945,
+      "vertices": 35895,
+      "area_faces": 23922,
+      "file_size": 1196184
+    }
+  },
+  "AA-Cover.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 25612.889505816514,
+      "volume": 25612.889505816514,
+      "edges": 4704,
+      "surface_area": 28147.777335583967,
+      "box_volume": 289268.55320265034,
+      "vertices": 1176,
+      "area_faces": 784,
+      "file_size": 39284
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Stern_window_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 61.94890608146768,
+      "volume": 61.94890608146768,
+      "edges": 8364,
+      "surface_area": 208.26192337664952,
+      "box_volume": 370.42972152084656,
+      "vertices": 2091,
+      "area_faces": 1394,
+      "file_size": 69784
+    }
+  },
+  "V2_crank_handle_1.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 864.5323831979622,
+      "volume": 864.5323831979622,
+      "edges": 11832,
+      "surface_area": 760.3367326796008,
+      "box_volume": 4311.318272691489,
+      "vertices": 2964,
+      "area_faces": 1972,
+      "file_size": 98684
+    }
+  },
+  "15mm_Spacer.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 219.48185522297535,
+      "volume": 219.48185522297535,
+      "edges": 10368,
+      "surface_area": 611.8425239469079,
+      "box_volume": 735.0,
+      "vertices": 2592,
+      "area_faces": 1728,
+      "file_size": 86484
+    }
+  },
+  "Turntable_Split_5pcs_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 27476.173388593586,
+      "volume": 27476.173388593586,
+      "edges": 12396,
+      "surface_area": 19173.237686567685,
+      "box_volume": 216810.34902860038,
+      "vertices": 3105,
+      "area_faces": 2066,
+      "file_size": 103384
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Deck_surface_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 447.0081682433711,
+      "volume": 447.0081682433711,
+      "edges": 27996,
+      "surface_area": 1903.532067058184,
+      "box_volume": 13840.316988702352,
+      "vertices": 6831,
+      "area_faces": 4666,
+      "file_size": 233384
+    }
+  },
+  "Gnomon_Northen_Half_1_of_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 39304,
+        "basic": 25472
+      },
+      "ultimaker3": {
+        "default": 39318,
+        "basic": 25479
+      }
+    },
+    "model_statistics": {
+      "mass": 90055.39325563406,
+      "volume": 90055.39325563406,
+      "edges": 32652,
+      "surface_area": 40328.41107875789,
+      "box_volume": 180001.19891332256,
+      "vertices": 7473,
+      "area_faces": 5442,
+      "file_size": 272184
+    }
+  },
+  "Yoda_Ver_4.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 11671,
+        "basic": 9700
+      },
+      "ultimaker3": {
+        "default": 11691,
+        "basic": 9736
+      }
+    },
+    "model_statistics": {
+      "mass": 9237.105454033595,
+      "volume": 9237.105454033595,
+      "edges": 64440,
+      "surface_area": 13941.194807113194,
+      "box_volume": 30150.0,
+      "vertices": 16062,
+      "area_faces": 10740,
+      "file_size": 537084
+    }
+  },
+  "fire_truck.STL": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 4296,
+        "basic": 3708
+      },
+      "ultimaker3": {
+        "default": 4312,
+        "basic": 3709
+      }
+    },
+    "model_statistics": {
+      "mass": 4415.217359726556,
+      "volume": 4415.217359726556,
+      "edges": 43692,
+      "surface_area": 4653.243525559348,
+      "box_volume": 19941.063984603697,
+      "vertices": 10785,
+      "area_faces": 7282,
+      "file_size": 364184
+    }
+  },
+  "Rear_Wheel_Simple_-_PLA.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 13992,
+        "basic": 8929
+      },
+      "ultimaker3": {
+        "default": 13580,
+        "basic": 8928
+      }
+    },
+    "model_statistics": {
+      "mass": 25299.08424171759,
+      "volume": 25299.08424171759,
+      "edges": 18624,
+      "surface_area": 14921.470344460839,
+      "box_volume": 77315.0,
+      "vertices": 4632,
+      "area_faces": 3104,
+      "file_size": 155284
+    }
+  },
+  "Connector_NETFABBED.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 61970.56046036684,
+      "volume": 61970.56046036684,
+      "edges": 20700,
+      "surface_area": 14607.171240293212,
+      "box_volume": 119347.58120442828,
+      "vertices": 5157,
+      "area_faces": 3450,
+      "file_size": 172584
+    }
+  },
+  "oozebane_test.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1100.0000092387181,
+      "volume": 1100.0000092387181,
+      "edges": 168,
+      "surface_area": 1060.000031709671,
+      "box_volume": 2100.0001046061525,
+      "vertices": 48,
+      "area_faces": 28,
+      "file_size": 1484
+    }
+  },
+  "crossbow_body_middle_2.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2095,
+        "basic": 1864
+      },
+      "ultimaker3": {
+        "default": 2096,
+        "basic": 1865
+      }
+    },
+    "model_statistics": {
+      "mass": 2479.6828674939884,
+      "volume": 2479.6828674939884,
+      "edges": 17928,
+      "surface_area": 3164.975987665191,
+      "box_volume": 10520.731857183662,
+      "vertices": 4458,
+      "area_faces": 2988,
+      "file_size": 806777
+    }
+  },
+  "Black_box_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 657696.8116830138,
+      "volume": 657696.8116830138,
+      "edges": 1361268,
+      "surface_area": 397298.76551462547,
+      "box_volume": 7081885.999040042,
+      "vertices": 340329,
+      "area_faces": 226878,
+      "file_size": 11343984
+    }
+  },
+  "2430_Motor_Mount.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 21152.210283140994,
+      "volume": 21152.210283140994,
+      "edges": 96264,
+      "surface_area": 10626.636320064365,
+      "box_volume": 76500.0,
+      "vertices": 24000,
+      "area_faces": 16044,
+      "file_size": 802284
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Chimney_body_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 164.0941775659493,
+      "volume": 164.0941775659493,
+      "edges": 7164,
+      "surface_area": 295.0380070208187,
+      "box_volume": 401.09187309116294,
+      "vertices": 1791,
+      "area_faces": 1194,
+      "file_size": 59784
+    }
+  },
+  "Arm_v3_Reverse_150.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 25291.216683108047,
+      "volume": 25291.216683108047,
+      "edges": 69048,
+      "surface_area": 13729.257757922753,
+      "box_volume": 90569.59705543518,
+      "vertices": 17226,
+      "area_faces": 11508,
+      "file_size": 575484
+    }
+  },
+  "Rear_Axel_Ruler.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 2474,
+        "basic": 2028
+      },
+      "ultimaker3": {
+        "default": 2473,
+        "basic": 2027
+      }
+    },
+    "model_statistics": {
+      "mass": 1327.8577273999408,
+      "volume": 1327.8577273999408,
+      "edges": 7296,
+      "surface_area": 1415.6192319780698,
+      "box_volume": 2386.019875875092,
+      "vertices": 1830,
+      "area_faces": 1216,
+      "file_size": 60884
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hull_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 10060.929453409757,
+      "volume": 10060.929453409757,
+      "edges": 1120320,
+      "surface_area": 4948.7045038038705,
+      "box_volume": 47239.82710843944,
+      "vertices": 218772,
+      "area_faces": 186720,
+      "file_size": 9336084
+    }
+  },
+  "M5.0_Nut.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 258,
+        "basic": 256
+      },
+      "ultimaker3": {
+        "default": 257,
+        "basic": 255
+      }
+    },
+    "model_statistics": {
+      "mass": 151.73819281981937,
+      "volume": 151.73819281981937,
+      "edges": 8964,
+      "surface_area": 257.56425809120776,
+      "box_volume": 295.6025390625,
+      "vertices": 2235,
+      "area_faces": 1494,
+      "file_size": 74784
+    }
+  },
+  "Green_box_solid.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 37648,
+        "basic": 25975
+      },
+      "ultimaker3": {
+        "default": 37638,
+        "basic": 26004
+      }
+    },
+    "model_statistics": {
+      "mass": 110394.5404964244,
+      "volume": 110394.5404964244,
+      "edges": 292236,
+      "surface_area": 68504.10817961417,
+      "box_volume": 597181.6348691452,
+      "vertices": 73071,
+      "area_faces": 48706,
+      "file_size": 2435384
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Bridge_roof_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 1274.94818229628,
+      "volume": 1274.94818229628,
+      "edges": 147336,
+      "surface_area": 1174.3308290807522,
+      "box_volume": 2636.649942473069,
+      "vertices": 36747,
+      "area_faces": 24556,
+      "file_size": 1227884
+    }
+  },
+  "Arm_v3_150.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 25277.55587270089,
+      "volume": 25277.55587270089,
+      "edges": 63672,
+      "surface_area": 13711.931036988835,
+      "box_volume": 90569.59705543518,
+      "vertices": 15882,
+      "area_faces": 10612,
+      "file_size": 530684
+    }
+  },
+  "single-link-hires.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 60.40184346595528,
+      "volume": 60.40184346595528,
+      "edges": 45312,
+      "surface_area": 139.1219517049867,
+      "box_volume": 148.17024411053885,
+      "vertices": 11328,
+      "area_faces": 7552,
+      "file_size": 377684
+    }
+  },
+  "Yellow_box_lattice.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": 18647,
+        "basic": 17068
+      },
+      "ultimaker3": {
+        "default": 18635,
+        "basic": 17066
+      }
+    },
+    "model_statistics": {
+      "mass": 52259.64259817642,
+      "volume": 52259.64259817642,
+      "edges": 281820,
+      "surface_area": 74091.1107027477,
+      "box_volume": 410393.06422593945,
+      "vertices": 64011,
+      "area_faces": 46970,
+      "file_size": 2348584
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Gunwale_Deck_Plate_Wheel_Frames_Roof_Chimney_top_-_3DBenchy.com.stl": {
+    "print_times": {
+      "ultimaker2": {
+        "default": null,
+        "basic": null
+      },
+      "ultimaker3": {
+        "default": null,
+        "basic": null
+      }
+    },
+    "model_statistics": {
+      "mass": 2619.6655043986902,
+      "volume": 2619.6655043986902,
+      "edges": 737868,
+      "surface_area": 5921.596084083394,
+      "box_volume": 79697.28693309033,
+      "vertices": 184134,
+      "area_faces": 122978,
+      "file_size": 6148984
+    }
+  }
+}

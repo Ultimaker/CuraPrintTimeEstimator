@@ -10,6 +10,7 @@ from Settings import Settings
 from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
 from curaPrintTimeEstimator.helpers.ModelStatisticsCalculator import ModelStatisticsCalculator
 
+
 class ModelDataGenerator:
     """
     Main application file to generate data for the Cura Print time estimator.
@@ -25,16 +26,14 @@ class ModelDataGenerator:
     slicer = ModelTimeCalculator()
 
     # The class responsible for calculating statistics about the model.
-    model_reader = ModelStatisticsCalculator()
+    stats_calc = ModelStatisticsCalculator()
 
-    def __init__(self):
-        self.settings = dict(self._findSettings())
-
-    def run(self) -> None:
+    @staticmethod
+    def run() -> None:
         """
         Runs the application.
         """
-        self.gatherData()
+        ModelDataGenerator().gatherData()
 
     def gatherData(self) -> Dict[str, Dict[str, Dict[str, any]]]:
         """
@@ -44,63 +43,21 @@ class ModelDataGenerator:
                 "print_times": {
                     definition: {settings_name: print_time},
                 },
-                "model_statistics": {""} TODO
+                "model_statistics": See `ModelStatisticsCalculator`.
             }
         }.
         """
         result = {}
-        for model in self._findModels():
-            result[model] = {
-                "print_times": self.gatherPrintTimeData(model),
-                "model_statistics": self.gatherModelStatistics(model),
+        for model_name, print_times in ModelTimeCalculator().gatherData().items():
+            if not os.path.exists(os.path.join("models", model_name)):
+                logging.warning("Cannot find model %s", model_name)
+                continue
+            result[model_name] = {
+                "print_times": print_times,
+                "model_statistics": self.stats_calc.read(model_name),
             }
 
         with open(self.OUTPUT_FILE, "w") as f:
             json.dump(result, f, indent=2)
         logging.info("Results written to %s", self.OUTPUT_FILE)
-        return result
-
-    @staticmethod
-    def _findModels() -> Iterable[str]:
-        """
-        Finds the STL files available in the 'models' sub folder.
-        :return: An iterable of model strings.
-        """
-        files = os.listdir("{}/models".format(Settings.PROJECT_DIR))
-        for model in sorted(files):
-            if model.endswith(".stl"):
-                yield model[:-4]
-
-    @staticmethod
-    def _findSettings() -> Iterable[Tuple[str, List[str]]]:
-        """
-        Finds the TXT files available in the 'settings' sub folder.
-        :return: An iterable of lists of settings each format: (settings_name, settings_parameters).
-        """
-        directory = "{}/settings".format(Settings.PROJECT_DIR)
-        files = os.listdir(directory)
-        for name in sorted(files):
-            if name.endswith(".txt"):
-                with open("{}/{}".format(directory, name)) as f:
-                    yield name[:-4], f.read().splitlines()
-
-    def gatherModelStatistics(self, model) -> Dict[str, any]:
-        """
-        Gathers data about the model.
-        :param model: The name of the model file, without the .stl extension.
-        :return: The statistics about the model.
-        """
-        return self.model_reader.read(model)
-
-    def gatherPrintTimeData(self, model) -> Dict[str, Dict[str, int]]:
-        """
-        Gathers data about the estimated print time for one model, all settings and all definitions.
-        :param model: The name of the model file, without the .stl extension.
-        :return: A dict with the format {definition: {settings_name: print_time}}.
-        """
-        result = {}
-        for definition in self.DEFINITIONS:
-            result[definition] = {}
-            for setting_name, settings_parameters in self.settings.items():
-                result[definition][setting_name] = self.slicer.slice(model, definition, settings_parameters)
         return result

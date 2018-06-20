@@ -8,11 +8,11 @@ if __name__ == "__main__":
     if app == "download":
         from curaPrintTimeEstimator.helpers.ThingiverseModelDownloader import ThingiverseModelDownloader
         ThingiverseModelDownloader.run()
-    elif app == "slice":
-        from curaPrintTimeEstimator.helpers.ModelTimeTester import ModelTimeTester
-        ModelTimeTester.run()
-    elif app == "analyze":
+    elif app == "generate":
+        from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+        ModelDataGenerator.run()
+    elif app == "estimate":
         from curaPrintTimeEstimator.CuraPrintTimeEstimator import CuraPrintTimeEstimator
-        CuraPrintTimeEstimator.run()
+        CuraPrintTimeEstimator().run()
     else:
         raise ValueError("Please pass either 'download', 'slice' or 'analyze' as parameter.")
