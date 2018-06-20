@@ -37,7 +37,7 @@ class CuraNeuralNetworkModel:
         self.output = tf.nn.relu(tf.add(tf.matmul(hidden_out, W2), b2))  # output value
 
         # Function used to calculate the cost between the right output and the predicted output
-        self.cost_function = tf.reduce_mean(tf.square(tf.subtract(self.output, self.target)))
+        self.cost_function = tf.reduce_mean(tf.square(tf.subtract(self.target, self.output)))
 
     def train(self, data_train: List[List[float]], target_train: List[List[float]], learning_rate: float = 0.02,
               epochs: int = 2000, batch_size: int = 10):
@@ -74,3 +74,14 @@ class CuraNeuralNetworkModel:
             sess.run(tf.global_variables_initializer())
             # Validate the NN with the provided test data
             logging.debug("{output}".format(output = sess.run(self.cost_function, feed_dict = {self.input: data_test, self.target: target_test})))
+
+    def predict(self, data_predict: List[List[float]]) -> List[List[float]]:
+        logging.info("################ PREDICTION ################")
+        with tf.Session() as sess:
+            # Initialize the variables
+            sess.run(tf.global_variables_initializer())
+            # Validate the NN with the provided test data
+            predicted_value = sess.run(self.output, feed_dict = {self.input: data_predict})
+            logging.debug("{output}".format(output = predicted_value))
+
+        return predicted_value
