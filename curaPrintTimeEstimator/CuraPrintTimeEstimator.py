@@ -6,8 +6,6 @@ import json
 import copy
 from typing import List, Dict, Tuple, Optional
 from sklearn.model_selection import train_test_split
-import numpy as np
-import tensorflow as tf
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
@@ -28,14 +26,13 @@ class CuraPrintTimeEstimator:
 
     def __init__(self):
         self.inputs, self.targets = self._parseData(self._mask())
-        logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\n\nTARGETS: {targets}".format(inputs=self.inputs, targets=self.targets))
-        self.neural_network = CuraNeuralNetworkModel(len(self.inputs[0]), 1, 10)
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.inputs, self.targets, test_size = 0.25)
+        logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}".format(inputs=self.inputs, targets=self.targets))
+        self.neural_network = CuraNeuralNetworkModel(len(self.inputs[0]), 1)
 
     def run(self) -> None:
-        self.neural_network.train()
-
-    def train(self) -> None:
-        X_train, X_test, y_train, y_test = train_test_split(self.inputs, self.targets, test_size = 0.25)
+        self.neural_network.train(self.X_train, self.y_train)
+        self.neural_network.validate(self.X_test, self.y_test)
 
     def _mask(self) -> Dict[str, List[str]]:
         """
@@ -45,7 +42,7 @@ class CuraPrintTimeEstimator:
         with open(CuraPrintTimeEstimator.MASK_FILE) as f:
             return json.load(f)
 
-    def _parseData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[float]], List[float]]:
+    def _parseData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[float]], List[List[float]]]:
         """
         Organizes the data collected in previous steps in inputs and target values.
         :return: A list of values used as the input for the NN and the printing times as the target values
@@ -64,7 +61,7 @@ class CuraPrintTimeEstimator:
 
                 for definition in model_data["print_times"]:
                     for settings_profile in model_data["print_times"][definition]:
-                        targets.append(model_data["print_times"][definition][settings_profile])   # We store the target times
+                        targets.append([model_data["print_times"][definition][settings_profile]])   # We store the target times
                         # Use the statistics that are the same for the same model
                         input = copy.copy(statistics)
 
