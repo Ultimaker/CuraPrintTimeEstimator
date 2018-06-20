@@ -1,0 +1,102 @@
+{
+  "cube40.stl": {
+    "volume": 64000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 9600.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 64000.0,
+    "mass": 64000.0
+  },
+  "cube10.stl": {
+    "volume": 1000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 600.0,
+    "file_size": 1503,
+    "area_faces": 12,
+    "box_volume": 1000.0,
+    "mass": 1000.0
+  },
+  "cube50.stl": {
+    "volume": 125000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 15000.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 125000.0,
+    "mass": 125000.0
+  },
+  "cube60.stl": {
+    "volume": 216000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 21600.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 216000.0,
+    "mass": 216000.0
+  },
+  "cube80.stl": {
+    "volume": 512000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 38400.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 512000.0,
+    "mass": 512000.0
+  },
+  "cube100.stl": {
+    "volume": 1000000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 60000.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 1000000.0,
+    "mass": 1000000.0
+  },
+  "cube70.stl": {
+    "volume": 343000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 29400.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 343000.0,
+    "mass": 343000.0
+  },
+  "cube30.stl": {
+    "volume": 27000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 5400.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 27000.0,
+    "mass": 27000.0
+  },
+  "cube90.stl": {
+    "volume": 729000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 48600.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 729000.0,
+    "mass": 729000.0
+  },
+  "cube20.stl": {
+    "volume": 8000.0,
+    "vertices": 24,
+    "edges": 72,
+    "surface_area": 2400.0,
+    "file_size": 684,
+    "area_faces": 12,
+    "box_volume": 8000.0,
+    "mass": 8000.0
+  }
+}

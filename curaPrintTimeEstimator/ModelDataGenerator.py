@@ -3,11 +3,10 @@
 # -*- coding: utf-8 -*-
 import json
 import logging
-import os
-from typing import Iterable, List, Dict, Tuple
+from typing import Dict
 
 from Settings import Settings
-from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
+from curaPrintTimeEstimator.helpers import findModels
 from curaPrintTimeEstimator.helpers.ModelStatisticsCalculator import ModelStatisticsCalculator
 
 
@@ -16,14 +15,8 @@ class ModelDataGenerator:
     Main application file to generate data for the Cura Print time estimator.
     """
 
-    # which definition files should be used, excluding the .def.json extension.
-    DEFINITIONS = ("fdmprinter", )
-
     # The file will contain the output of the time estimation (see self.gatherPrintTimeData)
-    OUTPUT_FILE = "{}/output.json".format(Settings.PROJECT_DIR)
-
-    # The class responsible for actually slicing.
-    slicer = ModelTimeCalculator()
+    OUTPUT_FILE = "{}/model_statistics.json".format(Settings.PROJECT_DIR)
 
     # The class responsible for calculating statistics about the model.
     stats_calc = ModelStatisticsCalculator()
@@ -39,23 +32,10 @@ class ModelDataGenerator:
         """
         Gathers data about the estimated print time for one model, all settings and all definitions.
         :return: A dict with the format {
-            model_name: {
-                "print_times": {
-                    definition: {settings_name: print_time},
-                },
-                "model_statistics": See `ModelStatisticsCalculator`.
-            }
+            model_name: {See `ModelStatisticsCalculator`}
         }.
         """
-        result = {}
-        for model_name, print_times in ModelTimeCalculator().gatherData().items():
-            if not os.path.exists(os.path.join("models", model_name)):
-                logging.warning("Cannot find model %s", model_name)
-                continue
-            result[model_name] = {
-                "print_times": print_times,
-                "model_statistics": self.stats_calc.read(model_name),
-            }
+        result = {model: self.stats_calc.read(model) for model in findModels()}
 
         with open(self.OUTPUT_FILE, "w") as f:
             json.dump(result, f, indent=2)

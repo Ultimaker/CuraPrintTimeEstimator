@@ -1,28 +1,42 @@
 #!/usr/bin/env bash
 # Copyright (c) 2018 Ultimaker B.V.
 
-# build our tensorflow image
-docker build --tag cura-print-time-estimator:local --file Dockerfile .
+echo " ****** Building our tensorflow image ****** "
+docker build \
+    --tag cura-print-time-estimator:local \
+    --file Dockerfile . \
+    || exit $?
 
-# download some models with our image first
+echo " ****** Generating test models ****** "
 docker run --rm -it \
     --volume $PWD:/srv/host \
     --entrypoint python3 \
     cura-print-time-estimator:local \
-    main.py cubes
+    main.py cubes \
+    || exit $?
 
-# then slice the models we downloaded using the Cura Docker image.
+echo " ****** Slicing all models ****** "
 docker run --rm -it \
     --volume $PWD:/srv/host \
     --env CURA_ENGINE_SEARCH_PATH=/srv/cura/Cura/resources/extruders \
     --workdir /srv/host \
     --entrypoint python3 \
     ultimaker/cura:master-20180307 \
-    main.py generate
+    main.py slice \
+    || exit $?
 
-# then analyze the models and their printing times
+echo " ****** Generating test data ****** "
 docker run --rm -it \
     --volume $PWD:/srv/host \
     --entrypoint python3 \
     cura-print-time-estimator:local \
-    main.py estimate
+    main.py generate \
+    || exit $?
+
+echo " ****** Running neural network to estimate print times ****** "
+docker run --rm -it \
+    --volume $PWD:/srv/host \
+    --entrypoint python3 \
+    cura-print-time-estimator:local \
+    main.py estimate \
+    || exit $?

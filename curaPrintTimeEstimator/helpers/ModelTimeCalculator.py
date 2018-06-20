@@ -13,6 +13,7 @@ from subprocess import check_output, STDOUT, CalledProcessError
 from typing import List, Dict, Optional, Iterable, Tuple
 
 from Settings import Settings
+from curaPrintTimeEstimator.helpers import findModels
 
 
 class ModelTimeCalculator:
@@ -22,10 +23,7 @@ class ModelTimeCalculator:
     """
 
     # which definition files should be used, excluding the .def.json extension.
-    DEFINITIONS = ("ultimaker2", "ultimaker3")
-
-    # which files contain models
-    FILENAME_FILTER = r".*\.(stl|obj)"
+    DEFINITIONS = ("fdmprinter", )
 
     # The file will contain the output of the time estimation (see self.gatherPrintTimeData)
     OUTPUT_FILE = "{}/print_times.json".format(Settings.PROJECT_DIR)
@@ -58,7 +56,7 @@ class ModelTimeCalculator:
             result = {}
 
         try:
-            for model in self._findModels():
+            for model in findModels():
                 result[model] = self.gatherPrintTimeData(model, settings, prev_results=result.get(model))
         finally:
             with open(self.OUTPUT_FILE, "w") as f:
@@ -66,18 +64,6 @@ class ModelTimeCalculator:
             logging.info("Results written to %s", self.OUTPUT_FILE)
 
         return result
-
-    @classmethod
-    def _findModels(cls) -> Iterable[str]:
-        """
-        Finds the STL files available in the 'models' sub folder.
-        :return: An iterable of model strings.
-        """
-        files = os.listdir("{}/models".format(Settings.PROJECT_DIR))
-        search = re.compile(cls.FILENAME_FILTER, re.IGNORECASE)
-        for model in sorted(files, key=str.casefold):
-            if search.match(model):
-                yield model
 
     @staticmethod
     def _findSettings() -> Iterable[Tuple[str, List[str]]]:
@@ -120,8 +106,6 @@ class ModelTimeCalculator:
         :param settings: The extra settings to be passed to the engine.
         :return: The amount of seconds Cura expects the printing will take.
         """
-        return None
-
         logging.info("Slicing %s with definition %s and settings %s", model_name, definition, settings)
 
         arguments = [

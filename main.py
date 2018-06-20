@@ -8,6 +8,9 @@ if __name__ == "__main__":
     if app == "cubes":
         from curaPrintTimeEstimator.GenerateCubes import GenerateCubes
         GenerateCubes.run()
+    elif app == "slice":
+        from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
+        ModelTimeCalculator.run()
     elif app == "generate":
         from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
         ModelDataGenerator.run()

@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
+from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
 from curaPrintTimeEstimator.neuralnetwork.CuraNeuralNetworkModel import CuraNeuralNetworkModel
 
 
@@ -22,7 +23,8 @@ class CuraPrintTimeEstimator:
     MASK_FILE = "{}/mask.json".format(Settings.PROJECT_DIR)
 
     # The file that contains information we gather in a previous step
-    INPUT_FILE = ModelDataGenerator.OUTPUT_FILE
+    STATS_FILE = ModelDataGenerator.OUTPUT_FILE
+    SLICE_FILE = ModelTimeCalculator.OUTPUT_FILE
 
     SETTINGS_DIR = "{}/settings".format(Settings.PROJECT_DIR)
 
@@ -52,14 +54,21 @@ class CuraPrintTimeEstimator:
         inputs = []
         targets = []
 
-        with open(CuraPrintTimeEstimator.INPUT_FILE) as f:
-            data = json.load(f)
+        with open(CuraPrintTimeEstimator.STATS_FILE) as f:
+            stats_data = json.load(f)
 
-        for model_name, model_data in data.items():
+        with open(CuraPrintTimeEstimator.SLICE_FILE) as f:
+            slice_data = json.load(f)
+
+        for model_name, sliced_model in slice_data.items():
+            if model_name not in stats_data:
+                logging.warning("Cannot find stats for %s", model_name)
+                continue
+
             # Use the statistics that are the same for the same model
-            model_stats = list(model_data["model_statistics"][key] for key in mask_data["model_statistics"])
+            model_stats = list(stats_data[model_name][key] for key in mask_data["model_statistics"])
 
-            for definition, settings_profiles in model_data["print_times"].items():
+            for definition, settings_profiles in sliced_model.items():
                 for settings_profile, print_time in settings_profiles.items():
                     if not print_time:
                         continue
