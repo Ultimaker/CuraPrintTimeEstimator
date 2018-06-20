@@ -8,5 +8,5 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 # copy files
 WORKDIR /srv/host/
-CMD ["python3", "main.py", "analyze"]
+CMD ["python3", "main.py", "estimate"]
 ADD . .

@@ -9,7 +9,7 @@ docker run --rm -it \
     --volume $PWD:/srv/host \
     --entrypoint python3 \
     cura-print-time-estimator:local \
-    main.py download
+    main.py cubes
 
 # then slice the models we downloaded using the Cura Docker image.
 docker run --rm -it \
@@ -18,11 +18,11 @@ docker run --rm -it \
     --workdir /srv/host \
     --entrypoint python3 \
     ultimaker/cura:master-20180307 \
-    main.py slice
+    main.py generate
 
 # then analyze the models and their printing times
 docker run --rm -it \
     --volume $PWD:/srv/host \
     --entrypoint python3 \
     cura-print-time-estimator:local \
-    main.py analyze
+    main.py estimate

@@ -5,7 +5,10 @@ import sys
 
 if __name__ == "__main__":
     app = sys.argv[1]
-    if app == "generate":
+    if app == "cubes":
+        from curaPrintTimeEstimator.GenerateCubes import GenerateCubes
+        GenerateCubes.run()
+    elif app == "generate":
         from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
         ModelDataGenerator.run()
     elif app == "estimate":
