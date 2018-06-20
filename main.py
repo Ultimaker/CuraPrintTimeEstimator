@@ -5,9 +5,9 @@ import sys
 
 if __name__ == "__main__":
     app = sys.argv[1]
-    if app == "cubes":
-        from curaPrintTimeEstimator.GenerateCubes import GenerateCubes
-        GenerateCubes.run()
+    if app == "models":
+        from curaPrintTimeEstimator.ModelGenerator import ModelGenerator
+        ModelGenerator.run()
     elif app == "slice":
         from curaPrintTimeEstimator.helpers.ModelTimeCalculator import ModelTimeCalculator
         ModelTimeCalculator.run()

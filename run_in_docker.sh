@@ -18,7 +18,7 @@ docker run --rm -it \
     --volume $PWD:/srv/host \
     --entrypoint python3 \
     cura-print-time-estimator:local \
-    main.py cubes \
+    main.py models \
     || exit $?
 
 echo " ****** Slicing all models ****** "
