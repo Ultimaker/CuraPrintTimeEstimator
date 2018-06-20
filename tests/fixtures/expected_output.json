@@ -1,5 +1,5 @@
 {
-  "cube10.stl": {
+  "cube.stl": {
     "volume": 1000.0,
     "surface_area": 600.0,
     "area_faces": 12,
@@ -9,14 +9,14 @@
     "vertices": 24,
     "file_size": 1503
   },
-  "cube20.stl": {
-    "volume": 8000.0,
-    "surface_area": 2400.0,
-    "area_faces": 12,
-    "box_volume": 8000.0,
-    "edges": 72,
-    "mass": 8000.0,
-    "vertices": 24,
-    "file_size": 684
+  "sphere.stl": {
+    "volume": 998.3538021210297,
+    "surface_area": 483.1992022550013,
+    "area_faces": 9996,
+    "box_volume": 1907.0298905850796,
+    "edges": 59976,
+    "mass": 998.3538021210297,
+    "vertices": 15000,
+    "file_size": 499884
   }
 }

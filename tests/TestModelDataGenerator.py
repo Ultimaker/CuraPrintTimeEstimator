@@ -14,7 +14,7 @@ class TestModelDataGenerator(TestCase):
 
     @patch("curaPrintTimeEstimator.ModelDataGenerator.findModels")
     def test_run(self, find_models_mock):
-        find_models_mock.return_value = ["cube10.stl", "cube20.stl"]
+        find_models_mock.return_value = ["cube.stl", "sphere.stl"]
         ModelDataGenerator().run()
 
         with open(ModelDataGenerator.OUTPUT_FILE) as f:
