@@ -38,6 +38,8 @@ class CuraPrintTimeEstimator:
         neural_network = CuraNeuralNetworkModel(len(inputs[0]), 1)
         neural_network.train(x_train, y_train)
         neural_network.validate(x_test, y_test)
+        predicted_time = neural_network.predict([[2459.35, 2393.66, 0.1, 4.0, 2]])
+        logging.debug("This is the predicted time for the alligator.stl = {prediction}. This is the error = {error}".format(prediction=predicted_time[0][0], error=predicted_time[0][0] - 1791))
 
     def _getMask(self) -> Dict[str, List[str]]:
         """
@@ -76,7 +78,7 @@ class CuraPrintTimeEstimator:
                 for settings_profile, print_time in settings_profiles.items():
                     if not print_time:
                         continue
-                    targets.append(print_time)   # We store the target times
+                    targets.append([print_time])   # We store print time as a list.
 
                     # Take the values from the setting profiles that are in the mask
                     settings = self._readSettings(settings_profile)
