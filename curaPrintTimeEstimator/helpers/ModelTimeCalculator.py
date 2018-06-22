@@ -76,7 +76,7 @@ class ModelTimeCalculator:
         for name in sorted(files):
             if name.endswith(".txt"):
                 with open("{}/{}".format(directory, name)) as f:
-                    yield name[:-4], f.readlines()
+                    yield name[:-4], [line.strip() for line in f.readlines()]
 
     def gatherPrintTimeData(self, model: str, settings: Dict[str, List[str]],
                             prev_results: Optional[Dict[str, Dict[str, Optional[int]]]]

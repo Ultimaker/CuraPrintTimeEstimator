@@ -1,102 +1,2002 @@
 {
-  "cube90.stl": {
+  "cube09.6.stl": {
+    "volume": 884736.0,
+    "box_volume": 884736.0,
     "area_faces": 12,
-    "box_volume": 729000.0,
     "edges": 72,
-    "volume": 729000.0,
     "vertices": 24,
-    "surface_area": 48600.0,
-    "mass": 729000.0,
-    "file_size": 684
+    "mass": 884736.0,
+    "file_size": 684,
+    "surface_area": 55296.0
   },
-  "cube100.stl": {
+  "sphere00.6.stl": {
+    "volume": 215.6444220659614,
+    "box_volume": 411.9184563663772,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 215.6444220659614,
+    "file_size": 499884,
+    "surface_area": 173.95171324681868
+  },
+  "cube05.6.stl": {
+    "volume": 175616.0,
+    "box_volume": 175616.0,
     "area_faces": 12,
-    "box_volume": 1000000.0,
     "edges": 72,
+    "vertices": 24,
+    "mass": 175616.0,
+    "file_size": 684,
+    "surface_area": 18816.0
+  },
+  "cube09.7.stl": {
+    "volume": 912673.0,
+    "box_volume": 912673.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 912673.0,
+    "file_size": 684,
+    "surface_area": 56454.0
+  },
+  "cube04.5.stl": {
+    "volume": 91125.0,
+    "box_volume": 91125.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 91125.0,
+    "file_size": 684,
+    "surface_area": 12150.0
+  },
+  "cube03.8.stl": {
+    "volume": 54872.0,
+    "box_volume": 54872.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 54872.0,
+    "file_size": 684,
+    "surface_area": 8664.0
+  },
+  "sphere01.5.stl": {
+    "volume": 3369.444047897211,
+    "box_volume": 6436.226375694641,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 3369.444047897211,
+    "file_size": 499884,
+    "surface_area": 1087.1981976910536
+  },
+  "sphere07.7.stl": {
+    "volume": 455781.4506048812,
+    "box_volume": 870622.1683395448,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 455781.4506048812,
+    "file_size": 499884,
+    "surface_area": 28648.880460751014
+  },
+  "cube01.6.stl": {
+    "volume": 4096.0,
+    "box_volume": 4096.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 4096.0,
+    "file_size": 684,
+    "surface_area": 1536.0
+  },
+  "sphere09.0.stl": {
+    "volume": 727799.9193469312,
+    "box_volume": 1390224.7545986844,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 727799.9193469312,
+    "file_size": 499884,
+    "surface_area": 39139.13529669381
+  },
+  "cube06.1.stl": {
+    "volume": 226981.0,
+    "box_volume": 226981.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 226981.0,
+    "file_size": 684,
+    "surface_area": 22326.0
+  },
+  "cube06.3.stl": {
+    "volume": 250047.0,
+    "box_volume": 250047.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 250047.0,
+    "file_size": 684,
+    "surface_area": 23814.0
+  },
+  "cube10.0.stl": {
     "volume": 1000000.0,
+    "box_volume": 1000000.0,
+    "area_faces": 12,
+    "edges": 72,
     "vertices": 24,
-    "surface_area": 60000.0,
     "mass": 1000000.0,
-    "file_size": 684
+    "file_size": 684,
+    "surface_area": 60000.0
   },
-  "cube50.stl": {
+  "cube04.4.stl": {
+    "volume": 85184.0,
+    "box_volume": 85184.0,
     "area_faces": 12,
-    "box_volume": 125000.0,
     "edges": 72,
-    "volume": 125000.0,
     "vertices": 24,
-    "surface_area": 15000.0,
-    "mass": 125000.0,
-    "file_size": 684
+    "mass": 85184.0,
+    "file_size": 684,
+    "surface_area": 11616.0
   },
-  "cube70.stl": {
+  "cube00.6.stl": {
+    "volume": 216.0,
+    "box_volume": 216.0,
     "area_faces": 12,
-    "box_volume": 343000.0,
     "edges": 72,
+    "vertices": 24,
+    "mass": 216.0,
+    "file_size": 684,
+    "surface_area": 216.0
+  },
+  "cube01.3.stl": {
+    "volume": 2197.0,
+    "box_volume": 2197.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 2197.0,
+    "file_size": 684,
+    "surface_area": 1014.0
+  },
+  "sphere00.5.stl": {
+    "volume": 124.79422537897736,
+    "box_volume": 238.37873632313494,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 124.79422537897736,
+    "file_size": 499884,
+    "surface_area": 120.79980063723924
+  },
+  "cube06.2.stl": {
+    "volume": 238328.0,
+    "box_volume": 238328.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 238328.0,
+    "file_size": 684,
+    "surface_area": 23064.0
+  },
+  "cube02.2.stl": {
+    "volume": 10648.0,
+    "box_volume": 10648.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 10648.0,
+    "file_size": 684,
+    "surface_area": 2904.0
+  },
+  "cube07.0.stl": {
     "volume": 343000.0,
+    "box_volume": 343000.0,
+    "area_faces": 12,
+    "edges": 72,
     "vertices": 24,
-    "surface_area": 29400.0,
     "mass": 343000.0,
-    "file_size": 684
+    "file_size": 684,
+    "surface_area": 29400.0
   },
-  "cube60.stl": {
+  "cube01.2.stl": {
+    "volume": 1728.0,
+    "box_volume": 1728.0,
     "area_faces": 12,
-    "box_volume": 216000.0,
     "edges": 72,
+    "vertices": 24,
+    "mass": 1728.0,
+    "file_size": 684,
+    "surface_area": 864.0
+  },
+  "cube05.9.stl": {
+    "volume": 205379.0,
+    "box_volume": 205379.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 205379.0,
+    "file_size": 684,
+    "surface_area": 20886.0
+  },
+  "cube03.7.stl": {
+    "volume": 50653.0,
+    "box_volume": 50653.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 50653.0,
+    "file_size": 684,
+    "surface_area": 8214.0
+  },
+  "sphere08.3.stl": {
+    "volume": 570845.7273319231,
+    "box_volume": 1090414.7939638072,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 570845.7273319231,
+    "file_size": 499884,
+    "surface_area": 33287.5931168021
+  },
+  "sphere09.5.stl": {
+    "volume": 855963.5906314806,
+    "box_volume": 1635039.692878995,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 855963.5906314806,
+    "file_size": 499884,
+    "surface_area": 43608.72798802105
+  },
+  "sphere03.5.stl": {
+    "volume": 42804.41960735636,
+    "box_volume": 81763.9092536719,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 42804.41960735636,
+    "file_size": 499884,
+    "surface_area": 5919.1902590966565
+  },
+  "cube06.8.stl": {
+    "volume": 314432.0,
+    "box_volume": 314432.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 314432.0,
+    "file_size": 684,
+    "surface_area": 27744.0
+  },
+  "cube07.9.stl": {
+    "volume": 493039.0,
+    "box_volume": 493039.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 493039.0,
+    "file_size": 684,
+    "surface_area": 37446.0
+  },
+  "cube05.0.stl": {
+    "volume": 125000.0,
+    "box_volume": 125000.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 125000.0,
+    "file_size": 684,
+    "surface_area": 15000.0
+  },
+  "cube09.0.stl": {
+    "volume": 729000.0,
+    "box_volume": 729000.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 729000.0,
+    "file_size": 684,
+    "surface_area": 48600.0
+  },
+  "cube03.2.stl": {
+    "volume": 32768.0,
+    "box_volume": 32768.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 32768.0,
+    "file_size": 684,
+    "surface_area": 6144.0
+  },
+  "sphere06.8.stl": {
+    "volume": 313914.3811573422,
+    "box_volume": 599631.181867716,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 313914.3811573422,
+    "file_size": 499884,
+    "surface_area": 22343.131038837113
+  },
+  "cube03.5.stl": {
+    "volume": 42875.0,
+    "box_volume": 42875.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 42875.0,
+    "file_size": 684,
+    "surface_area": 7350.0
+  },
+  "sphere06.3.stl": {
+    "volume": 249635.3741143705,
+    "box_volume": 476847.07685731625,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 249635.3741143705,
+    "file_size": 499884,
+    "surface_area": 19178.176386603012
+  },
+  "cube09.9.stl": {
+    "volume": 970299.0,
+    "box_volume": 970299.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 970299.0,
+    "file_size": 684,
+    "surface_area": 58806.0
+  },
+  "cube01.9.stl": {
+    "volume": 6859.0,
+    "box_volume": 6859.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 6859.0,
+    "file_size": 684,
+    "surface_area": 2166.0
+  },
+  "sphere07.4.stl": {
+    "volume": 404556.9256823085,
+    "box_volume": 772774.2562895095,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 404556.9256823085,
+    "file_size": 499884,
+    "surface_area": 26459.988515045145
+  },
+  "cube04.3.stl": {
+    "volume": 79507.0,
+    "box_volume": 79507.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 79507.0,
+    "file_size": 684,
+    "surface_area": 11094.0
+  },
+  "sphere07.2.stl": {
+    "volume": 372633.5613487887,
+    "box_volume": 711795.0317791894,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 372633.5613487887,
+    "file_size": 499884,
+    "surface_area": 25049.046708381215
+  },
+  "cube04.2.stl": {
+    "volume": 74088.0,
+    "box_volume": 74088.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 74088.0,
+    "file_size": 684,
+    "surface_area": 10584.0
+  },
+  "cube08.8.stl": {
+    "volume": 681472.0,
+    "box_volume": 681472.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 681472.0,
+    "file_size": 684,
+    "surface_area": 46464.0
+  },
+  "cube07.2.stl": {
+    "volume": 373248.0,
+    "box_volume": 373248.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 373248.0,
+    "file_size": 684,
+    "surface_area": 31104.0
+  },
+  "cube04.9.stl": {
+    "volume": 117649.0,
+    "box_volume": 117649.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 117649.0,
+    "file_size": 684,
+    "surface_area": 14406.0
+  },
+  "sphere05.0.stl": {
+    "volume": 124794.22505128881,
+    "box_volume": 238378.72532380212,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 124794.22505128881,
+    "file_size": 499884,
+    "surface_area": 12079.980042613282
+  },
+  "cube08.9.stl": {
+    "volume": 704969.0,
+    "box_volume": 704969.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 704969.0,
+    "file_size": 684,
+    "surface_area": 47526.0
+  },
+  "sphere00.9.stl": {
+    "volume": 727.7999245093529,
+    "box_volume": 1390.2246714437292,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 727.7999245093529,
+    "file_size": 499884,
+    "surface_area": 391.3913548184565
+  },
+  "cube07.7.stl": {
+    "volume": 456533.0,
+    "box_volume": 456533.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 456533.0,
+    "file_size": 684,
+    "surface_area": 35574.0
+  },
+  "sphere08.7.stl": {
+    "volume": 657418.9686564498,
+    "box_volume": 1255784.9872939,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 657418.9686564498,
+    "file_size": 499884,
+    "surface_area": 36573.347429005604
+  },
+  "cube06.6.stl": {
+    "volume": 287496.0,
+    "box_volume": 287496.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 287496.0,
+    "file_size": 684,
+    "surface_area": 26136.0
+  },
+  "cube03.4.stl": {
+    "volume": 39304.0,
+    "box_volume": 39304.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 39304.0,
+    "file_size": 684,
+    "surface_area": 6936.0
+  },
+  "cube08.1.stl": {
+    "volume": 531441.0,
+    "box_volume": 531441.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 531441.0,
+    "file_size": 684,
+    "surface_area": 39366.0
+  },
+  "cube06.7.stl": {
+    "volume": 300763.0,
+    "box_volume": 300763.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 300763.0,
+    "file_size": 684,
+    "surface_area": 26934.0
+  },
+  "sphere06.5.stl": {
+    "volume": 274172.91572196025,
+    "box_volume": 523718.1115852371,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 274172.91572196025,
+    "file_size": 499884,
+    "surface_area": 20415.16643496126
+  },
+  "cube02.9.stl": {
+    "volume": 24389.0,
+    "box_volume": 24389.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 24389.0,
+    "file_size": 684,
+    "surface_area": 5046.0
+  },
+  "sphere01.2.stl": {
+    "volume": 1725.1553765276913,
+    "box_volume": 3295.3476509310176,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 1725.1553765276913,
+    "file_size": 499884,
+    "surface_area": 695.8068529872747
+  },
+  "sphere02.8.stl": {
+    "volume": 21915.86266844441,
+    "box_volume": 41863.12475731156,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 21915.86266844441,
+    "file_size": 499884,
+    "surface_area": 3788.281746173619
+  },
+  "sphere08.9.stl": {
+    "volume": 703808.4828489872,
+    "box_volume": 1344396.867810158,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 703808.4828489872,
+    "file_size": 499884,
+    "surface_area": 38274.20885879286
+  },
+  "sphere02.3.stl": {
+    "volume": 12146.97070292673,
+    "box_volume": 23202.833842478114,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 12146.97070292673,
+    "file_size": 499884,
+    "surface_area": 2556.1237788684252
+  },
+  "sphere04.2.stl": {
+    "volume": 73966.03733639933,
+    "box_volume": 141288.02277253816,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 73966.03733639933,
+    "file_size": 499884,
+    "surface_area": 8523.63399278771
+  },
+  "sphere00.3.stl": {
+    "volume": 26.955552758245176,
+    "box_volume": 51.48980704579715,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 26.955552758245176,
+    "file_size": 499884,
+    "surface_area": 43.48792831170467
+  },
+  "cube02.4.stl": {
+    "volume": 13824.0,
+    "box_volume": 13824.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 13824.0,
+    "file_size": 684,
+    "surface_area": 3456.0
+  },
+  "sphere04.7.stl": {
+    "volume": 103652.08785267611,
+    "box_volume": 197993.54975169912,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 103652.08785267611,
+    "file_size": 499884,
+    "surface_area": 10673.870450376855
+  },
+  "sphere01.8.stl": {
+    "volume": 5822.399396074823,
+    "box_volume": 11121.797371549834,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 5822.399396074823,
+    "file_size": 499884,
+    "surface_area": 1565.565419273826
+  },
+  "sphere06.6.stl": {
+    "volume": 287022.72346989834,
+    "box_volume": 548263.5229193635,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 287022.72346989834,
+    "file_size": 499884,
+    "surface_area": 21048.15719005707
+  },
+  "cube03.3.stl": {
+    "volume": 35937.0,
+    "box_volume": 35937.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 35937.0,
+    "file_size": 684,
+    "surface_area": 6534.0
+  },
+  "sphere05.2.stl": {
+    "volume": 140376.53176358013,
+    "box_volume": 268143.6350616304,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 140376.53176358013,
+    "file_size": 499884,
+    "surface_area": 13065.70645112486
+  },
+  "cube06.5.stl": {
+    "volume": 274625.0,
+    "box_volume": 274625.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 274625.0,
+    "file_size": 684,
+    "surface_area": 25350.0
+  },
+  "sphere03.3.stl": {
+    "volume": 35877.84043373729,
+    "box_volume": 68532.94036492043,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 35877.84043373729,
+    "file_size": 499884,
+    "surface_area": 5262.039297514268
+  },
+  "cube02.5.stl": {
+    "volume": 15625.0,
+    "box_volume": 15625.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 15625.0,
+    "file_size": 684,
+    "surface_area": 3750.0
+  },
+  "sphere07.0.stl": {
+    "volume": 342435.35685885086,
+    "box_volume": 654111.2740293752,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 342435.35685885086,
+    "file_size": 499884,
+    "surface_area": 23676.761036386626
+  },
+  "sphere04.0.stl": {
+    "volume": 63894.64339403641,
+    "box_volume": 122049.91299744509,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 63894.64339403641,
+    "file_size": 499884,
+    "surface_area": 7731.187240783312
+  },
+  "sphere03.9.stl": {
+    "volume": 59221.349220713964,
+    "box_volume": 113123.09604162534,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 59221.349220713964,
+    "file_size": 499884,
+    "surface_area": 7349.459869086262
+  },
+  "sphere09.1.stl": {
+    "volume": 752330.4755663868,
+    "box_volume": 1437082.4398951842,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 752330.4755663868,
+    "file_size": 499884,
+    "surface_area": 40013.72602914485
+  },
+  "cube05.2.stl": {
+    "volume": 140608.0,
+    "box_volume": 140608.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 140608.0,
+    "file_size": 684,
+    "surface_area": 16224.0
+  },
+  "cube04.1.stl": {
+    "volume": 68921.0,
+    "box_volume": 68921.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 68921.0,
+    "file_size": 684,
+    "surface_area": 10086.0
+  },
+  "sphere02.6.stl": {
+    "volume": 17547.066470447517,
+    "box_volume": 33517.9543827038,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 17547.066470447517,
+    "file_size": 499884,
+    "surface_area": 3266.426612781215
+  },
+  "cube01.8.stl": {
+    "volume": 5832.0,
+    "box_volume": 5832.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 5832.0,
+    "file_size": 684,
+    "surface_area": 1944.0
+  },
+  "cube06.0.stl": {
     "volume": 216000.0,
+    "box_volume": 216000.0,
+    "area_faces": 12,
+    "edges": 72,
     "vertices": 24,
-    "surface_area": 21600.0,
     "mass": 216000.0,
-    "file_size": 684
+    "file_size": 684,
+    "surface_area": 21600.0
   },
-  "cube20.stl": {
+  "cube00.8.stl": {
+    "volume": 512.0,
+    "box_volume": 512.0,
     "area_faces": 12,
-    "box_volume": 8000.0,
     "edges": 72,
-    "volume": 8000.0,
     "vertices": 24,
-    "surface_area": 2400.0,
-    "mass": 8000.0,
-    "file_size": 684
+    "mass": 512.0,
+    "file_size": 684,
+    "surface_area": 384.0
   },
-  "cube80.stl": {
+  "sphere00.7.stl": {
+    "volume": 342.4353541944439,
+    "box_volume": 654.1113243329931,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 342.4353541944439,
+    "file_size": 499884,
+    "surface_area": 236.7676091358512
+  },
+  "sphere05.1.stl": {
+    "volume": 132432.62968615477,
+    "box_volume": 252969.42773785445,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 132432.62968615477,
+    "file_size": 499884,
+    "surface_area": 12568.011217766702
+  },
+  "sphere08.4.stl": {
+    "volume": 591728.2986911946,
+    "box_volume": 1130304.1821803052,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 591728.2986911946,
+    "file_size": 499884,
+    "surface_area": 34094.53597115084
+  },
+  "sphere04.4.stl": {
+    "volume": 85043.77030939505,
+    "box_volume": 162448.4455567776,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 85043.77030939505,
+    "file_size": 499884,
+    "surface_area": 9354.736557799577
+  },
+  "sphere09.4.stl": {
+    "volume": 829216.7028214089,
+    "box_volume": 1583948.398013593,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 829216.7028214089,
+    "file_size": 499884,
+    "surface_area": 42695.48180150742
+  },
+  "cube03.9.stl": {
+    "volume": 59319.0,
+    "box_volume": 59319.0,
     "area_faces": 12,
-    "box_volume": 512000.0,
     "edges": 72,
-    "volume": 512000.0,
     "vertices": 24,
-    "surface_area": 38400.0,
-    "mass": 512000.0,
-    "file_size": 684
+    "mass": 59319.0,
+    "file_size": 684,
+    "surface_area": 9126.0
   },
-  "cube40.stl": {
-    "area_faces": 12,
-    "box_volume": 64000.0,
-    "edges": 72,
+  "sphere07.5.stl": {
+    "volume": 421180.5055379281,
+    "box_volume": 804528.24746483,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 421180.5055379281,
+    "file_size": 499884,
+    "surface_area": 27179.954923189947
+  },
+  "sphere01.1.stl": {
+    "volume": 1328.8089110842977,
+    "box_volume": 2538.25696182465,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 1328.8089110842977,
+    "file_size": 499884,
+    "surface_area": 584.6710348624736
+  },
+  "sphere04.1.stl": {
+    "volume": 68807.54238906303,
+    "box_volume": 131434.41818294185,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 68807.54238906303,
+    "file_size": 499884,
+    "surface_area": 8122.578589291971
+  },
+  "cube04.0.stl": {
     "volume": 64000.0,
+    "box_volume": 64000.0,
+    "area_faces": 12,
+    "edges": 72,
     "vertices": 24,
-    "surface_area": 9600.0,
     "mass": 64000.0,
-    "file_size": 684
+    "file_size": 684,
+    "surface_area": 9600.0
   },
-  "cube30.stl": {
+  "sphere08.5.stl": {
+    "volume": 613114.0351397716,
+    "box_volume": 1171154.715661526,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 613114.0351397716,
+    "file_size": 499884,
+    "surface_area": 34911.1426064814
+  },
+  "cube02.7.stl": {
+    "volume": 19683.0,
+    "box_volume": 19683.0,
     "area_faces": 12,
-    "box_volume": 27000.0,
     "edges": 72,
-    "volume": 27000.0,
     "vertices": 24,
-    "surface_area": 5400.0,
-    "mass": 27000.0,
-    "file_size": 684
+    "mass": 19683.0,
+    "file_size": 684,
+    "surface_area": 4374.0
   },
-  "cube10.stl": {
+  "sphere00.1.stl": {
+    "volume": 0.9983538080489434,
+    "box_volume": 1.9070298905850795,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 0.9983538080489434,
+    "file_size": 499884,
+    "surface_area": 4.831992041681393
+  },
+  "sphere00.2.stl": {
+    "volume": 7.986830464391547,
+    "box_volume": 15.256239124680636,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 7.986830464391547,
+    "file_size": 499884,
+    "surface_area": 19.327968166725572
+  },
+  "sphere07.1.stl": {
+    "volume": 357321.80325856246,
+    "box_volume": 682547.0306168356,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 357321.80325856246,
+    "file_size": 499884,
+    "surface_area": 24358.071584895868
+  },
+  "cube02.3.stl": {
+    "volume": 12167.0,
+    "box_volume": 12167.0,
     "area_faces": 12,
-    "box_volume": 1000.0,
     "edges": 72,
+    "vertices": 24,
+    "mass": 12167.0,
+    "file_size": 684,
+    "surface_area": 3174.0
+  },
+  "sphere04.9.stl": {
+    "volume": 117455.32594327339,
+    "box_volume": 224360.1754430835,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 117455.32594327339,
+    "file_size": 499884,
+    "surface_area": 11601.612811618646
+  },
+  "cube08.2.stl": {
+    "volume": 551368.0,
+    "box_volume": 551368.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 551368.0,
+    "file_size": 684,
+    "surface_area": 40344.0
+  },
+  "sphere09.8.stl": {
+    "volume": 939642.6075461871,
+    "box_volume": 1794881.403544668,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 939642.6075461871,
+    "file_size": 499884,
+    "surface_area": 46406.451246474586
+  },
+  "cube07.6.stl": {
+    "volume": 438976.0,
+    "box_volume": 438976.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 438976.0,
+    "file_size": 684,
+    "surface_area": 34656.0
+  },
+  "cube05.3.stl": {
+    "volume": 148877.0,
+    "box_volume": 148877.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 148877.0,
+    "file_size": 684,
+    "surface_area": 16854.0
+  },
+  "sphere07.9.stl": {
+    "volume": 492227.35428411287,
+    "box_volume": 940240.0690360753,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 492227.35428411287,
+    "file_size": 499884,
+    "surface_area": 30156.46196937739
+  },
+  "sphere09.7.stl": {
+    "volume": 911170.5542058834,
+    "box_volume": 1740494.7534255916,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 911170.5542058834,
+    "file_size": 499884,
+    "surface_area": 45464.212759042224
+  },
+  "sphere05.3.stl": {
+    "volume": 148631.9179112482,
+    "box_volume": 283912.88284120965,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 148631.9179112482,
+    "file_size": 499884,
+    "surface_area": 13573.065525213438
+  },
+  "cube06.4.stl": {
+    "volume": 262144.0,
+    "box_volume": 262144.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 262144.0,
+    "file_size": 684,
+    "surface_area": 24576.0
+  },
+  "cube05.5.stl": {
+    "volume": 166375.0,
+    "box_volume": 166375.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 166375.0,
+    "file_size": 684,
+    "surface_area": 18150.0
+  },
+  "cube00.5.stl": {
+    "volume": 125.0,
+    "box_volume": 125.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 125.0,
+    "file_size": 684,
+    "surface_area": 150.0
+  },
+  "cube02.8.stl": {
+    "volume": 21952.0,
+    "box_volume": 21952.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 21952.0,
+    "file_size": 684,
+    "surface_area": 4704.0
+  },
+  "cube00.7.stl": {
+    "volume": 343.0,
+    "box_volume": 343.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 343.0,
+    "file_size": 684,
+    "surface_area": 294.0
+  },
+  "sphere08.1.stl": {
+    "volume": 530566.1457884593,
+    "box_volume": 1013473.9153824002,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 530566.1457884593,
+    "file_size": 499884,
+    "surface_area": 31702.699772741475
+  },
+  "cube08.6.stl": {
+    "volume": 636056.0,
+    "box_volume": 636056.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 636056.0,
+    "file_size": 684,
+    "surface_area": 44376.0
+  },
+  "sphere06.2.stl": {
+    "volume": 237935.66658359813,
+    "box_volume": 454498.56902563944,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 237935.66658359813,
+    "file_size": 499884,
+    "surface_area": 18574.177419865086
+  },
+  "cube09.1.stl": {
+    "volume": 753571.0,
+    "box_volume": 753571.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 753571.0,
+    "file_size": 684,
+    "surface_area": 49686.0
+  },
+  "cube03.1.stl": {
+    "volume": 29791.0,
+    "box_volume": 29791.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 29791.0,
+    "file_size": 684,
+    "surface_area": 5766.0
+  },
+  "sphere07.6.stl": {
+    "volume": 438253.356958519,
+    "box_volume": 837140.4040751948,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 438253.356958519,
+    "file_size": 499884,
+    "surface_area": 27909.58585059189
+  },
+  "cube09.2.stl": {
+    "volume": 778688.0,
+    "box_volume": 778688.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 778688.0,
+    "file_size": 684,
+    "surface_area": 50784.0
+  },
+  "sphere05.7.stl": {
+    "volume": 184888.13490476971,
+    "box_volume": 353168.55079029093,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 184888.13490476971,
+    "file_size": 499884,
+    "surface_area": 15699.142037758538
+  },
+  "sphere05.9.stl": {
+    "volume": 205040.904594732,
+    "box_volume": 391663.89955620875,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 205040.904594732,
+    "file_size": 499884,
+    "surface_area": 16820.16417951804
+  },
+  "cube03.6.stl": {
+    "volume": 46656.0,
+    "box_volume": 46656.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 46656.0,
+    "file_size": 684,
+    "surface_area": 7776.0
+  },
+  "cube08.3.stl": {
+    "volume": 571787.0,
+    "box_volume": 571787.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 571787.0,
+    "file_size": 684,
+    "surface_area": 41334.0
+  },
+  "cube08.0.stl": {
+    "volume": 512000.0,
+    "box_volume": 512000.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 512000.0,
+    "file_size": 684,
+    "surface_area": 38400.0
+  },
+  "sphere09.9.stl": {
+    "volume": 968701.6962685977,
+    "box_volume": 1850389.0448785683,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 968701.6962685977,
+    "file_size": 499884,
+    "surface_area": 47358.35382723632
+  },
+  "sphere10.0.stl": {
+    "volume": 998353.8004103105,
+    "box_volume": 1907029.802590417,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 998353.8004103105,
+    "file_size": 499884,
+    "surface_area": 48319.92017045313
+  },
+  "cube09.4.stl": {
+    "volume": 830584.0,
+    "box_volume": 830584.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 830584.0,
+    "file_size": 684,
+    "surface_area": 53016.0
+  },
+  "sphere05.5.stl": {
+    "volume": 166101.1154152987,
+    "box_volume": 317282.1313190761,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 166101.1154152987,
+    "file_size": 499884,
+    "surface_area": 14616.77596122455
+  },
+  "cube01.1.stl": {
+    "volume": 1331.0,
+    "box_volume": 1331.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 1331.0,
+    "file_size": 684,
+    "surface_area": 726.0
+  },
+  "cube04.6.stl": {
+    "volume": 97336.0,
+    "box_volume": 97336.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 97336.0,
+    "file_size": 684,
+    "surface_area": 12696.0
+  },
+  "sphere04.8.stl": {
+    "volume": 110409.94409777224,
+    "box_volume": 210902.24965958513,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 110409.94409777224,
+    "file_size": 499884,
+    "surface_area": 11132.909647796396
+  },
+  "cube08.4.stl": {
+    "volume": 592704.0,
+    "box_volume": 592704.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 592704.0,
+    "file_size": 684,
+    "surface_area": 42336.0
+  },
+  "cube09.8.stl": {
+    "volume": 941192.0,
+    "box_volume": 941192.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 941192.0,
+    "file_size": 684,
+    "surface_area": 57624.0
+  },
+  "cube01.7.stl": {
+    "volume": 4913.0,
+    "box_volume": 4913.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 4913.0,
+    "file_size": 684,
+    "surface_area": 1734.0
+  },
+  "sphere02.1.stl": {
+    "volume": 9245.754667049916,
+    "box_volume": 17661.00284656727,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 9245.754667049916,
+    "file_size": 499884,
+    "surface_area": 2130.9084981969277
+  },
+  "sphere00.4.stl": {
+    "volume": 63.894643715132375,
+    "box_volume": 122.04991299744509,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 63.894643715132375,
+    "file_size": 499884,
+    "surface_area": 77.31187266690229
+  },
+  "sphere03.0.stl": {
+    "volume": 26955.552383177688,
+    "box_volume": 51489.81100555713,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 26955.552383177688,
+    "file_size": 499884,
+    "surface_area": 4348.792790764214
+  },
+  "sphere02.4.stl": {
+    "volume": 13801.24301222153,
+    "box_volume": 26362.78120744814,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 13801.24301222153,
+    "file_size": 499884,
+    "surface_area": 2783.227411949099
+  },
+  "sphere03.8.stl": {
+    "volume": 54781.66961981488,
+    "box_volume": 104642.55050939936,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 54781.66961981488,
+    "file_size": 499884,
+    "surface_area": 6977.396462647973
+  },
+  "sphere01.7.stl": {
+    "volume": 4904.912205583472,
+    "box_volume": 9369.237216683063,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 4904.912205583472,
+    "file_size": 499884,
+    "surface_area": 1396.4456899273196
+  },
+  "sphere09.3.stl": {
+    "volume": 803032.8675721693,
+    "box_volume": 1533932.9748878703,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 803032.8675721693,
+    "file_size": 499884,
+    "surface_area": 41791.89894564737
+  },
+  "cube05.7.stl": {
+    "volume": 185193.0,
+    "box_volume": 185193.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 185193.0,
+    "file_size": 684,
+    "surface_area": 19494.0
+  },
+  "sphere04.6.stl": {
+    "volume": 97175.76562341384,
+    "box_volume": 185622.6707398249,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 97175.76562341384,
+    "file_size": 499884,
+    "surface_area": 10224.495115473701
+  },
+  "cube00.9.stl": {
+    "volume": 729.0,
+    "box_volume": 729.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 729.0,
+    "file_size": 684,
+    "surface_area": 486.0
+  },
+  "sphere08.6.stl": {
+    "volume": 635008.9238578893,
+    "box_volume": 1212977.8366264103,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 635008.9238578893,
+    "file_size": 499884,
+    "surface_area": 35737.412919607166
+  },
+  "sphere01.4.stl": {
+    "volume": 2739.482833555551,
+    "box_volume": 5232.890594663945,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 2739.482833555551,
+    "file_size": 499884,
+    "surface_area": 947.0704365434048
+  },
+  "cube.stl": {
     "volume": 1000.0,
+    "box_volume": 1000.0,
+    "area_faces": 12,
+    "edges": 72,
     "vertices": 24,
-    "surface_area": 600.0,
     "mass": 1000.0,
-    "file_size": 1503
+    "file_size": 1503,
+    "surface_area": 600.0
+  },
+  "cube02.1.stl": {
+    "volume": 9261.0,
+    "box_volume": 9261.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 9261.0,
+    "file_size": 684,
+    "surface_area": 2646.0
+  },
+  "cube07.8.stl": {
+    "volume": 474552.0,
+    "box_volume": 474552.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 474552.0,
+    "file_size": 684,
+    "surface_area": 36504.0
+  },
+  "sphere02.7.stl": {
+    "volume": 19650.59785441915,
+    "box_volume": 37536.070940088895,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 19650.59785441915,
+    "file_size": 499884,
+    "surface_area": 3522.5221805105675
+  },
+  "sphere05.6.stl": {
+    "volume": 175326.90134755528,
+    "box_volume": 334904.9980584925,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 175326.90134755528,
+    "file_size": 499884,
+    "surface_area": 15153.126984694476
+  },
+  "cube07.1.stl": {
+    "volume": 357911.0,
+    "box_volume": 357911.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 357911.0,
+    "file_size": 684,
+    "surface_area": 30246.0
+  },
+  "sphere03.2.stl": {
+    "volume": 32714.057582147776,
+    "box_volume": 62489.55545469189,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 32714.057582147776,
+    "file_size": 499884,
+    "surface_area": 4947.9598506817465
+  },
+  "cube06.9.stl": {
+    "volume": 328509.0,
+    "box_volume": 328509.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 328509.0,
+    "file_size": 684,
+    "surface_area": 28566.0
+  },
+  "cube01.5.stl": {
+    "volume": 3375.0,
+    "box_volume": 3375.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 3375.0,
+    "file_size": 684,
+    "surface_area": 1350.0
+  },
+  "cube00.2.stl": {
+    "volume": 8.0,
+    "box_volume": 8.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 8.0,
+    "file_size": 684,
+    "surface_area": 24.0
+  },
+  "sphere06.4.stl": {
+    "volume": 261712.4606571822,
+    "box_volume": 499916.4436375351,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 261712.4606571822,
+    "file_size": 499884,
+    "surface_area": 19791.839402726986
+  },
+  "sphere00.8.stl": {
+    "volume": 511.157149721059,
+    "box_volume": 976.3993039795607,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 511.157149721059,
+    "file_size": 499884,
+    "surface_area": 309.24749066760916
+  },
+  "sphere03.7.stl": {
+    "volume": 50569.61571028856,
+    "box_volume": 96596.78203618868,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 50569.61571028856,
+    "file_size": 499884,
+    "surface_area": 6614.997128761286
+  },
+  "cube00.4.stl": {
+    "volume": 64.0,
+    "box_volume": 64.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 64.0,
+    "file_size": 684,
+    "surface_area": 96.0
+  },
+  "sphere07.8.stl": {
+    "volume": 473770.7937657117,
+    "box_volume": 904984.7683330027,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 473770.7937657117,
+    "file_size": 499884,
+    "surface_area": 29397.83947634505
+  },
+  "cube07.4.stl": {
+    "volume": 405224.0,
+    "box_volume": 405224.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 405224.0,
+    "file_size": 684,
+    "surface_area": 32856.0
+  },
+  "cube07.5.stl": {
+    "volume": 421875.0,
+    "box_volume": 421875.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 421875.0,
+    "file_size": 684,
+    "surface_area": 33750.0
+  },
+  "sphere01.6.stl": {
+    "volume": 4089.257197768472,
+    "box_volume": 7811.194431836486,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 4089.257197768472,
+    "file_size": 499884,
+    "surface_area": 1236.9899626704366
+  },
+  "sphere06.1.stl": {
+    "volume": 226607.3434146996,
+    "box_volume": 432859.6088948198,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 226607.3434146996,
+    "file_size": 499884,
+    "surface_area": 17979.842265612002
+  },
+  "sphere04.5.stl": {
+    "volume": 90974.9899183664,
+    "box_volume": 173778.09432483555,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 90974.9899183664,
+    "file_size": 499884,
+    "surface_area": 9784.783824173452
+  },
+  "cube02.6.stl": {
+    "volume": 17576.0,
+    "box_volume": 17576.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 17576.0,
+    "file_size": 684,
+    "surface_area": 4056.0
+  },
+  "sphere03.6.stl": {
+    "volume": 46579.195168598584,
+    "box_volume": 88974.37897239867,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 46579.195168598584,
+    "file_size": 499884,
+    "surface_area": 6262.261677095304
+  },
+  "cube05.4.stl": {
+    "volume": 157464.0,
+    "box_volume": 157464.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 157464.0,
+    "file_size": 684,
+    "surface_area": 17496.0
+  },
+  "sphere06.0.stl": {
+    "volume": 215644.4190654215,
+    "box_volume": 411918.48804445704,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 215644.4190654215,
+    "file_size": 499884,
+    "surface_area": 17395.171163056857
+  },
+  "cube03.0.stl": {
+    "volume": 27000.0,
+    "box_volume": 27000.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 27000.0,
+    "file_size": 684,
+    "surface_area": 5400.0
+  },
+  "sphere01.9.stl": {
+    "volume": 6847.70870247686,
+    "box_volume": 13080.31881367492,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 6847.70870247686,
+    "file_size": 499884,
+    "surface_area": 1744.3491156619932
+  },
+  "sphere02.0.stl": {
+    "volume": 7986.830424254551,
+    "box_volume": 15256.239124680636,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 7986.830424254551,
+    "file_size": 499884,
+    "surface_area": 1932.796810195828
+  },
+  "sphere06.9.stl": {
+    "volume": 327968.20716342406,
+    "box_volume": 626476.4718526491,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 327968.20716342406,
+    "file_size": 499884,
+    "surface_area": 23005.113924984576
+  },
+  "sphere06.7.stl": {
+    "volume": 300267.8854158134,
+    "box_volume": 573563.9618556349,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 300267.8854158134,
+    "file_size": 499884,
+    "surface_area": 21690.812229407693
+  },
+  "cube05.1.stl": {
+    "volume": 132651.0,
+    "box_volume": 132651.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 132651.0,
+    "file_size": 684,
+    "surface_area": 15606.0
+  },
+  "cube09.3.stl": {
+    "volume": 804357.0,
+    "box_volume": 804357.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 804357.0,
+    "file_size": 684,
+    "surface_area": 51894.0
+  },
+  "sphere05.4.stl": {
+    "volume": 157204.7828353532,
+    "box_volume": 300288.56752071116,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 157204.7828353532,
+    "file_size": 499884,
+    "surface_area": 14090.08872204227
+  },
+  "sphere03.4.stl": {
+    "volume": 39239.29764466778,
+    "box_volume": 74953.8977334645,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 39239.29764466778,
+    "file_size": 499884,
+    "surface_area": 5585.782759709278
+  },
+  "sphere09.2.stl": {
+    "volume": 777406.1249873107,
+    "box_volume": 1484981.3659185993,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 777406.1249873107,
+    "file_size": 499884,
+    "surface_area": 40897.980461894804
+  },
+  "cube09.5.stl": {
+    "volume": 857375.0,
+    "box_volume": 857375.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 857375.0,
+    "file_size": 684,
+    "surface_area": 54150.0
+  },
+  "sphere08.2.stl": {
+    "volume": 550460.3391125043,
+    "box_volume": 1051475.3454635348,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 550460.3391125043,
+    "file_size": 499884,
+    "surface_area": 32490.314357167885
+  },
+  "cube00.3.stl": {
+    "volume": 27.0,
+    "box_volume": 27.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 27.0,
+    "file_size": 684,
+    "surface_area": 54.0
+  },
+  "cube04.7.stl": {
+    "volume": 103823.0,
+    "box_volume": 103823.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 103823.0,
+    "file_size": 684,
+    "surface_area": 13254.0
+  },
+  "cube07.3.stl": {
+    "volume": 389017.0,
+    "box_volume": 389017.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 389017.0,
+    "file_size": 684,
+    "surface_area": 31974.0
+  },
+  "cube08.7.stl": {
+    "volume": 658503.0,
+    "box_volume": 658503.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 658503.0,
+    "file_size": 684,
+    "surface_area": 45414.0
+  },
+  "sphere01.3.stl": {
+    "volume": 2193.3833088059396,
+    "box_volume": 4189.744297837975,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 2193.3833088059396,
+    "file_size": 499884,
+    "surface_area": 816.6066531953038
+  },
+  "sphere04.3.stl": {
+    "volume": 79376.11548223616,
+    "box_volume": 151622.22957830128,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 79376.11548223616,
+    "file_size": 499884,
+    "surface_area": 8934.353229901792
+  },
+  "sphere05.8.stl": {
+    "volume": 194790.80630746327,
+    "box_volume": 372084.40121113375,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 194790.80630746327,
+    "file_size": 499884,
+    "surface_area": 16254.821123224268
+  },
+  "sphere03.1.stl": {
+    "volume": 29741.958322949766,
+    "box_volume": 56812.32112820493,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 29741.958322949766,
+    "file_size": 499884,
+    "surface_area": 4643.544354966271
+  },
+  "sphere02.5.stl": {
+    "volume": 15599.278131411102,
+    "box_volume": 29797.340665475265,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 15599.278131411102,
+    "file_size": 499884,
+    "surface_area": 3019.9950106533206
+  },
+  "sphere.stl": {
+    "volume": 998.3538021210297,
+    "box_volume": 1907.0298905850796,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 998.3538021210297,
+    "file_size": 499884,
+    "surface_area": 483.1992022550013
+  },
+  "cube00.1.stl": {
+    "volume": 1.0,
+    "box_volume": 1.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 1.0,
+    "file_size": 684,
+    "surface_area": 6.0
+  },
+  "sphere08.0.stl": {
+    "volume": 511157.14715229126,
+    "box_volume": 976399.3039795607,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 511157.14715229126,
+    "file_size": 499884,
+    "surface_area": 30924.748963133246
+  },
+  "sphere07.3.stl": {
+    "volume": 388376.6012384969,
+    "box_volume": 741866.9883302919,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 388376.6012384969,
+    "file_size": 499884,
+    "surface_area": 25749.685497307662
+  },
+  "sphere09.6.stl": {
+    "volume": 883279.5527821779,
+    "box_volume": 1687217.997276681,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 883279.5527821779,
+    "file_size": 499884,
+    "surface_area": 44531.63859118558
+  },
+  "sphere08.8.stl": {
+    "volume": 680350.1624751604,
+    "box_volume": 1299587.5644542207,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 680350.1624751604,
+    "file_size": 499884,
+    "surface_area": 37418.94623119831
+  },
+  "cube05.8.stl": {
+    "volume": 195112.0,
+    "box_volume": 195112.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 195112.0,
+    "file_size": 684,
+    "surface_area": 20184.0
+  },
+  "cube01.4.stl": {
+    "volume": 2744.0,
+    "box_volume": 2744.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 2744.0,
+    "file_size": 684,
+    "surface_area": 1176.0
+  },
+  "cube04.8.stl": {
+    "volume": 110592.0,
+    "box_volume": 110592.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 110592.0,
+    "file_size": 684,
+    "surface_area": 13824.0
+  },
+  "sphere02.2.stl": {
+    "volume": 10630.471288674382,
+    "box_volume": 20306.0556945972,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 10630.471288674382,
+    "file_size": 499884,
+    "surface_area": 2338.6841394498942
+  },
+  "sphere02.9.stl": {
+    "volume": 24348.85078843291,
+    "box_volume": 46510.55015139172,
+    "area_faces": 9996,
+    "edges": 59976,
+    "vertices": 15000,
+    "mass": 24348.85078843291,
+    "file_size": 499884,
+    "surface_area": 4063.705280806067
+  },
+  "cube08.5.stl": {
+    "volume": 614125.0,
+    "box_volume": 614125.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 614125.0,
+    "file_size": 684,
+    "surface_area": 43350.0
+  },
+  "cube02.0.stl": {
+    "volume": 8000.0,
+    "box_volume": 8000.0,
+    "area_faces": 12,
+    "edges": 72,
+    "vertices": 24,
+    "mass": 8000.0,
+    "file_size": 684,
+    "surface_area": 2400.0
   }
 }
