@@ -28,4 +28,4 @@ class TestModelDataGenerator(TestCase):
 
     def test_findModels(self):
         result = list(findModels())
-        self.assertEqual(200, len(result))
+        self.assertEqual(182, len(result))

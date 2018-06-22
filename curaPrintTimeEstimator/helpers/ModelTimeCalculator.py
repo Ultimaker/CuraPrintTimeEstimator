@@ -60,7 +60,7 @@ class ModelTimeCalculator:
                 result[model] = self.gatherPrintTimeData(model, settings, prev_results=result.get(model))
         finally:
             with open(self.OUTPUT_FILE, "w") as f:
-                json.dump(result, f, indent=2)
+                json.dump(result, f, indent=2, sort_keys=True)
             logging.info("Results written to %s", self.OUTPUT_FILE)
 
         return result

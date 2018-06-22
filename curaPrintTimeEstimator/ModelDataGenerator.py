@@ -38,6 +38,6 @@ class ModelDataGenerator:
         result = {model: self.stats_calc.read(model) for model in findModels()}
 
         with open(self.OUTPUT_FILE, "w") as f:
-            json.dump(result, f, indent=2)
+            json.dump(result, f, indent=2, sort_keys=True)
         logging.info("Results written to %s", self.OUTPUT_FILE)
         return result
