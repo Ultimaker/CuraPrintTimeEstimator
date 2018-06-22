@@ -11,7 +11,7 @@ class ModelGenerator:
     """
     Generates scaled versions of a model
     """
-    SCALES = [i / 10.0 for i in range(1, 101) if i != 10.0]
+    SCALES = [1 + i / 10.0 for i in range(1, 91)]   # increases by 10% every time
 
     @staticmethod
     def run():
@@ -24,7 +24,6 @@ class ModelGenerator:
             file_name = os.path.join("models", model_name)
             mesh = trimesh.load(file_name)  # type: trimesh.Trimesh
             mesh.apply_scale(scale)
-            mesh.vertices -= mesh.center_mass
 
             name, _, ext = file_name.rpartition(".")
             new_file_name = "{0}{1:04.1f}.{2}".format(name, scale, ext)

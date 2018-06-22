@@ -1,3840 +1,3840 @@
 {
-  "Arm_v3_60.stl": {
+  "Japanese_Fountain_Supply_Line_Rev_D.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": 9853,
+      "default": 10469
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "AAA-Label.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": 9852,
+      "default": 10481
     }
   },
   "YODA_silhouette_for_v4.stl": {
     "ultimaker2": {
-      "default": 2430,
-      "basic": 2329
+      "basic": 2329,
+      "default": 2430
     },
     "ultimaker3": {
-      "default": 2431,
-      "basic": 2331
-    }
-  },
-  "cube03.7.stl": {
-    "fdmprinter": {
-      "default": 5179,
-      "basic": 12626
-    }
-  },
-  "Head_with_brim_lower_detail.stl": {
-    "ultimaker2": {
-      "default": 38564,
-      "basic": 16117
-    },
-    "ultimaker3": {
-      "default": 38569,
-      "basic": 16124
-    }
-  },
-  "Upper_Plate_Minimal_-_Upper_Plate_1.stl": {
-    "ultimaker2": {
-      "default": 13069,
-      "basic": 10504
-    },
-    "ultimaker3": {
-      "default": 13058,
-      "basic": 10496
-    }
-  },
-  "C_Clamp_Arm_80.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere00.8.stl": {
-    "fdmprinter": {
-      "default": 292,
-      "basic": 296
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Gunwale_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "precision_block.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube07.0.stl": {
-    "fdmprinter": {
-      "default": 25118,
-      "basic": 78361
-    }
-  },
-  "cube06.8.stl": {
-    "fdmprinter": {
-      "default": 23109,
-      "basic": 71767
-    }
-  },
-  "chain-70.stl": {
-    "ultimaker2": {
-      "default": 8257,
-      "basic": 7633
-    },
-    "ultimaker3": {
-      "default": 8266,
-      "basic": 7703
-    }
-  },
-  "sphere07.6.stl": {
-    "fdmprinter": {
-      "default": 32056,
-      "basic": 100969
-    }
-  },
-  "Gimball_Test_Print.stl": {
-    "ultimaker2": {
-      "default": 4525,
-      "basic": 4144
-    },
-    "ultimaker3": {
-      "default": 4524,
-      "basic": 4144
-    }
-  },
-  "crossbow_body_right.stl": {
-    "ultimaker2": {
-      "default": 4204,
-      "basic": 3645
-    },
-    "ultimaker3": {
-      "default": 4185,
-      "basic": 3641
-    }
-  },
-  "ESC_Mount.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Red_box_solid.stl": {
-    "ultimaker2": {
-      "default": 62458,
-      "basic": 42381
-    },
-    "ultimaker3": {
-      "default": 62478,
-      "basic": 42438
-    }
-  },
-  "sphere04.1.stl": {
-    "fdmprinter": {
-      "default": 6860,
-      "basic": 17158
-    }
-  },
-  "crossbow_body_left.stl": {
-    "ultimaker2": {
-      "default": 3856,
-      "basic": 3371
-    },
-    "ultimaker3": {
-      "default": 3831,
-      "basic": 3361
-    }
-  },
-  "Phone_clamp_up_4mm_thicker_NO_tab.stl": {
-    "ultimaker2": {
-      "default": 3885,
-      "basic": 2983
-    },
-    "ultimaker3": {
-      "default": 3885,
-      "basic": 2984
-    }
-  },
-  "Japanese_Fountain_Strut_Rev_A.stl": {
-    "ultimaker2": {
-      "default": 3402,
-      "basic": 2227
-    },
-    "ultimaker3": {
-      "default": 3400,
-      "basic": 2226
-    }
-  },
-  "V2_crank_wheel.stl": {
-    "ultimaker2": {
-      "default": 7658,
-      "basic": 5884
-    },
-    "ultimaker3": {
-      "default": 7661,
-      "basic": 5888
-    }
-  },
-  "cube00.2.stl": {
-    "fdmprinter": {
-      "default": 38,
-      "basic": 38
-    }
-  },
-  "cube01.2.stl": {
-    "fdmprinter": {
-      "default": 464,
-      "basic": 598
-    }
-  },
-  "Red_box_with_wall_engraved.stl": {
-    "ultimaker2": {
-      "default": 95549,
-      "basic": 73455
-    },
-    "ultimaker3": {
-      "default": 95412,
-      "basic": 73498
-    }
-  },
-  "sphere06.8.stl": {
-    "fdmprinter": {
-      "default": 24130,
-      "basic": 73160
-    }
-  },
-  "Prusa_Enclosure_Top_Corners.stl": {
-    "ultimaker2": {
-      "default": 100395,
-      "basic": 49982
-    },
-    "ultimaker3": {
-      "default": 100445,
-      "basic": 49987
-    }
-  },
-  "sphere00.7.stl": {
-    "fdmprinter": {
-      "default": 244,
-      "basic": 246
-    }
-  },
-  "Gnomon_Southern.stl": {
-    "ultimaker2": {
-      "default": 78646,
-      "basic": 53617
-    },
-    "ultimaker3": {
-      "default": 78599,
-      "basic": 53602
-    }
-  },
-  "sphere09.5.stl": {
-    "fdmprinter": {
-      "default": 57301,
-      "basic": 193491
-    }
-  },
-  "cube07.4.stl": {
-    "fdmprinter": {
-      "default": 28680,
-      "basic": 92091
-    }
-  },
-  "sphere03.5.stl": {
-    "fdmprinter": {
-      "default": 4690,
-      "basic": 10976
-    }
-  },
-  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Flying_Wing_v2L.stl": {
-    "ultimaker2": {
-      "default": 29226,
-      "basic": 22209
-    },
-    "ultimaker3": {
-      "default": 29243,
-      "basic": 22224
-    }
-  },
-  "measuring_cube_version_2.STL": {
-    "ultimaker2": {
-      "default": 90283,
-      "basic": 57667
-    },
-    "ultimaker3": {
-      "default": 90129,
-      "basic": 57602
-    }
-  },
-  "Waving_Groot_15.5cm.stl": {
-    "ultimaker2": {
-      "default": 84620,
-      "basic": 39188
-    },
-    "ultimaker3": {
-      "default": 84634,
-      "basic": 39193
-    }
-  },
-  "sphere01.9.stl": {
-    "fdmprinter": {
-      "default": 1157,
-      "basic": 2057
-    }
-  },
-  "V2_stopper.stl": {
-    "ultimaker2": {
-      "default": 1324,
-      "basic": 1063
-    },
-    "ultimaker3": {
-      "default": 1324,
-      "basic": 1062
-    }
-  },
-  "cube03.2.stl": {
-    "fdmprinter": {
-      "default": 3673,
-      "basic": 8178
-    }
-  },
-  "cube07.9.stl": {
-    "fdmprinter": {
-      "default": 34097,
-      "basic": 112249
-    }
-  },
-  "cube09.0.stl": {
-    "fdmprinter": {
-      "default": 48021,
-      "basic": 163678
-    }
-  },
-  "cube06.5.stl": {
-    "fdmprinter": {
-      "default": 20866,
-      "basic": 63231
-    }
-  },
-  "cube05.8.stl": {
-    "fdmprinter": {
-      "default": 15232,
-      "basic": 45018
-    }
-  },
-  "cube00.9.stl": {
-    "fdmprinter": {
-      "default": 302,
-      "basic": 312
-    }
-  },
-  "cube06.0.stl": {
-    "fdmprinter": {
-      "default": 17079,
-      "basic": 49953
-    }
-  },
-  "Bolt.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "V2_iPhone_cradle.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube20.stl": {
-    "fdmprinter": {
-      "default": 1241,
-      "basic": 2287
-    },
-    "ultimaker2": {
-      "default": 1254,
-      "basic": 2317
-    },
-    "ultimaker3": {
-      "default": 1251,
-      "basic": 2316
-    }
-  },
-  "Front_Plate.stl": {
-    "ultimaker2": {
-      "default": 19351,
-      "basic": 14405
-    },
-    "ultimaker3": {
-      "default": 19503,
-      "basic": 14519
-    }
-  },
-  "sphere06.0.stl": {
-    "fdmprinter": {
-      "default": 17528,
-      "basic": 50943
-    }
-  },
-  "Bottom_part_with_breakable_support_NETFABBED.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Japanese_Fountain_Tube_Rev_C.stl": {
-    "ultimaker2": {
-      "default": 34413,
-      "basic": 19058
-    },
-    "ultimaker3": {
-      "default": 34410,
-      "basic": 19055
-    }
-  },
-  "Front_Bumper.stl": {
-    "ultimaker2": {
-      "default": 7729,
-      "basic": 5220
-    },
-    "ultimaker3": {
-      "default": 7724,
-      "basic": 5213
-    }
-  },
-  "Connector_NETFABBED.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube07.1.stl": {
-    "fdmprinter": {
-      "default": 26195,
-      "basic": 82195
-    }
-  },
-  "sphere09.9.stl": {
-    "fdmprinter": {
-      "default": 63852,
-      "basic": 218292
-    }
-  },
-  "jet_fighter_egg.STL": {
-    "ultimaker2": {
-      "default": 13322,
-      "basic": 7142
-    },
-    "ultimaker3": {
-      "default": 13318,
-      "basic": 7141
-    }
-  },
-  "Arm_v3_Reverse_150.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube06.3.stl": {
-    "fdmprinter": {
-      "default": 18929,
-      "basic": 58041
-    }
-  },
-  "chain-300.stl": {
-    "ultimaker2": {
-      "default": 40241,
-      "basic": 35680
-    },
-    "ultimaker3": {
-      "default": 40043,
-      "basic": 35283
-    }
-  },
-  "cube80.stl": {
-    "fdmprinter": {
-      "default": 35043,
-      "basic": 116285
-    },
-    "ultimaker2": {
-      "default": 35193,
-      "basic": 116840
-    },
-    "ultimaker3": {
-      "default": 35192,
-      "basic": 116837
-    }
-  },
-  "Flat_stand.stl": {
-    "ultimaker2": {
-      "default": 12082,
-      "basic": 8613
-    },
-    "ultimaker3": {
-      "default": 12085,
-      "basic": 8615
-    }
-  },
-  "Phone_clamp_up_WITH_tab.stl": {
-    "ultimaker2": {
-      "default": 2978,
-      "basic": 2299
-    },
-    "ultimaker3": {
-      "default": 2978,
-      "basic": 2299
-    }
-  },
-  "Gnomon_Southern_Half_1_of_2.stl": {
-    "ultimaker2": {
-      "default": 37920,
-      "basic": 25394
-    },
-    "ultimaker3": {
-      "default": 37946,
-      "basic": 25410
-    }
-  },
-  "moon2inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube03.5.stl": {
-    "fdmprinter": {
-      "default": 4411,
-      "basic": 10667
-    }
-  },
-  "sphere06.7.stl": {
-    "fdmprinter": {
-      "default": 23198,
-      "basic": 70060
-    }
-  },
-  "V3_Main_Chassis_3.stl": {
-    "ultimaker2": {
-      "default": 709,
-      "basic": 655
-    },
-    "ultimaker3": {
-      "default": 709,
-      "basic": 655
-    }
-  },
-  "cube30.stl": {
-    "fdmprinter": {
-      "default": 3108,
-      "basic": 6952
-    },
-    "ultimaker2": {
-      "default": 3130,
-      "basic": 7019
-    },
-    "ultimaker3": {
-      "default": 3129,
-      "basic": 7018
-    }
-  },
-  "Red_box_with_wall_lattice.stl": {
-    "ultimaker2": {
-      "default": 109822,
-      "basic": 105240
-    },
-    "ultimaker3": {
-      "default": 109857,
-      "basic": 105310
-    }
-  },
-  "sphere09.3.stl": {
-    "fdmprinter": {
-      "default": 54176,
-      "basic": 181830
-    }
-  },
-  "sphere08.6.stl": {
-    "fdmprinter": {
-      "default": 44129,
-      "basic": 144715
-    }
-  },
-  "Phone_clamp_up_4mm_thicker_WITH_tab.stl": {
-    "ultimaker2": {
-      "default": 4513,
-      "basic": 3536
-    },
-    "ultimaker3": {
-      "default": 4509,
-      "basic": 3533
-    }
-  },
-  "AA-Base.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere09.6.stl": {
-    "fdmprinter": {
-      "default": 58891,
-      "basic": 199499
-    }
-  },
-  "Black_box_engraved.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube09.1.stl": {
-    "fdmprinter": {
-      "default": 49225,
-      "basic": 168677
-    }
-  },
-  "V2_crank_handle_2.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Bridge_walls_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere09.4.stl": {
-    "fdmprinter": {
-      "default": 55719,
-      "basic": 187595
-    }
-  },
-  "cube05.1.stl": {
-    "fdmprinter": {
-      "default": 11164,
-      "basic": 31194
-    }
-  },
-  "sphere02.9.stl": {
-    "fdmprinter": {
-      "default": 3013,
-      "basic": 6491
-    }
-  },
-  "Japanese_Fountain_Base_Rev_G.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Heart_X_Cam.stl": {
-    "ultimaker2": {
-      "default": 602,
-      "basic": 492
-    },
-    "ultimaker3": {
-      "default": 601,
-      "basic": 491
-    }
-  },
-  "cube02.6.stl": {
-    "fdmprinter": {
-      "default": 2258,
-      "basic": 4626
-    }
-  },
-  "Gnomon_Northen.stl": {
-    "ultimaker2": {
-      "default": 78076,
-      "basic": 53290
-    },
-    "ultimaker3": {
-      "default": 78034,
-      "basic": 53239
-    }
-  },
-  "Flying_Wing_v3.1_left.stl": {
-    "ultimaker2": {
-      "default": 22749,
-      "basic": 17892
-    },
-    "ultimaker3": {
-      "default": 22737,
-      "basic": 17892
-    }
-  },
-  "sphere09.0.stl": {
-    "fdmprinter": {
-      "default": 49698,
-      "basic": 165210
-    }
-  },
-  "cube06.2.stl": {
-    "fdmprinter": {
-      "default": 18285,
-      "basic": 55506
-    }
-  },
-  "cube08.2.stl": {
-    "fdmprinter": {
-      "default": 37974,
-      "basic": 124495
-    }
-  },
-  "V29D_Fixed.stl": {
-    "ultimaker2": {
-      "default": 12441,
-      "basic": 9629
-    },
-    "ultimaker3": {
-      "default": 12454,
-      "basic": 9632
-    }
-  },
-  "Flying_Wing_v3_left.stl": {
-    "ultimaker2": {
-      "default": 22968,
-      "basic": 18057
-    },
-    "ultimaker3": {
-      "default": 22961,
-      "basic": 18047
-    }
-  },
-  "cube08.6.stl": {
-    "fdmprinter": {
-      "default": 42233,
-      "basic": 142680
-    }
-  },
-  "sphere09.1.stl": {
-    "fdmprinter": {
-      "default": 51147,
-      "basic": 170647
-    }
-  },
-  "V2_Main_Chassis_2.stl": {
-    "ultimaker2": {
-      "default": 43992,
-      "basic": 32242
-    },
-    "ultimaker3": {
-      "default": 44000,
-      "basic": 32238
-    }
-  },
-  "cube10.stl": {
-    "fdmprinter": {
-      "default": 618,
-      "basic": 691
-    },
-    "ultimaker2": {
-      "default": 623,
-      "basic": 604
-    },
-    "ultimaker3": {
-      "default": 622,
-      "basic": 602
-    }
-  },
-  "Rear_Wheel_-_PLA.stl": {
-    "ultimaker2": {
-      "default": 12011,
-      "basic": 7832
-    },
-    "ultimaker3": {
-      "default": 12010,
-      "basic": 7832
-    }
-  },
-  "V29.2_Whistle_V29.stl": {
-    "ultimaker2": {
-      "default": 10820,
-      "basic": 8061
-    },
-    "ultimaker3": {
-      "default": 10831,
-      "basic": 8071
-    }
-  },
-  "sphere08.0.stl": {
-    "fdmprinter": {
-      "default": 36565,
-      "basic": 117206
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Chimney_body_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "AAA-Shapeways.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "measuring_cube.STL": {
-    "ultimaker2": {
-      "default": 86817,
-      "basic": 55776
-    },
-    "ultimaker3": {
-      "default": 86471,
-      "basic": 55758
-    }
-  },
-  "3D_Printer_test_stl.STL": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere.stl": {
-    "fdmprinter": {
-      "default": 670,
-      "basic": 761
-    },
-    "ultimaker2": {
-      "default": 396,
-      "basic": 390
-    },
-    "ultimaker3": {
-      "default": 395,
-      "basic": 389
-    }
-  },
-  "jet_fighter_egg.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube08.7.stl": {
-    "fdmprinter": {
-      "default": 44166,
-      "basic": 147792
-    }
-  },
-  "sphere00.9.stl": {
-    "fdmprinter": {
-      "default": 342,
-      "basic": 349
-    }
-  },
-  "FilleniumMalcon-RearThird.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "miniCube.STL": {
-    "ultimaker2": {
-      "default": 63262,
-      "basic": 41395
-    },
-    "ultimaker3": {
-      "default": 63313,
-      "basic": 41413
-    }
-  },
-  "cube08.4.stl": {
-    "fdmprinter": {
-      "default": 40119,
-      "basic": 132647
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Window_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "FilleniumMalcon-MiddleThird.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube04.2.stl": {
-    "fdmprinter": {
-      "default": 7007,
-      "basic": 17837
-    }
-  },
-  "cube05.0.stl": {
-    "fdmprinter": {
-      "default": 10683,
-      "basic": 29373
-    }
-  },
-  "2430_Motor_Mount.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere10.0.stl": {
-    "fdmprinter": {
-      "default": 65583,
-      "basic": 224806
-    }
-  },
-  "Arm_v3_Reverse_60.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "tower50.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Cargo_box_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube07.3.stl": {
-    "fdmprinter": {
-      "default": 27825,
-      "basic": 88773
-    }
-  },
-  "Gnomon_Northen_NETFABBED.stl": {
-    "ultimaker2": {
-      "default": 78115,
-      "basic": 53335
-    },
-    "ultimaker3": {
-      "default": 78106,
-      "basic": 53297
-    }
-  },
-  "Black_box_mixed.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube08.5.stl": {
-    "fdmprinter": {
-      "default": 41215,
-      "basic": 137641
-    }
-  },
-  "X_Axle.stl": {
-    "ultimaker2": {
-      "default": 4934,
-      "basic": 4370
-    },
-    "ultimaker3": {
-      "default": 4933,
-      "basic": 4370
-    }
-  },
-  "cube08.8.stl": {
-    "fdmprinter": {
-      "default": 45733,
-      "basic": 153730
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Wheel_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube04.7.stl": {
-    "fdmprinter": {
-      "default": 9171,
-      "basic": 24865
-    }
-  },
-  "cube06.4.stl": {
-    "fdmprinter": {
-      "default": 19902,
-      "basic": 60623
-    }
-  },
-  "Green_box_engraved.stl": {
-    "ultimaker2": {
-      "default": 47915,
-      "basic": 34441
-    },
-    "ultimaker3": {
-      "default": 47780,
-      "basic": 34483
-    }
-  },
-  "sphere02.0.stl": {
-    "fdmprinter": {
-      "default": 1288,
-      "basic": 2357
-    }
-  },
-  "M5.0_Nut.stl": {
-    "ultimaker2": {
-      "default": 258,
-      "basic": 256
-    },
-    "ultimaker3": {
-      "default": 257,
-      "basic": 255
-    }
-  },
-  "Phone_clamp_holder_v3.stl": {
-    "ultimaker2": {
-      "default": 2693,
-      "basic": 1930
-    },
-    "ultimaker3": {
-      "default": 2695,
-      "basic": 1933
-    }
-  },
-  "sphere02.5.stl": {
-    "fdmprinter": {
-      "default": 2142,
-      "basic": 4316
-    }
-  },
-  "crossbow_backcap.stl": {
-    "ultimaker2": {
-      "default": 1330,
-      "basic": 1331
-    },
-    "ultimaker3": {
-      "default": 1329,
-      "basic": 1330
-    }
-  },
-  "Japanese_Fountain_Supply_Line_Rev_D.stl": {
-    "ultimaker2": {
-      "default": 10469,
-      "basic": 9853
-    },
-    "ultimaker3": {
-      "default": 10481,
-      "basic": 9852
-    }
-  },
-  "sphere07.3.stl": {
-    "fdmprinter": {
-      "default": 28897,
-      "basic": 89852
-    }
-  },
-  "Rear_Bumper.stl": {
-    "ultimaker2": {
-      "default": 7397,
-      "basic": 4864
-    },
-    "ultimaker3": {
-      "default": 7419,
-      "basic": 4866
-    }
-  },
-  "sphere00.1.stl": {
-    "fdmprinter": {
-      "default": 28,
-      "basic": 28
-    }
-  },
-  "measuring_cube_metric.STL": {
-    "ultimaker2": {
-      "default": 92183,
-      "basic": 58767
-    },
-    "ultimaker3": {
-      "default": 91920,
-      "basic": 58707
-    }
-  },
-  "cube07.8.stl": {
-    "fdmprinter": {
-      "default": 33110,
-      "basic": 107338
-    }
-  },
-  "sphere01.5.stl": {
-    "fdmprinter": {
-      "default": 702,
-      "basic": 1115
-    }
-  },
-  "aligator.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "V2_chassis_cog_cover.stl": {
-    "ultimaker2": {
-      "default": 1669,
-      "basic": 1695
-    },
-    "ultimaker3": {
-      "default": 1661,
-      "basic": 1695
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_starboard_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Steering_-Rack-.stl": {
-    "ultimaker2": {
-      "default": 756,
-      "basic": 756
-    },
-    "ultimaker3": {
-      "default": 756,
-      "basic": 756
-    }
-  },
-  "sphere09.8.stl": {
-    "fdmprinter": {
-      "default": 62109,
-      "basic": 211892
-    }
-  },
-  "sphere02.8.stl": {
-    "fdmprinter": {
-      "default": 2772,
-      "basic": 5891
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Complete_17_shells_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "V2_crank_handle_1.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube02.1.stl": {
-    "fdmprinter": {
-      "default": 1389,
-      "basic": 2599
-    }
-  },
-  "eyeball4_2.STL": {
-    "ultimaker2": {
-      "default": 11300,
-      "basic": 10454
-    },
-    "ultimaker3": {
-      "default": 11313,
-      "basic": 10459
-    }
-  },
-  "Front_Wheel_-_PLA.stl": {
-    "ultimaker2": {
-      "default": 9702,
-      "basic": 6538
-    },
-    "ultimaker3": {
-      "default": 9714,
-      "basic": 6540
-    }
-  },
-  "MakerBot_Headphone_Stand.STL": {
-    "ultimaker2": {
-      "default": 85485,
-      "basic": 43828
-    },
-    "ultimaker3": {
-      "default": 85443,
-      "basic": 43804
-    }
-  },
-  "crossbow_front.stl": {
-    "ultimaker2": {
-      "default": 1355,
-      "basic": 1053
-    },
-    "ultimaker3": {
-      "default": 1357,
-      "basic": 1053
-    }
-  },
-  "C-Cover.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Rear_Wheel_-_Ninjaflex.stl": {
-    "ultimaker2": {
-      "default": 22023,
-      "basic": 11670
-    },
-    "ultimaker3": {
-      "default": 21843,
-      "basic": 11664
-    }
-  },
-  "Heart_Y_Cam.stl": {
-    "ultimaker2": {
-      "default": 4292,
-      "basic": 3730
-    },
-    "ultimaker3": {
-      "default": 4289,
-      "basic": 3725
-    }
-  },
-  "Green_box_lattice.stl": {
-    "ultimaker2": {
-      "default": 56242,
-      "basic": 53086
-    },
-    "ultimaker3": {
-      "default": 56240,
-      "basic": 53119
-    }
-  },
-  "moon8inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube04.3.stl": {
-    "fdmprinter": {
-      "default": 7464,
-      "basic": 19137
-    }
-  },
-  "AAA-Base.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "C-Label.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube09.5.stl": {
-    "fdmprinter": {
-      "default": 55501,
-      "basic": 191116
-    }
-  },
-  "sphere05.4.stl": {
-    "fdmprinter": {
-      "default": 13484,
-      "basic": 37634
-    }
-  },
-  "Yellow_box_mixed.stl": {
-    "ultimaker2": {
-      "default": 17022,
-      "basic": 12516
-    },
-    "ultimaker3": {
-      "default": 17012,
-      "basic": 12511
-    }
-  },
-  "AA-Label.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere08.3.stl": {
-    "fdmprinter": {
-      "default": 40253,
-      "basic": 130484
-    }
-  },
-  "cube07.7.stl": {
-    "fdmprinter": {
-      "default": 32333,
-      "basic": 103201
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_port_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "single-link.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Black_box_lattice.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "9g_Servo_Mount.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Front_Wheel_Simple_-_Ninjaflex.stl": {
-    "ultimaker2": {
-      "default": 23354,
-      "basic": 9754
-    },
-    "ultimaker3": {
-      "default": 22917,
-      "basic": 9316
-    }
-  },
-  "sphere03.6.stl": {
-    "fdmprinter": {
-      "default": 5027,
-      "basic": 11884
-    }
-  },
-  "sphere00.6.stl": {
-    "fdmprinter": {
-      "default": 196,
-      "basic": 201
-    }
-  },
-  "sphere08.2.stl": {
-    "fdmprinter": {
-      "default": 39028,
-      "basic": 125959
-    }
-  },
-  "Back_Plate_v2.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Axle_Mount_Side_1.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube09.6.stl": {
-    "fdmprinter": {
-      "default": 56869,
-      "basic": 197304
-    }
-  },
-  "sphere04.5.stl": {
-    "fdmprinter": {
-      "default": 8601,
-      "basic": 22346
-    }
-  },
-  "cube90.stl": {
-    "fdmprinter": {
-      "default": 48021,
-      "basic": 163678
-    },
-    "ultimaker2": {
-      "default": 48256,
-      "basic": 164327
-    },
-    "ultimaker3": {
-      "default": 48255,
-      "basic": 164325
-    }
-  },
-  "cube01.8.stl": {
-    "fdmprinter": {
-      "default": 953,
-      "basic": 1697
-    }
-  },
-  "Green_box_solid.stl": {
-    "ultimaker2": {
-      "default": 37648,
-      "basic": 25975
-    },
-    "ultimaker3": {
-      "default": 37638,
-      "basic": 26004
-    }
-  },
-  "sphere07.8.stl": {
-    "fdmprinter": {
-      "default": 34248,
-      "basic": 108893
-    }
-  },
-  "chain-500.stl": {
-    "ultimaker2": {
-      "default": 75827,
-      "basic": 66192
-    },
-    "ultimaker3": {
-      "default": 75508,
-      "basic": 66366
-    }
-  },
-  "cube00.3.stl": {
-    "fdmprinter": {
-      "default": 59,
-      "basic": 59
-    }
-  },
-  "moon4inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Head_with_brim_high_detail.stl": {
-    "ultimaker2": {
-      "default": 38605,
-      "basic": 16124
-    },
-    "ultimaker3": {
-      "default": 38608,
-      "basic": 16127
-    }
-  },
-  "sphere08.8.stl": {
-    "fdmprinter": {
-      "default": 46882,
-      "basic": 154729
-    }
-  },
-  "sphere03.3.stl": {
-    "fdmprinter": {
-      "default": 4074,
-      "basic": 9309
-    }
-  },
-  "Blue_box_solid.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "crossbow_body_middle_1.stl": {
-    "ultimaker2": {
-      "default": 504,
-      "basic": 481
-    },
-    "ultimaker3": {
-      "default": 509,
-      "basic": 482
-    }
-  },
-  "sphere05.6.stl": {
-    "fdmprinter": {
-      "default": 14776,
-      "basic": 41778
-    }
-  },
-  "cube02.8.stl": {
-    "fdmprinter": {
-      "default": 2633,
-      "basic": 5777
-    }
-  },
-  "Turntable_Split_5pcs_1.stl": {
-    "ultimaker2": {
-      "default": 16048,
-      "basic": 11376
-    },
-    "ultimaker3": {
-      "default": 16052,
-      "basic": 11376
-    }
-  },
-  "sphere02.3.stl": {
-    "fdmprinter": {
-      "default": 1772,
-      "basic": 3433
-    }
-  },
-  "cube07.6.stl": {
-    "fdmprinter": {
-      "default": 31121,
-      "basic": 99129
-    }
-  },
-  "V4_chassis_cog_cover_with_Turn_table_support.stl": {
-    "ultimaker2": {
-      "default": 2146,
-      "basic": 1865
-    },
-    "ultimaker3": {
-      "default": 2138,
-      "basic": 1865
-    }
-  },
-  "cube01.1.stl": {
-    "fdmprinter": {
-      "default": 408,
-      "basic": 483
-    }
-  },
-  "Turntable_Split_5pcs_4.stl": {
-    "ultimaker2": {
-      "default": 16789,
-      "basic": 11756
-    },
-    "ultimaker3": {
-      "default": 16782,
-      "basic": 11755
-    }
-  },
-  "cube08.9.stl": {
-    "fdmprinter": {
-      "default": 47234,
-      "basic": 158682
-    }
-  },
-  "sphere05.3.stl": {
-    "fdmprinter": {
-      "default": 12854,
-      "basic": 35673
-    }
-  },
-  "cube40.stl": {
-    "fdmprinter": {
-      "default": 6126,
-      "basic": 15461
-    },
-    "ultimaker2": {
-      "default": 6169,
-      "basic": 15568
-    },
-    "ultimaker3": {
-      "default": 6168,
-      "basic": 15567
-    }
-  },
-  "Black_box_solid.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere06.1.stl": {
-    "fdmprinter": {
-      "default": 18314,
-      "basic": 53456
-    }
-  },
-  "Club_Y_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere01.4.stl": {
-    "fdmprinter": {
-      "default": 617,
-      "basic": 937
-    }
-  },
-  "cube00.6.stl": {
-    "fdmprinter": {
-      "default": 172,
-      "basic": 188
-    }
-  },
-  "Gnomon_Northen_Half_2_of_2.stl": {
-    "ultimaker2": {
-      "default": 38086,
-      "basic": 27808
-    },
-    "ultimaker3": {
-      "default": 38093,
-      "basic": 27827
-    }
-  },
-  "cube03.9.stl": {
-    "fdmprinter": {
-      "default": 5799,
-      "basic": 14557
-    }
-  },
-  "C-Base.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere04.7.stl": {
-    "fdmprinter": {
-      "default": 9551,
-      "basic": 25294
-    }
-  },
-  "Right_Side_Guard-Air_Intake.stl": {
-    "ultimaker2": {
-      "default": 10214,
-      "basic": 8625
-    },
-    "ultimaker3": {
-      "default": 10168,
-      "basic": 8613
-    }
-  },
-  "cube06.1.stl": {
-    "fdmprinter": {
-      "default": 17621,
-      "basic": 52504
-    }
-  },
-  "Gnomon_Southern_NETFABBED.stl": {
-    "ultimaker2": {
-      "default": 78559,
-      "basic": 53568
-    },
-    "ultimaker3": {
-      "default": 78513,
-      "basic": 53549
-    }
-  },
-  "oozebane_test.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "fox.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "V2_Main_Chassis_4.stl": {
-    "ultimaker2": {
-      "default": 56064,
-      "basic": 37669
-    },
-    "ultimaker3": {
-      "default": 56007,
-      "basic": 37670
-    }
-  },
-  "sphere03.9.stl": {
-    "fdmprinter": {
-      "default": 6078,
-      "basic": 14899
-    }
-  },
-  "sphere05.7.stl": {
-    "fdmprinter": {
-      "default": 15428,
-      "basic": 43950
-    }
-  },
-  "sphere05.9.stl": {
-    "fdmprinter": {
-      "default": 16809,
-      "basic": 48543
-    }
-  },
-  "cube.stl": {
-    "fdmprinter": {
-      "default": 618,
-      "basic": 691
-    }
-  },
-  "cube03.6.stl": {
-    "fdmprinter": {
-      "default": 4815,
-      "basic": 11712
-    }
-  },
-  "Rear_Wheel_Simple_-_Ninjaflex.stl": {
-    "ultimaker2": {
-      "default": 32250,
-      "basic": 12838
-    },
-    "ultimaker3": {
-      "default": 31813,
-      "basic": 12400
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Chimney_top_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere08.4.stl": {
-    "fdmprinter": {
-      "default": 41514,
-      "basic": 135112
-    }
-  },
-  "jet_fighter_large_200.STL": {
-    "ultimaker2": {
-      "default": 9666,
-      "basic": 7653
-    },
-    "ultimaker3": {
-      "default": 9664,
-      "basic": 7650
-    }
-  },
-  "Rear_Drive_Gear_PLA_V1.stl": {
-    "ultimaker2": {
-      "default": 2794,
-      "basic": 2249
-    },
-    "ultimaker3": {
-      "default": 2795,
-      "basic": 2249
-    }
-  },
-  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_v02_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube02.4.stl": {
-    "fdmprinter": {
-      "default": 1812,
-      "basic": 3671
-    }
-  },
-  "sphere06.3.stl": {
-    "fdmprinter": {
-      "default": 19862,
-      "basic": 58645
-    }
-  },
-  "cube04.0.stl": {
-    "fdmprinter": {
-      "default": 6126,
-      "basic": 15461
-    }
-  },
-  "cube05.2.stl": {
-    "fdmprinter": {
-      "default": 11626,
-      "basic": 33067
-    }
-  },
-  "Axis_change_connector_v3.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere08.9.stl": {
-    "fdmprinter": {
-      "default": 48275,
-      "basic": 159903
-    }
-  },
-  "C_Clamp_Bolt_40.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_starboard_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube02.9.stl": {
-    "fdmprinter": {
-      "default": 2835,
-      "basic": 6350
-    }
-  },
-  "sphere02.4.stl": {
-    "fdmprinter": {
-      "default": 1954,
-      "basic": 3859
-    }
-  },
-  "Gnomon_Northen_Half_1_of_2.stl": {
-    "ultimaker2": {
-      "default": 39304,
-      "basic": 25472
-    },
-    "ultimaker3": {
-      "default": 39318,
-      "basic": 25479
-    }
-  },
-  "Turntable_Split_5pcs_3.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "hand_OK.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "YODA_V4_with_Silhouette_background.stl": {
-    "ultimaker2": {
-      "default": 11948,
-      "basic": 10083
-    },
-    "ultimaker3": {
-      "default": 11966,
-      "basic": 10059
-    }
-  },
-  "Left_Side_Guard-Air_Intake.stl": {
-    "ultimaker2": {
-      "default": 10758,
-      "basic": 9110
-    },
-    "ultimaker3": {
-      "default": 10696,
-      "basic": 9057
-    }
-  },
-  "cube03.4.stl": {
-    "fdmprinter": {
-      "default": 4153,
-      "basic": 9797
-    }
-  },
-  "Club_X_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Crank.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere07.5.stl": {
-    "fdmprinter": {
-      "default": 30994,
-      "basic": 97180
-    }
-  },
-  "sphere00.3.stl": {
-    "fdmprinter": {
-      "default": 59,
-      "basic": 59
-    }
-  },
-  "Bat_X_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube04.4.stl": {
-    "fdmprinter": {
-      "default": 7804,
-      "basic": 20487
-    }
-  },
-  "sphere03.1.stl": {
-    "fdmprinter": {
-      "default": 3532,
-      "basic": 7818
-    }
-  },
-  "chain-1000.stl": {
-    "ultimaker2": {
-      "default": 153428,
-      "basic": 134541
-    },
-    "ultimaker3": {
-      "default": 152241,
-      "basic": 134789
-    }
-  },
-  "sphere09.7.stl": {
-    "fdmprinter": {
-      "default": 60472,
-      "basic": 205625
-    }
-  },
-  "chain-700.stl": {
-    "ultimaker2": {
-      "default": 85264,
-      "basic": 78128
-    },
-    "ultimaker3": {
-      "default": 85306,
-      "basic": 78378
-    }
-  },
-  "15mm_Spacer.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "FilleniumMalcon-AlignmentPeg.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube70.stl": {
-    "fdmprinter": {
-      "default": 25118,
-      "basic": 78361
-    },
-    "ultimaker2": {
-      "default": 25251,
-      "basic": 78718
-    },
-    "ultimaker3": {
-      "default": 25250,
-      "basic": 78716
-    }
-  },
-  "Flying_Wing_v3_right.stl": {
-    "ultimaker2": {
-      "default": 22992,
-      "basic": 18068
-    },
-    "ultimaker3": {
-      "default": 22982,
-      "basic": 18055
-    }
-  },
-  "sphere03.7.stl": {
-    "fdmprinter": {
-      "default": 5360,
-      "basic": 12830
-    }
-  },
-  "cube09.2.stl": {
-    "fdmprinter": {
-      "default": 50304,
-      "basic": 173230
-    }
-  },
-  "sphere00.4.stl": {
-    "fdmprinter": {
-      "default": 98,
-      "basic": 101
-    }
-  },
-  "cube02.5.stl": {
-    "fdmprinter": {
-      "default": 2051,
-      "basic": 4132
-    }
-  },
-  "cube02.0.stl": {
-    "fdmprinter": {
-      "default": 1241,
-      "basic": 2287
-    }
-  },
-  "cube06.9.stl": {
-    "fdmprinter": {
-      "default": 23825,
-      "basic": 75029
-    }
-  },
-  "jet_fighter.STL": {
-    "ultimaker2": {
-      "default": 2313,
-      "basic": 2204
-    },
-    "ultimaker3": {
-      "default": 2313,
-      "basic": 2202
-    }
-  },
-  "sphere04.4.stl": {
-    "fdmprinter": {
-      "default": 8153,
-      "basic": 20967
-    }
-  },
-  "V2_Main_chassis_Combined.stl": {
-    "ultimaker2": {
-      "default": 99564,
-      "basic": 69391
-    },
-    "ultimaker3": {
-      "default": 99580,
-      "basic": 69388
-    }
-  },
-  "PredatorActionPliers.stl": {
-    "ultimaker2": {
-      "default": 29868,
-      "basic": 22392
-    },
-    "ultimaker3": {
-      "default": 29891,
-      "basic": 22339
-    }
-  },
-  "Y_Axle.stl": {
-    "ultimaker2": {
-      "default": 4934,
-      "basic": 4371
-    },
-    "ultimaker3": {
-      "default": 4932,
-      "basic": 4369
-    }
-  },
-  "sphere04.6.stl": {
-    "fdmprinter": {
-      "default": 9072,
-      "basic": 23797
-    }
-  },
-  "ella_oc_a015R.stl": {
-    "ultimaker2": {
-      "default": 36698,
-      "basic": 21813
-    },
-    "ultimaker3": {
-      "default": 36714,
-      "basic": 21801
-    }
-  },
-  "sphere00.2.stl": {
-    "fdmprinter": {
-      "default": 37,
-      "basic": 37
-    }
-  },
-  "Camera_screw.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Arm_v3_Reverse_90.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Rear_Axel_Ruler.stl": {
-    "ultimaker2": {
-      "default": 2474,
-      "basic": 2028
-    },
-    "ultimaker3": {
-      "default": 2473,
-      "basic": 2027
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Bridge_roof_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Bat_Y_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere04.3.stl": {
-    "fdmprinter": {
-      "default": 7711,
-      "basic": 19643
-    }
-  },
-  "sphere03.8.stl": {
-    "fdmprinter": {
-      "default": 5716,
-      "basic": 13840
-    }
-  },
-  "chain-750.stl": {
-    "ultimaker2": {
-      "default": 92977,
-      "basic": 85358
-    },
-    "ultimaker3": {
-      "default": 92799,
-      "basic": 85609
-    }
-  },
-  "AA-Cover.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "chain-1500.stl": {
-    "ultimaker2": {
-      "default": 369223,
-      "basic": 305828
-    },
-    "ultimaker3": {
-      "default": 368634,
-      "basic": 306611
-    }
-  },
-  "cube00.5.stl": {
-    "fdmprinter": {
-      "default": 140,
-      "basic": 151
-    }
-  },
-  "sphere07.4.stl": {
-    "fdmprinter": {
-      "default": 29919,
-      "basic": 93454
-    }
-  },
-  "sphere01.8.stl": {
-    "fdmprinter": {
-      "default": 1033,
-      "basic": 1783
-    }
-  },
-  "Flying_Wing_v2R.stl": {
-    "ultimaker2": {
-      "default": 29326,
-      "basic": 22245
-    },
-    "ultimaker3": {
-      "default": 29323,
-      "basic": 22245
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Fishing-rod-holder_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Red_box_with_wall_solid.stl": {
-    "ultimaker2": {
-      "default": 71876,
-      "basic": 48154
-    },
-    "ultimaker3": {
-      "default": 71891,
-      "basic": 48210
-    }
-  },
-  "M5_knob_for_phone_v4.stl": {
-    "ultimaker2": {
-      "default": 1668,
-      "basic": 1280
-    },
-    "ultimaker3": {
-      "default": 1673,
-      "basic": 1273
-    }
-  },
-  "moon10inches.stl": {
-    "ultimaker2": {
-      "default": 382964,
-      "basic": 338022
-    },
-    "ultimaker3": {
-      "default": 382690,
-      "basic": 337611
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Deck_surface_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "fire_truck.STL": {
-    "ultimaker2": {
-      "default": 4296,
-      "basic": 3708
-    },
-    "ultimaker3": {
-      "default": 4312,
-      "basic": 3709
-    }
-  },
-  "sphere05.5.stl": {
-    "fdmprinter": {
-      "default": 14119,
-      "basic": 39666
-    }
-  },
-  "jet_fighter.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Flying_Wing_v3_middle_fpv.stl": {
-    "ultimaker2": {
-      "default": 13871,
-      "basic": 9841
-    },
-    "ultimaker3": {
-      "default": 13865,
-      "basic": 9840
-    }
-  },
-  "cube01.7.stl": {
-    "fdmprinter": {
-      "default": 849,
-      "basic": 1450
-    }
-  },
-  "Red_box_with_wall_mixed.stl": {
-    "ultimaker2": {
-      "default": 103146,
-      "basic": 85011
-    },
-    "ultimaker3": {
-      "default": 103605,
-      "basic": 85487
-    }
-  },
-  "cube04.9.stl": {
-    "fdmprinter": {
-      "default": 10303,
-      "basic": 27643
-    }
-  },
-  "cube01.3.stl": {
-    "fdmprinter": {
-      "default": 526,
-      "basic": 728
-    }
-  },
-  "sphere01.2.stl": {
-    "fdmprinter": {
-      "default": 496,
-      "basic": 644
-    }
-  },
-  "cube03.0.stl": {
-    "fdmprinter": {
-      "default": 3108,
-      "basic": 6952
-    }
-  },
-  "moon9inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere04.2.stl": {
-    "fdmprinter": {
-      "default": 7292,
-      "basic": 18388
-    }
-  },
-  "sphere04.8.stl": {
-    "fdmprinter": {
-      "default": 10070,
-      "basic": 26858
-    }
-  },
-  "sphere00.5.stl": {
-    "fdmprinter": {
-      "default": 145,
-      "basic": 155
-    }
-  },
-  "Yellow_box_lattice.stl": {
-    "ultimaker2": {
-      "default": 18647,
-      "basic": 17068
-    },
-    "ultimaker3": {
-      "default": 18635,
-      "basic": 17066
-    }
-  },
-  "cube07.2.stl": {
-    "fdmprinter": {
-      "default": 27241,
-      "basic": 85463
-    }
-  },
-  "sphere01.3.stl": {
-    "fdmprinter": {
-      "default": 552,
-      "basic": 780
-    }
-  },
-  "cube09.9.stl": {
-    "fdmprinter": {
-      "default": 62303,
-      "basic": 216260
-    }
-  },
-  "Arm_v3_90.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube04.8.stl": {
-    "fdmprinter": {
-      "default": 9749,
-      "basic": 26310
-    }
-  },
-  "Star_Y_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube02.3.stl": {
-    "fdmprinter": {
-      "default": 1664,
-      "basic": 3265
-    }
-  },
-  "sphere06.4.stl": {
-    "fdmprinter": {
-      "default": 20679,
-      "basic": 61395
-    }
-  },
-  "Head_without_brim_lower_detail.stl": {
-    "ultimaker2": {
-      "default": 34238,
-      "basic": 12604
-    },
-    "ultimaker3": {
-      "default": 34250,
-      "basic": 12616
+      "basic": 2331,
+      "default": 2431
     }
   },
   "base_for_YODA_V4.stl": {
     "ultimaker2": {
-      "default": 17538,
-      "basic": 11035
+      "basic": 11035,
+      "default": 17538
     },
     "ultimaker3": {
-      "default": 17532,
-      "basic": 11034
+      "basic": 11034,
+      "default": 17532
     }
   },
-  "Red_box_mixed.stl": {
+  "jet_fighter.STL": {
     "ultimaker2": {
-      "default": 86057,
-      "basic": 68737
+      "basic": 2204,
+      "default": 2313
     },
     "ultimaker3": {
-      "default": 86658,
-      "basic": 69226
+      "basic": 2202,
+      "default": 2313
     }
   },
-  "cube00.1.stl": {
+  "AA-Label.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere04.8.stl": {
     "fdmprinter": {
-      "default": 29,
-      "basic": 29
-    }
-  },
-  "sphere07.2.stl": {
-    "fdmprinter": {
-      "default": 27860,
-      "basic": 86312
-    }
-  },
-  "cube09.7.stl": {
-    "fdmprinter": {
-      "default": 58169,
-      "basic": 204331
-    }
-  },
-  "cube05.3.stl": {
-    "fdmprinter": {
-      "default": 12409,
-      "basic": 35001
-    }
-  },
-  "cube05.4.stl": {
-    "fdmprinter": {
-      "default": 13082,
-      "basic": 37210
-    }
-  },
-  "crossbow_slider.stl": {
-    "ultimaker2": {
-      "default": 1265,
-      "basic": 1201
-    },
-    "ultimaker3": {
-      "default": 1264,
-      "basic": 1200
-    }
-  },
-  "V3_Turn_Table_Split_2.stl": {
-    "ultimaker2": {
-      "default": 16817,
-      "basic": 11774
-    },
-    "ultimaker3": {
-      "default": 16805,
-      "basic": 11773
-    }
-  },
-  "cube07.5.stl": {
-    "fdmprinter": {
-      "default": 29432,
-      "basic": 95110
-    }
-  },
-  "chain-200.stl": {
-    "ultimaker2": {
-      "default": 28093,
-      "basic": 24391
-    },
-    "ultimaker3": {
-      "default": 28174,
-      "basic": 24291
-    }
-  },
-  "cube03.3.stl": {
-    "fdmprinter": {
-      "default": 3892,
-      "basic": 8969
-    }
-  },
-  "Blue_box_mixed.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_port_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere07.1.stl": {
-    "fdmprinter": {
-      "default": 26905,
-      "basic": 82886
-    }
-  },
-  "cube_ver3.STL": {
-    "ultimaker2": {
-      "default": 82679,
-      "basic": 54518
-    },
-    "ultimaker3": {
-      "default": 82109,
-      "basic": 54497
-    }
-  },
-  "FilleniumMalcon-RearHalf_Pegged.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube03.8.stl": {
-    "fdmprinter": {
-      "default": 5542,
-      "basic": 13575
-    }
-  },
-  "cube02.2.stl": {
-    "fdmprinter": {
-      "default": 1516,
-      "basic": 2933
-    }
-  },
-  "sphere06.5.stl": {
-    "fdmprinter": {
-      "default": 21490,
-      "basic": 64214
-    }
-  },
-  "Red_box_engraved.stl": {
-    "ultimaker2": {
-      "default": 78449,
-      "basic": 57250
-    },
-    "ultimaker3": {
-      "default": 78543,
-      "basic": 57303
-    }
-  },
-  "Star_X_Cam.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "crossbow_limb.stl": {
-    "ultimaker2": {
-      "default": 1182,
-      "basic": 1166
-    },
-    "ultimaker3": {
-      "default": 1182,
-      "basic": 1166
-    }
-  },
-  "Flying_Wing_v3.1_right.stl": {
-    "ultimaker2": {
-      "default": 22718,
-      "basic": 17895
-    },
-    "ultimaker3": {
-      "default": 22718,
-      "basic": 17889
-    }
-  },
-  "cube05.6.stl": {
-    "fdmprinter": {
-      "default": 14159,
-      "basic": 41118
-    }
-  },
-  "cube02.7.stl": {
-    "fdmprinter": {
-      "default": 2434,
-      "basic": 5155
-    }
-  },
-  "sphere08.7.stl": {
-    "fdmprinter": {
-      "default": 45524,
-      "basic": 149671
-    }
-  },
-  "sphere04.9.stl": {
-    "fdmprinter": {
-      "default": 10605,
-      "basic": 28485
-    }
-  },
-  "cube100.stl": {
-    "fdmprinter": {
-      "default": 64188,
-      "basic": 221607
-    },
-    "ultimaker2": {
-      "default": 64526,
-      "basic": 222320
-    },
-    "ultimaker3": {
-      "default": 64525,
-      "basic": 222315
-    }
-  },
-  "sphere08.1.stl": {
-    "fdmprinter": {
-      "default": 37810,
-      "basic": 121549
-    }
-  },
-  "thin_wall.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "V4_Main_Chassis_1.stl": {
-    "ultimaker2": {
-      "default": 1370,
-      "basic": 1254
-    },
-    "ultimaker3": {
-      "default": 1369,
-      "basic": 1253
-    }
-  },
-  "C_Clamp_Arm_40.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Turntable_Split_5pcs_2.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Headphone_holder.stl": {
-    "ultimaker2": {
-      "default": 11452,
-      "basic": 6756
-    },
-    "ultimaker3": {
-      "default": 11452,
-      "basic": 6756
-    }
-  },
-  "Arm_v3_150.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Top_part.stl": {
-    "ultimaker2": {
-      "default": 11787,
-      "basic": 7324
-    },
-    "ultimaker3": {
-      "default": 11789,
-      "basic": 7322
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Hull_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere01.7.stl": {
-    "fdmprinter": {
-      "default": 913,
-      "basic": 1536
-    }
-  },
-  "Crank_Gear.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere03.4.stl": {
-    "fdmprinter": {
-      "default": 4369,
-      "basic": 10122
-    }
-  },
-  "moon5inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere04.0.stl": {
-    "fdmprinter": {
-      "default": 6452,
-      "basic": 15998
-    }
-  },
-  "cube01.4.stl": {
-    "fdmprinter": {
-      "default": 592,
-      "basic": 862
-    }
-  },
-  "3D_Printer_test_fixed_stl_3rd_gen.STL": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Upper_Plate.stl": {
-    "ultimaker2": {
-      "default": 12920,
-      "basic": 10445
-    },
-    "ultimaker3": {
-      "default": 12906,
-      "basic": 10442
-    }
-  },
-  "Rear_Wheel_Simple_-_PLA.stl": {
-    "ultimaker2": {
-      "default": 13992,
-      "basic": 8929
-    },
-    "ultimaker3": {
-      "default": 13580,
-      "basic": 8928
-    }
-  },
-  "cube04.6.stl": {
-    "fdmprinter": {
-      "default": 8602,
-      "basic": 23448
-    }
-  },
-  "sphere07.0.stl": {
-    "fdmprinter": {
-      "default": 25986,
-      "basic": 79574
-    }
-  },
-  "fire_truck_egg.STL": {
-    "ultimaker2": {
-      "default": 12138,
-      "basic": 7470
-    },
-    "ultimaker3": {
-      "default": 12133,
-      "basic": 7473
-    }
-  },
-  "single-link-hires.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Arm_v3_Straight_150.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube10.0.stl": {
-    "fdmprinter": {
-      "default": 64188,
-      "basic": 221607
-    }
-  },
-  "sphere05.8.stl": {
-    "fdmprinter": {
-      "default": 16129,
-      "basic": 46217
-    }
-  },
-  "cube05.9.stl": {
-    "fdmprinter": {
-      "default": 16290,
-      "basic": 47462
-    }
-  },
-  "Clip_UM2.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere02.6.stl": {
-    "fdmprinter": {
-      "default": 2336,
-      "basic": 4800
-    }
-  },
-  "cube60.stl": {
-    "fdmprinter": {
-      "default": 17079,
-      "basic": 49953
-    },
-    "ultimaker2": {
-      "default": 17200,
-      "basic": 50200
-    },
-    "ultimaker3": {
-      "default": 17192,
-      "basic": 50199
-    }
-  },
-  "sphere07.9.stl": {
-    "fdmprinter": {
-      "default": 35389,
-      "basic": 113014
-    }
-  },
-  "Yoda_Ver_4.stl": {
-    "ultimaker2": {
-      "default": 11671,
-      "basic": 9700
-    },
-    "ultimaker3": {
-      "default": 11691,
-      "basic": 9736
-    }
-  },
-  "cube09.4.stl": {
-    "fdmprinter": {
-      "default": 54453,
-      "basic": 185008
-    }
-  },
-  "sphere02.2.stl": {
-    "fdmprinter": {
-      "default": 1598,
-      "basic": 3044
-    }
-  },
-  "Top_part_NETFABBED.stl": {
-    "ultimaker2": {
-      "default": 11792,
-      "basic": 7345
-    },
-    "ultimaker3": {
-      "default": 11790,
-      "basic": 7339
-    }
-  },
-  "cube08.1.stl": {
-    "fdmprinter": {
-      "default": 36532,
-      "basic": 120376
-    }
-  },
-  "sphere05.0.stl": {
-    "fdmprinter": {
-      "default": 11164,
-      "basic": 30194
-    }
-  },
-  "Axis_change_connector.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere02.1.stl": {
-    "fdmprinter": {
-      "default": 1435,
-      "basic": 2687
-    }
-  },
-  "cube08.0.stl": {
-    "fdmprinter": {
-      "default": 35043,
-      "basic": 116285
-    }
-  },
-  "Front_Wheel_Simple_-_PLA.stl": {
-    "ultimaker2": {
-      "default": 10078,
-      "basic": 6567
-    },
-    "ultimaker3": {
-      "default": 9777,
-      "basic": 6566
-    }
-  },
-  "5mm_Flange_Spacer.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere01.6.stl": {
-    "fdmprinter": {
-      "default": 800,
-      "basic": 1313
-    }
-  },
-  "Prusa_Enclosure_Door_Knob.stl": {
-    "ultimaker2": {
-      "default": 10063,
-      "basic": 8284
-    },
-    "ultimaker3": {
-      "default": 10064,
-      "basic": 8284
-    }
-  },
-  "sphere08.5.stl": {
-    "fdmprinter": {
-      "default": 42790,
-      "basic": 139862
-    }
-  },
-  "V3_Turn_Table_Split_1.stl": {
-    "ultimaker2": {
-      "default": 16325,
-      "basic": 9630
-    },
-    "ultimaker3": {
-      "default": 16324,
-      "basic": 9627
-    }
-  },
-  "cube00.7.stl": {
-    "fdmprinter": {
-      "default": 212,
-      "basic": 221
-    }
-  },
-  "FilleniumMalcon-FrontHalf_Pegged.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere07.7.stl": {
-    "fdmprinter": {
-      "default": 33172,
-      "basic": 104917
-    }
-  },
-  "sphere09.2.stl": {
-    "fdmprinter": {
-      "default": 52620,
-      "basic": 176170
-    }
-  },
-  "USB-SD-MicroSD_Card_Holder_-_v2.0.stl": {
-    "ultimaker2": {
-      "default": 30166,
-      "basic": 19280
-    },
-    "ultimaker3": {
-      "default": 30155,
-      "basic": 19281
-    }
-  },
-  "3DBenchy_-_Dualprint_-_Gunwale_Deck_Plate_Wheel_Frames_Roof_Chimney_top_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube09.3.stl": {
-    "fdmprinter": {
-      "default": 52734,
-      "basic": 178960
-    }
-  },
-  "cube01.5.stl": {
-    "fdmprinter": {
-      "default": 660,
-      "basic": 1028
-    }
-  },
-  "cube00.8.stl": {
-    "fdmprinter": {
-      "default": 252,
-      "basic": 257
-    }
-  },
-  "V3_Turn_Table_Split_3.stl": {
-    "ultimaker2": {
-      "default": 16032,
-      "basic": 11381
-    },
-    "ultimaker3": {
-      "default": 16032,
-      "basic": 11381
-    }
-  },
-  "cube05.5.stl": {
-    "fdmprinter": {
-      "default": 13750,
-      "basic": 39146
-    }
-  },
-  "cube05.7.stl": {
-    "fdmprinter": {
-      "default": 14723,
-      "basic": 42913
-    }
-  },
-  "Green_box_mixed.stl": {
-    "ultimaker2": {
-      "default": 51969,
-      "basic": 41196
-    },
-    "ultimaker3": {
-      "default": 51852,
-      "basic": 41217
-    }
-  },
-  "Prusa_Enclosure_Cable_clip.stl": {
-    "ultimaker2": {
-      "default": 13784,
-      "basic": 10700
-    },
-    "ultimaker3": {
-      "default": 13781,
-      "basic": 10702
-    }
-  },
-  "Yellow_box_engraved.stl": {
-    "ultimaker2": {
-      "default": 17022,
-      "basic": 12513
-    },
-    "ultimaker3": {
-      "default": 17012,
-      "basic": 12508
-    }
-  },
-  "sphere05.1.stl": {
-    "fdmprinter": {
-      "default": 11713,
-      "basic": 31953
-    }
-  },
-  "cube04.1.stl": {
-    "fdmprinter": {
-      "default": 6435,
-      "basic": 16583
-    }
-  },
-  "Groot_v1_1M_Merged.stl": {
-    "ultimaker2": {
-      "default": 76690,
-      "basic": 35739
-    },
-    "ultimaker3": {
-      "default": 76675,
-      "basic": 35729
-    }
-  },
-  "Yellow_box_solid.stl": {
-    "ultimaker2": {
-      "default": 13132,
-      "basic": 10196
-    },
-    "ultimaker3": {
-      "default": 13125,
-      "basic": 10194
-    }
-  },
-  "sphere03.0.stl": {
-    "fdmprinter": {
-      "default": 3269,
-      "basic": 7138
-    }
-  },
-  "Phone_clamp_down_v3.stl": {
-    "ultimaker2": {
-      "default": 3350,
-      "basic": 2673
-    },
-    "ultimaker3": {
-      "default": 3350,
-      "basic": 2673
-    }
-  },
-  "cube06.6.stl": {
-    "fdmprinter": {
-      "default": 21779,
-      "basic": 65685
-    }
-  },
-  "Bottom_Plate.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "sphere05.2.stl": {
-    "fdmprinter": {
-      "default": 12265,
-      "basic": 33769
-    }
-  },
-  "cube01.6.stl": {
-    "fdmprinter": {
-      "default": 750,
-      "basic": 1228
-    }
-  },
-  "bridge_test.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "AAA-Cover.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "Bottom_part_with_breakable_support.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Stern_window_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube06.7.stl": {
-    "fdmprinter": {
-      "default": 22350,
-      "basic": 68560
-    }
-  },
-  "Red_box_lattice.stl": {
-    "ultimaker2": {
-      "default": 96407,
-      "basic": 92414
-    },
-    "ultimaker3": {
-      "default": 96450,
-      "basic": 92489
-    }
-  },
-  "crossbow_trigger.stl": {
-    "ultimaker2": {
-      "default": 429,
-      "basic": 389
-    },
-    "ultimaker3": {
-      "default": 427,
-      "basic": 388
-    }
-  },
-  "cube03.1.stl": {
-    "fdmprinter": {
-      "default": 3393,
-      "basic": 7577
-    }
-  },
-  "sphere03.2.stl": {
-    "fdmprinter": {
-      "default": 3796,
-      "basic": 8537
-    }
-  },
-  "Prusa_Enclosure_Spool_Holder.stl": {
-    "ultimaker2": {
-      "default": 37062,
-      "basic": 29443
-    },
-    "ultimaker3": {
-      "default": 37095,
-      "basic": 29452
-    }
-  },
-  "3DBenchy_-_Multi-part_-_Single_-_Stern_name_plate_-_3DBenchy.com.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": 52253,
+      "default": 17082
     }
   },
   "cube20_hollow.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     }
   },
-  "Air_Spinner_2_-_Solid.stl": {
+  "V2_Main_Chassis_2.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": 32242,
+      "default": 43992
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": 32238,
+      "default": 44000
     }
   },
-  "Blue_box_lattice.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "chain-600.stl": {
-    "ultimaker2": {
-      "default": 99626,
-      "basic": 86472
-    },
-    "ultimaker3": {
-      "default": 99853,
-      "basic": 86150
-    }
-  },
-  "Prusa_Enclosure_PSU_Holder.stl": {
-    "ultimaker2": {
-      "default": 36418,
-      "basic": 19708
-    },
-    "ultimaker3": {
-      "default": 36149,
-      "basic": 19721
-    }
-  },
-  "Prusa_Enclosure_Bottom_Corners.stl": {
-    "ultimaker2": {
-      "default": 88591,
-      "basic": 52910
-    },
-    "ultimaker3": {
-      "default": 88599,
-      "basic": 52894
-    }
-  },
-  "sphere02.7.stl": {
+  "cube00.6.stl": {
     "fdmprinter": {
-      "default": 2542,
-      "basic": 5328
+      "basic": null,
+      "default": null
     }
   },
-  "V2_Turn_Table.stl": {
+  "crossbow_body_right.stl": {
     "ultimaker2": {
-      "default": 50395,
-      "basic": 32119
+      "basic": 3645,
+      "default": 4204
     },
     "ultimaker3": {
-      "default": 50406,
-      "basic": 32126
+      "basic": 3641,
+      "default": 4185
     }
   },
-  "sphere06.6.stl": {
+  "cube04.8.stl": {
     "fdmprinter": {
-      "default": 22307,
-      "basic": 67088
+      "basic": 51420,
+      "default": 17118
+    }
+  },
+  "jet_fighter_egg.STL": {
+    "ultimaker2": {
+      "basic": 7142,
+      "default": 13322
+    },
+    "ultimaker3": {
+      "basic": 7141,
+      "default": 13318
+    }
+  },
+  "chain-300.stl": {
+    "ultimaker2": {
+      "basic": 35680,
+      "default": 40241
+    },
+    "ultimaker3": {
+      "basic": 35283,
+      "default": 40043
+    }
+  },
+  "sphere03.0.stl": {
+    "fdmprinter": {
+      "basic": 13675,
+      "default": 5321
+    }
+  },
+  "sphere03.4.stl": {
+    "fdmprinter": {
+      "basic": 19482,
+      "default": 7180
+    }
+  },
+  "Bottom_Plate.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube02.6.stl": {
+    "fdmprinter": {
+      "basic": 8876,
+      "default": 3802
     }
   },
   "cube01.9.stl": {
     "fdmprinter": {
-      "default": 1099,
-      "basic": 1998
+      "basic": 3789,
+      "default": 1809
     }
   },
-  "cube08.3.stl": {
+  "crossbow_slider.stl": {
+    "ultimaker2": {
+      "basic": 1201,
+      "default": 1265
+    },
+    "ultimaker3": {
+      "basic": 1200,
+      "default": 1264
+    }
+  },
+  "Turntable_Split_5pcs_1.stl": {
+    "ultimaker2": {
+      "basic": 11376,
+      "default": 16048
+    },
+    "ultimaker3": {
+      "basic": 11376,
+      "default": 16052
+    }
+  },
+  "Green_box_engraved.stl": {
+    "ultimaker2": {
+      "basic": 34441,
+      "default": 47915
+    },
+    "ultimaker3": {
+      "basic": 34483,
+      "default": 47780
+    }
+  },
+  "sphere01.5.stl": {
     "fdmprinter": {
-      "default": 39332,
-      "basic": 128177
+      "basic": 2045,
+      "default": 1085
     }
   },
-  "V2_Cog.stl": {
+  "Axis_change_connector_v3.stl": {
     "ultimaker2": {
-      "default": 3904,
-      "basic": 2919
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": 3905,
-      "basic": 2920
+      "basic": null,
+      "default": null
     }
   },
-  "cube50.stl": {
+  "moon8inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube07.4.stl": {
     "fdmprinter": {
-      "default": 10683,
-      "basic": 29373
-    },
-    "ultimaker2": {
-      "default": 10760,
-      "basic": 29533
-    },
-    "ultimaker3": {
-      "default": 10759,
-      "basic": 29531
+      "basic": 181386,
+      "default": 51698
     }
   },
-  "jet_fighter_large_300.STL": {
-    "ultimaker2": {
-      "default": 23209,
-      "basic": 16091
-    },
-    "ultimaker3": {
-      "default": 23209,
-      "basic": 16090
-    }
-  },
-  "cube09.8.stl": {
+  "sphere04.6.stl": {
     "fdmprinter": {
-      "default": 60293,
-      "basic": 210282
+      "basic": 46228,
+      "default": 15305
     }
   },
-  "FilleniumMalcon-FrontThird.obj": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "crossbow_rail.stl": {
-    "ultimaker2": {
-      "default": 409,
-      "basic": 363
-    },
-    "ultimaker3": {
-      "default": 408,
-      "basic": 362
-    }
-  },
-  "moon3inches.stl": {
-    "ultimaker2": {
-      "default": null,
-      "basic": null
-    },
-    "ultimaker3": {
-      "default": null,
-      "basic": null
-    }
-  },
-  "cube00.4.stl": {
+  "sphere04.7.stl": {
     "fdmprinter": {
-      "default": 98,
-      "basic": 100
+      "basic": 49170,
+      "default": 16160
     }
   },
-  "Gnomon_Southern_Half_2_of_2.stl": {
+  "Headphone_holder.stl": {
     "ultimaker2": {
-      "default": 41331,
-      "basic": 29218
+      "basic": 6756,
+      "default": 11452
     },
     "ultimaker3": {
-      "default": 41336,
-      "basic": 29215
+      "basic": 6756,
+      "default": 11452
     }
   },
-  "Front_Wheel_-_Ninjaflex.stl": {
+  "AAA-Label.stl": {
     "ultimaker2": {
-      "default": 22551,
-      "basic": 12185
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": 22526,
-      "basic": 12186
+      "basic": null,
+      "default": null
     }
   },
-  "crossbow_body_middle_2.stl": {
+  "YODA_V4_with_Silhouette_background.stl": {
     "ultimaker2": {
-      "default": 2095,
-      "basic": 1864
+      "basic": 10083,
+      "default": 11948
     },
     "ultimaker3": {
-      "default": 2096,
-      "basic": 1865
+      "basic": 10059,
+      "default": 11966
     }
   },
-  "sphere06.9.stl": {
-    "fdmprinter": {
-      "default": 25048,
-      "basic": 76315
-    }
-  },
-  "Blue_box_engraved.stl": {
+  "bridge_test.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     }
   },
-  "sphere01.1.stl": {
-    "fdmprinter": {
-      "default": 443,
-      "basic": 530
+  "3DBenchy_-_Multi-part_-_Single_-_Stern_window_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Black_box_lattice.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
     }
   },
   "moon7inches.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     }
   },
-  "Connector.stl": {
+  "Arm_v3_150.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_WITH_tab.stl": {
+    "ultimaker2": {
+      "basic": 3536,
+      "default": 4513
+    },
+    "ultimaker3": {
+      "basic": 3533,
+      "default": 4509
+    }
+  },
+  "cube08.8.stl": {
+    "fdmprinter": {
+      "basic": 303550,
+      "default": 83473
+    }
+  },
+  "Top_part.stl": {
+    "ultimaker2": {
+      "basic": 7324,
+      "default": 11787
+    },
+    "ultimaker3": {
+      "basic": 7322,
+      "default": 11789
+    }
+  },
+  "V4_Main_Chassis_1.stl": {
+    "ultimaker2": {
+      "basic": 1254,
+      "default": 1370
+    },
+    "ultimaker3": {
+      "basic": 1253,
+      "default": 1369
+    }
+  },
+  "AAA-Base.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube05.2.stl": {
+    "fdmprinter": {
+      "basic": 64732,
+      "default": 20444
     }
   },
   "moon6inches.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
+    }
+  },
+  "Front_Wheel_-_PLA.stl": {
+    "ultimaker2": {
+      "basic": 6538,
+      "default": 9702
+    },
+    "ultimaker3": {
+      "basic": 6540,
+      "default": 9714
+    }
+  },
+  "sphere01.3.stl": {
+    "fdmprinter": {
+      "basic": 1415,
+      "default": 887
+    }
+  },
+  "Camera_screw.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "FilleniumMalcon-FrontHalf_Pegged.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "measuring_cube_version_2.STL": {
+    "ultimaker2": {
+      "basic": 57667,
+      "default": 90283
+    },
+    "ultimaker3": {
+      "basic": 57602,
+      "default": 90129
+    }
+  },
+  "Phone_clamp_up_WITH_tab.stl": {
+    "ultimaker2": {
+      "basic": 2299,
+      "default": 2978
+    },
+    "ultimaker3": {
+      "basic": 2299,
+      "default": 2978
+    }
+  },
+  "cube02.0.stl": {
+    "fdmprinter": {
+      "basic": 4346,
+      "default": 2055
+    }
+  },
+  "sphere02.1.stl": {
+    "fdmprinter": {
+      "basic": 5054,
+      "default": 2258
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_starboard_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Bat_Y_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Top_part_NETFABBED.stl": {
+    "ultimaker2": {
+      "basic": 7345,
+      "default": 11792
+    },
+    "ultimaker3": {
+      "basic": 7339,
+      "default": 11790
+    }
+  },
+  "Turntable_Split_5pcs_4.stl": {
+    "ultimaker2": {
+      "basic": 11756,
+      "default": 16789
+    },
+    "ultimaker3": {
+      "basic": 11755,
+      "default": 16782
+    }
+  },
+  "cube08.1.stl": {
+    "fdmprinter": {
+      "basic": 237430,
+      "default": 66293
+    }
+  },
+  "crossbow_body_middle_1.stl": {
+    "ultimaker2": {
+      "basic": 481,
+      "default": 504
+    },
+    "ultimaker3": {
+      "basic": 482,
+      "default": 509
+    }
+  },
+  "Japanese_Fountain_Base_Rev_G.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube04.3.stl": {
+    "fdmprinter": {
+      "basic": 37301,
+      "default": 13017
+    }
+  },
+  "Bat_X_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "chain-200.stl": {
+    "ultimaker2": {
+      "basic": 24391,
+      "default": 28093
+    },
+    "ultimaker3": {
+      "basic": 24291,
+      "default": 28174
+    }
+  },
+  "cube04.1.stl": {
+    "fdmprinter": {
+      "basic": 32267,
+      "default": 11112
+    }
+  },
+  "Gnomon_Northen_Half_2_of_2.stl": {
+    "ultimaker2": {
+      "basic": 27808,
+      "default": 38086
+    },
+    "ultimaker3": {
+      "basic": 27827,
+      "default": 38093
     }
   },
   "Axle_Mount_Side_2.stl": {
     "ultimaker2": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     },
     "ultimaker3": {
-      "default": null,
-      "basic": null
+      "basic": null,
+      "default": null
     }
   },
-  "sphere06.2.stl": {
+  "cube00.1.stl": {
     "fdmprinter": {
-      "default": 19079,
-      "basic": 56006
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube90.stl": {
+    "ultimaker2": {
+      "basic": 164327,
+      "default": 48256
+    },
+    "fdmprinter": {
+      "basic": 163678,
+      "default": 48021
+    },
+    "ultimaker3": {
+      "basic": 164325,
+      "default": 48255
+    }
+  },
+  "Front_Bumper.stl": {
+    "ultimaker2": {
+      "basic": 5220,
+      "default": 7729
+    },
+    "ultimaker3": {
+      "basic": 5213,
+      "default": 7724
+    }
+  },
+  "cube09.2.stl": {
+    "fdmprinter": {
+      "basic": 342132,
+      "default": 91849
+    }
+  },
+  "Y_Axle.stl": {
+    "ultimaker2": {
+      "basic": 4371,
+      "default": 4934
+    },
+    "ultimaker3": {
+      "basic": 4369,
+      "default": 4932
+    }
+  },
+  "cube02.5.stl": {
+    "fdmprinter": {
+      "basic": 7912,
+      "default": 3441
+    }
+  },
+  "fox.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "V3_Turn_Table_Split_1.stl": {
+    "ultimaker2": {
+      "basic": 9630,
+      "default": 16325
+    },
+    "ultimaker3": {
+      "basic": 9627,
+      "default": 16324
+    }
+  },
+  "cube05.4.stl": {
+    "fdmprinter": {
+      "basic": 72933,
+      "default": 23167
+    }
+  },
+  "sphere01.4.stl": {
+    "fdmprinter": {
+      "basic": 1706,
+      "default": 968
+    }
+  },
+  "measuring_cube.STL": {
+    "ultimaker2": {
+      "basic": 55776,
+      "default": 86817
+    },
+    "ultimaker3": {
+      "basic": 55758,
+      "default": 86471
+    }
+  },
+  "Red_box_with_wall_solid.stl": {
+    "ultimaker2": {
+      "basic": 48154,
+      "default": 71876
+    },
+    "ultimaker3": {
+      "basic": 48210,
+      "default": 71891
+    }
+  },
+  "cube07.8.stl": {
+    "fdmprinter": {
+      "basic": 211568,
+      "default": 59940
+    }
+  },
+  "M5.0_Nut.stl": {
+    "ultimaker2": {
+      "basic": 256,
+      "default": 258
+    },
+    "ultimaker3": {
+      "basic": 255,
+      "default": 257
+    }
+  },
+  "moon2inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube00.7.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "AA-Base.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Prusa_Enclosure_PSU_Holder.stl": {
+    "ultimaker2": {
+      "basic": 19708,
+      "default": 36418
+    },
+    "ultimaker3": {
+      "basic": 19721,
+      "default": 36149
+    }
+  },
+  "sphere04.2.stl": {
+    "fdmprinter": {
+      "basic": 35614,
+      "default": 12206
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Gunwale_Deck_Plate_Wheel_Frames_Roof_Chimney_top_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere00.2.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube07.5.stl": {
+    "fdmprinter": {
+      "basic": 187318,
+      "default": 53035
+    }
+  },
+  "Flying_Wing_v3.1_right.stl": {
+    "ultimaker2": {
+      "basic": 17895,
+      "default": 22718
+    },
+    "ultimaker3": {
+      "basic": 17889,
+      "default": 22718
+    }
+  },
+  "cube03.2.stl": {
+    "fdmprinter": {
+      "basic": 15792,
+      "default": 6274
+    }
+  },
+  "Black_box_solid.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere03.9.stl": {
+    "fdmprinter": {
+      "basic": 28811,
+      "default": 10119
+    }
+  },
+  "Left_Side_Guard-Air_Intake.stl": {
+    "ultimaker2": {
+      "basic": 9110,
+      "default": 10758
+    },
+    "ultimaker3": {
+      "basic": 9057,
+      "default": 10696
+    }
+  },
+  "Yellow_box_lattice.stl": {
+    "ultimaker2": {
+      "basic": 17068,
+      "default": 18647
+    },
+    "ultimaker3": {
+      "basic": 17066,
+      "default": 18635
+    }
+  },
+  "Connector.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Gnomon_Southern_NETFABBED.stl": {
+    "ultimaker2": {
+      "basic": 53568,
+      "default": 78559
+    },
+    "ultimaker3": {
+      "basic": 53549,
+      "default": 78513
+    }
+  },
+  "cube00.3.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube00.8.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Crank.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "V2_stopper.stl": {
+    "ultimaker2": {
+      "basic": 1063,
+      "default": 1324
+    },
+    "ultimaker3": {
+      "basic": 1062,
+      "default": 1324
+    }
+  },
+  "sphere04.4.stl": {
+    "fdmprinter": {
+      "basic": 40676,
+      "default": 13713
+    }
+  },
+  "Arm_v3_Reverse_90.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Black_box_engraved.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Rear_Wheel_-_PLA.stl": {
+    "ultimaker2": {
+      "basic": 7832,
+      "default": 12011
+    },
+    "ultimaker3": {
+      "basic": 7832,
+      "default": 12010
+    }
+  },
+  "V2_iPhone_cradle.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube01.5.stl": {
+    "fdmprinter": {
+      "basic": 1907,
+      "default": 1073
+    }
+  },
+  "Green_box_lattice.stl": {
+    "ultimaker2": {
+      "basic": 53086,
+      "default": 56242
+    },
+    "ultimaker3": {
+      "basic": 53119,
+      "default": 56240
+    }
+  },
+  "C_Clamp_Arm_80.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube04.9.stl": {
+    "fdmprinter": {
+      "basic": 54020,
+      "default": 18129
+    }
+  },
+  "Red_box_solid.stl": {
+    "ultimaker2": {
+      "basic": 42381,
+      "default": 62458
+    },
+    "ultimaker3": {
+      "basic": 42438,
+      "default": 62478
+    }
+  },
+  "cube09.3.stl": {
+    "fdmprinter": {
+      "basic": 353503,
+      "default": 96553
+    }
+  },
+  "cube06.0.stl": {
+    "fdmprinter": {
+      "basic": 98045,
+      "default": 30435
+    }
+  },
+  "Rear_Wheel_-_Ninjaflex.stl": {
+    "ultimaker2": {
+      "basic": 11670,
+      "default": 22023
+    },
+    "ultimaker3": {
+      "basic": 11664,
+      "default": 21843
+    }
+  },
+  "single-link.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Head_with_brim_lower_detail.stl": {
+    "ultimaker2": {
+      "basic": 16117,
+      "default": 38564
+    },
+    "ultimaker3": {
+      "basic": 16124,
+      "default": 38569
+    }
+  },
+  "sphere01.2.stl": {
+    "fdmprinter": {
+      "basic": 1162,
+      "default": 813
+    }
+  },
+  "cube30.stl": {
+    "ultimaker2": {
+      "basic": 7019,
+      "default": 3130
+    },
+    "fdmprinter": {
+      "basic": 6952,
+      "default": 3108
+    },
+    "ultimaker3": {
+      "basic": 7018,
+      "default": 3129
+    }
+  },
+  "moon10inches.stl": {
+    "ultimaker2": {
+      "basic": 338022,
+      "default": 382964
+    },
+    "ultimaker3": {
+      "basic": 337611,
+      "default": 382690
+    }
+  },
+  "cube09.9.stl": {
+    "fdmprinter": {
+      "basic": 427572,
+      "default": 114491
+    }
+  },
+  "cube07.2.stl": {
+    "fdmprinter": {
+      "basic": 168297,
+      "default": 49145
+    }
+  },
+  "cube06.2.stl": {
+    "fdmprinter": {
+      "basic": 109068,
+      "default": 32594
+    }
+  },
+  "cube02.9.stl": {
+    "fdmprinter": {
+      "basic": 12249,
+      "default": 4782
+    }
+  },
+  "chain-1500.stl": {
+    "ultimaker2": {
+      "basic": 305828,
+      "default": 369223
+    },
+    "ultimaker3": {
+      "basic": 306611,
+      "default": 368634
+    }
+  },
+  "sphere00.3.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube06.5.stl": {
+    "fdmprinter": {
+      "basic": 124300,
+      "default": 37376
+    }
+  },
+  "sphere04.3.stl": {
+    "fdmprinter": {
+      "basic": 38101,
+      "default": 12959
+    }
+  },
+  "Groot_v1_1M_Merged.stl": {
+    "ultimaker2": {
+      "basic": 35739,
+      "default": 76690
+    },
+    "ultimaker3": {
+      "basic": 35729,
+      "default": 76675
+    }
+  },
+  "cube04.7.stl": {
+    "fdmprinter": {
+      "basic": 48588,
+      "default": 16053
+    }
+  },
+  "Arm_v3_Reverse_150.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "hand_OK.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Prusa_Enclosure_Spool_Holder.stl": {
+    "ultimaker2": {
+      "basic": 29443,
+      "default": 37062
+    },
+    "ultimaker3": {
+      "basic": 29452,
+      "default": 37095
+    }
+  },
+  "Phone_clamp_down_v3.stl": {
+    "ultimaker2": {
+      "basic": 2673,
+      "default": 3350
+    },
+    "ultimaker3": {
+      "basic": 2673,
+      "default": 3350
+    }
+  },
+  "sphere00.7.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube20.stl": {
+    "ultimaker2": {
+      "basic": 2317,
+      "default": 1254
+    },
+    "fdmprinter": {
+      "basic": 2287,
+      "default": 1241
+    },
+    "ultimaker3": {
+      "basic": 2316,
+      "default": 1251
+    }
+  },
+  "chain-700.stl": {
+    "ultimaker2": {
+      "basic": 78128,
+      "default": 85264
+    },
+    "ultimaker3": {
+      "basic": 78378,
+      "default": 85306
+    }
+  },
+  "sphere02.5.stl": {
+    "fdmprinter": {
+      "basic": 8193,
+      "default": 3425
+    }
+  },
+  "precision_block.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere04.1.stl": {
+    "fdmprinter": {
+      "basic": 33214,
+      "default": 11461
+    }
+  },
+  "cube09.1.stl": {
+    "fdmprinter": {
+      "basic": 333153,
+      "default": 89894
+    }
+  },
+  "cube08.0.stl": {
+    "fdmprinter": {
+      "basic": 229331,
+      "default": 63467
+    }
+  },
+  "eyeball4_2.STL": {
+    "ultimaker2": {
+      "basic": 10454,
+      "default": 11300
+    },
+    "ultimaker3": {
+      "basic": 10459,
+      "default": 11313
+    }
+  },
+  "3D_Printer_test_fixed_stl_3rd_gen.STL": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube01.6.stl": {
+    "fdmprinter": {
+      "basic": 2292,
+      "default": 1215
+    }
+  },
+  "2430_Motor_Mount.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Chimney_body_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "crossbow_limb.stl": {
+    "ultimaker2": {
+      "basic": 1166,
+      "default": 1182
+    },
+    "ultimaker3": {
+      "basic": 1166,
+      "default": 1182
+    }
+  },
+  "Crank_Gear.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Prusa_Enclosure_Bottom_Corners.stl": {
+    "ultimaker2": {
+      "basic": 52910,
+      "default": 88591
+    },
+    "ultimaker3": {
+      "basic": 52894,
+      "default": 88599
+    }
+  },
+  "Blue_box_lattice.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere04.5.stl": {
+    "fdmprinter": {
+      "basic": 43380,
+      "default": 14485
+    }
+  },
+  "sphere01.9.stl": {
+    "fdmprinter": {
+      "basic": 3844,
+      "default": 1806
+    }
+  },
+  "cube08.2.stl": {
+    "fdmprinter": {
+      "basic": 245577,
+      "default": 69019
+    }
+  },
+  "cube03.8.stl": {
+    "fdmprinter": {
+      "basic": 26395,
+      "default": 9589
+    }
+  },
+  "chain-1000.stl": {
+    "ultimaker2": {
+      "basic": 134541,
+      "default": 153428
+    },
+    "ultimaker3": {
+      "basic": 134789,
+      "default": 152241
+    }
+  },
+  "cube.stl": {
+    "fdmprinter": {
+      "basic": 691,
+      "default": 618
+    }
+  },
+  "Japanese_Fountain_Strut_Rev_A.stl": {
+    "ultimaker2": {
+      "basic": 2227,
+      "default": 3402
+    },
+    "ultimaker3": {
+      "basic": 2226,
+      "default": 3400
+    }
+  },
+  "Rear_Wheel_Simple_-_PLA.stl": {
+    "ultimaker2": {
+      "basic": 8929,
+      "default": 13992
+    },
+    "ultimaker3": {
+      "basic": 8928,
+      "default": 13580
+    }
+  },
+  "sphere02.8.stl": {
+    "fdmprinter": {
+      "basic": 11250,
+      "default": 4478
+    }
+  },
+  "sphere00.5.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Bridge_roof_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Arm_v3_60.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "M5_knob_for_phone_v4.stl": {
+    "ultimaker2": {
+      "basic": 1280,
+      "default": 1668
+    },
+    "ultimaker3": {
+      "basic": 1273,
+      "default": 1673
+    }
+  },
+  "cube_ver3.STL": {
+    "ultimaker2": {
+      "basic": 54518,
+      "default": 82679
+    },
+    "ultimaker3": {
+      "basic": 54497,
+      "default": 82109
+    }
+  },
+  "cube05.1.stl": {
+    "fdmprinter": {
+      "basic": 61030,
+      "default": 19631
+    }
+  },
+  "fire_truck.STL": {
+    "ultimaker2": {
+      "basic": 3708,
+      "default": 4296
+    },
+    "ultimaker3": {
+      "basic": 3709,
+      "default": 4312
+    }
+  },
+  "cube08.3.stl": {
+    "fdmprinter": {
+      "basic": 252823,
+      "default": 71570
+    }
+  },
+  "AA-Cover.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube02.4.stl": {
+    "fdmprinter": {
+      "basic": 7012,
+      "default": 3007
+    }
+  },
+  "jet_fighter_egg.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Bridge_walls_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Yellow_box_mixed.stl": {
+    "ultimaker2": {
+      "basic": 12516,
+      "default": 17022
+    },
+    "ultimaker3": {
+      "basic": 12511,
+      "default": 17012
+    }
+  },
+  "cube09.5.stl": {
+    "fdmprinter": {
+      "basic": 377647,
+      "default": 101689
+    }
+  },
+  "Red_box_engraved.stl": {
+    "ultimaker2": {
+      "basic": 57250,
+      "default": 78449
+    },
+    "ultimaker3": {
+      "basic": 57303,
+      "default": 78543
+    }
+  },
+  "sphere01.1.stl": {
+    "fdmprinter": {
+      "basic": 944,
+      "default": 741
+    }
+  },
+  "sphere03.8.stl": {
+    "fdmprinter": {
+      "basic": 26742,
+      "default": 9501
+    }
+  },
+  "cube00.9.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_port_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere03.7.stl": {
+    "fdmprinter": {
+      "basic": 24775,
+      "default": 8895
+    }
+  },
+  "5mm_Flange_Spacer.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Stern_name_plate_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "aligator.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Yellow_box_solid.stl": {
+    "ultimaker2": {
+      "basic": 10196,
+      "default": 13132
+    },
+    "ultimaker3": {
+      "basic": 10194,
+      "default": 13125
+    }
+  },
+  "V29D_Fixed.stl": {
+    "ultimaker2": {
+      "basic": 9629,
+      "default": 12441
+    },
+    "ultimaker3": {
+      "basic": 9632,
+      "default": 12454
+    }
+  },
+  "3D_Printer_test_stl.STL": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Flying_Wing_v2L.stl": {
+    "ultimaker2": {
+      "basic": 22209,
+      "default": 29226
+    },
+    "ultimaker3": {
+      "basic": 22224,
+      "default": 29243
+    }
+  },
+  "sphere00.9.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Steering_-Rack-.stl": {
+    "ultimaker2": {
+      "basic": 756,
+      "default": 756
+    },
+    "ultimaker3": {
+      "basic": 756,
+      "default": 756
+    }
+  },
+  "sphere02.9.stl": {
+    "fdmprinter": {
+      "basic": 12412,
+      "default": 4886
+    }
+  },
+  "Phone_clamp_holder_v3.stl": {
+    "ultimaker2": {
+      "basic": 1930,
+      "default": 2693
+    },
+    "ultimaker3": {
+      "basic": 1933,
+      "default": 2695
+    }
+  },
+  "cube03.1.stl": {
+    "fdmprinter": {
+      "basic": 14633,
+      "default": 5784
+    }
+  },
+  "cube03.7.stl": {
+    "fdmprinter": {
+      "basic": 24537,
+      "default": 8939
+    }
+  },
+  "Air_Spinner_2_-_Solid.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "chain-500.stl": {
+    "ultimaker2": {
+      "basic": 66192,
+      "default": 75827
+    },
+    "ultimaker3": {
+      "basic": 66366,
+      "default": 75508
+    }
+  },
+  "sphere02.6.stl": {
+    "fdmprinter": {
+      "basic": 9139,
+      "default": 3751
+    }
+  },
+  "Front_Wheel_-_Ninjaflex.stl": {
+    "ultimaker2": {
+      "basic": 12185,
+      "default": 22551
+    },
+    "ultimaker3": {
+      "basic": 12186,
+      "default": 22526
+    }
+  },
+  "Yellow_box_engraved.stl": {
+    "ultimaker2": {
+      "basic": 12513,
+      "default": 17022
+    },
+    "ultimaker3": {
+      "basic": 12508,
+      "default": 17012
+    }
+  },
+  "ella_oc_a015R.stl": {
+    "ultimaker2": {
+      "basic": 21813,
+      "default": 36698
+    },
+    "ultimaker3": {
+      "basic": 21801,
+      "default": 36714
+    }
+  },
+  "sphere02.2.stl": {
+    "fdmprinter": {
+      "basic": 5747,
+      "default": 2533
+    }
+  },
+  "sphere03.5.stl": {
+    "fdmprinter": {
+      "basic": 21144,
+      "default": 7742
+    }
+  },
+  "measuring_cube_metric.STL": {
+    "ultimaker2": {
+      "basic": 58767,
+      "default": 92183
+    },
+    "ultimaker3": {
+      "basic": 58707,
+      "default": 91920
+    }
+  },
+  "AAA-Shapeways.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube02.8.stl": {
+    "fdmprinter": {
+      "basic": 11134,
+      "default": 4441
+    }
+  },
+  "cube03.5.stl": {
+    "fdmprinter": {
+      "basic": 20679,
+      "default": 7538
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Chimney_top_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Star_Y_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere01.7.stl": {
+    "fdmprinter": {
+      "basic": 2850,
+      "default": 1422
+    }
+  },
+  "Gimball_Test_Print.stl": {
+    "ultimaker2": {
+      "basic": 4144,
+      "default": 4525
+    },
+    "ultimaker3": {
+      "basic": 4144,
+      "default": 4524
+    }
+  },
+  "cube01.4.stl": {
+    "fdmprinter": {
+      "basic": 1590,
+      "default": 970
+    }
+  },
+  "C_Clamp_Arm_40.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Cargo_box_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Gnomon_Southern.stl": {
+    "ultimaker2": {
+      "basic": 53617,
+      "default": 78646
+    },
+    "ultimaker3": {
+      "basic": 53602,
+      "default": 78599
+    }
+  },
+  "Prusa_Enclosure_Door_Knob.stl": {
+    "ultimaker2": {
+      "basic": 8284,
+      "default": 10063
+    },
+    "ultimaker3": {
+      "basic": 8284,
+      "default": 10064
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Complete_17_shells_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Prusa_Enclosure_Top_Corners.stl": {
+    "ultimaker2": {
+      "basic": 49982,
+      "default": 100395
+    },
+    "ultimaker3": {
+      "basic": 49987,
+      "default": 100445
+    }
+  },
+  "V29.2_Whistle_V29.stl": {
+    "ultimaker2": {
+      "basic": 8061,
+      "default": 10820
+    },
+    "ultimaker3": {
+      "basic": 8071,
+      "default": 10831
+    }
+  },
+  "Head_without_brim_lower_detail.stl": {
+    "ultimaker2": {
+      "basic": 12604,
+      "default": 34238
+    },
+    "ultimaker3": {
+      "basic": 12616,
+      "default": 34250
+    }
+  },
+  "cube07.9.stl": {
+    "fdmprinter": {
+      "basic": 221342,
+      "default": 61747
+    }
+  },
+  "Gnomon_Southern_Half_2_of_2.stl": {
+    "ultimaker2": {
+      "basic": 29218,
+      "default": 41331
+    },
+    "ultimaker3": {
+      "basic": 29215,
+      "default": 41336
+    }
+  },
+  "15mm_Spacer.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube06.8.stl": {
+    "fdmprinter": {
+      "basic": 141155,
+      "default": 41436
+    }
+  },
+  "Yoda_Ver_4.stl": {
+    "ultimaker2": {
+      "basic": 9700,
+      "default": 11671
+    },
+    "ultimaker3": {
+      "basic": 9736,
+      "default": 11691
+    }
+  },
+  "cube03.9.stl": {
+    "fdmprinter": {
+      "basic": 28312,
+      "default": 10015
+    }
+  },
+  "Back_Plate_v2.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Flying_Wing_v2R.stl": {
+    "ultimaker2": {
+      "basic": 22245,
+      "default": 29326
+    },
+    "ultimaker3": {
+      "basic": 22245,
+      "default": 29323
+    }
+  },
+  "jet_fighter.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube07.0.stl": {
+    "fdmprinter": {
+      "basic": 154215,
+      "default": 45173
+    }
+  },
+  "FilleniumMalcon-RearThird.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube03.0.stl": {
+    "fdmprinter": {
+      "basic": 13419,
+      "default": 5270
+    }
+  },
+  "cube02.7.stl": {
+    "fdmprinter": {
+      "basic": 9909,
+      "default": 4100
+    }
+  },
+  "moon4inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "jet_fighter_large_300.STL": {
+    "ultimaker2": {
+      "basic": 16091,
+      "default": 23209
+    },
+    "ultimaker3": {
+      "basic": 16090,
+      "default": 23209
+    }
+  },
+  "V2_Cog.stl": {
+    "ultimaker2": {
+      "basic": 2919,
+      "default": 3904
+    },
+    "ultimaker3": {
+      "basic": 2920,
+      "default": 3905
+    }
+  },
+  "Blue_box_mixed.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "V3_Turn_Table_Split_3.stl": {
+    "ultimaker2": {
+      "basic": 11381,
+      "default": 16032
+    },
+    "ultimaker3": {
+      "basic": 11381,
+      "default": 16032
+    }
+  },
+  "Flying_Wing_v3_right.stl": {
+    "ultimaker2": {
+      "basic": 18068,
+      "default": 22992
+    },
+    "ultimaker3": {
+      "basic": 18055,
+      "default": 22982
+    }
+  },
+  "X_Axle.stl": {
+    "ultimaker2": {
+      "basic": 4370,
+      "default": 4934
+    },
+    "ultimaker3": {
+      "basic": 4370,
+      "default": 4933
+    }
+  },
+  "Prusa_Enclosure_Cable_clip.stl": {
+    "ultimaker2": {
+      "basic": 10700,
+      "default": 13784
+    },
+    "ultimaker3": {
+      "basic": 10702,
+      "default": 13781
+    }
+  },
+  "FilleniumMalcon-MiddleThird.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube50.stl": {
+    "ultimaker2": {
+      "basic": 29533,
+      "default": 10760
+    },
+    "fdmprinter": {
+      "basic": 29373,
+      "default": 10683
+    },
+    "ultimaker3": {
+      "basic": 29531,
+      "default": 10759
+    }
+  },
+  "Right_Side_Guard-Air_Intake.stl": {
+    "ultimaker2": {
+      "basic": 8625,
+      "default": 10214
+    },
+    "ultimaker3": {
+      "basic": 8613,
+      "default": 10168
+    }
+  },
+  "V2_crank_handle_1.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Flat_stand.stl": {
+    "ultimaker2": {
+      "basic": 8613,
+      "default": 12082
+    },
+    "ultimaker3": {
+      "basic": 8615,
+      "default": 12085
+    }
+  },
+  "tower50.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "crossbow_backcap.stl": {
+    "ultimaker2": {
+      "basic": 1331,
+      "default": 1330
+    },
+    "ultimaker3": {
+      "basic": 1330,
+      "default": 1329
+    }
+  },
+  "cube01.8.stl": {
+    "fdmprinter": {
+      "basic": 3199,
+      "default": 1549
+    }
+  },
+  "crossbow_body_left.stl": {
+    "ultimaker2": {
+      "basic": 3371,
+      "default": 3856
+    },
+    "ultimaker3": {
+      "basic": 3361,
+      "default": 3831
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Fishing-rod-holder_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube08.4.stl": {
+    "fdmprinter": {
+      "basic": 261676,
+      "default": 72954
+    }
+  },
+  "miniCube.STL": {
+    "ultimaker2": {
+      "basic": 41395,
+      "default": 63262
+    },
+    "ultimaker3": {
+      "basic": 41413,
+      "default": 63313
+    }
+  },
+  "cube09.7.stl": {
+    "fdmprinter": {
+      "basic": 403915,
+      "default": 106614
+    }
+  },
+  "cube05.7.stl": {
+    "fdmprinter": {
+      "basic": 84136,
+      "default": 26079
+    }
+  },
+  "cube08.5.stl": {
+    "fdmprinter": {
+      "basic": 271590,
+      "default": 74966
+    }
+  },
+  "cube02.2.stl": {
+    "fdmprinter": {
+      "basic": 5589,
+      "default": 2514
+    }
+  },
+  "V2_Main_Chassis_4.stl": {
+    "ultimaker2": {
+      "basic": 37669,
+      "default": 56064
+    },
+    "ultimaker3": {
+      "basic": 37670,
+      "default": 56007
+    }
+  },
+  "Red_box_with_wall_engraved.stl": {
+    "ultimaker2": {
+      "basic": 73455,
+      "default": 95549
+    },
+    "ultimaker3": {
+      "basic": 73498,
+      "default": 95412
+    }
+  },
+  "Turntable_Split_5pcs_2.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube00.5.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "crossbow_trigger.stl": {
+    "ultimaker2": {
+      "basic": 389,
+      "default": 429
+    },
+    "ultimaker3": {
+      "basic": 388,
+      "default": 427
     }
   },
   "cube04.5.stl": {
     "fdmprinter": {
-      "default": 8206,
-      "basic": 22069
+      "basic": 43097,
+      "default": 14310
+    }
+  },
+  "Axis_change_connector.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube10.0.stl": {
+    "fdmprinter": {
+      "basic": 438124,
+      "default": 118055
+    }
+  },
+  "Flying_Wing_v3_left.stl": {
+    "ultimaker2": {
+      "basic": 18057,
+      "default": 22968
+    },
+    "ultimaker3": {
+      "basic": 18047,
+      "default": 22961
+    }
+  },
+  "Rear_Bumper.stl": {
+    "ultimaker2": {
+      "basic": 4864,
+      "default": 7397
+    },
+    "ultimaker3": {
+      "basic": 4866,
+      "default": 7419
+    }
+  },
+  "Flying_Wing_v3_middle_fpv.stl": {
+    "ultimaker2": {
+      "basic": 9841,
+      "default": 13871
+    },
+    "ultimaker3": {
+      "basic": 9840,
+      "default": 13865
+    }
+  },
+  "crossbow_rail.stl": {
+    "ultimaker2": {
+      "basic": 363,
+      "default": 409
+    },
+    "ultimaker3": {
+      "basic": 362,
+      "default": 408
+    }
+  },
+  "Arm_v3_Straight_150.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "chain-750.stl": {
+    "ultimaker2": {
+      "basic": 85358,
+      "default": 92977
+    },
+    "ultimaker3": {
+      "basic": 85609,
+      "default": 92799
+    }
+  },
+  "Arm_v3_90.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube03.4.stl": {
+    "fdmprinter": {
+      "basic": 18971,
+      "default": 7097
+    }
+  },
+  "cube05.6.stl": {
+    "fdmprinter": {
+      "basic": 80626,
+      "default": 25074
+    }
+  },
+  "V2_Turn_Table.stl": {
+    "ultimaker2": {
+      "basic": 32119,
+      "default": 50395
+    },
+    "ultimaker3": {
+      "basic": 32126,
+      "default": 50406
+    }
+  },
+  "cube04.4.stl": {
+    "fdmprinter": {
+      "basic": 39961,
+      "default": 13601
+    }
+  },
+  "Red_box_with_wall_mixed.stl": {
+    "ultimaker2": {
+      "basic": 85011,
+      "default": 103146
+    },
+    "ultimaker3": {
+      "basic": 85487,
+      "default": 103605
+    }
+  },
+  "crossbow_front.stl": {
+    "ultimaker2": {
+      "basic": 1053,
+      "default": 1355
+    },
+    "ultimaker3": {
+      "basic": 1053,
+      "default": 1357
+    }
+  },
+  "cube06.7.stl": {
+    "fdmprinter": {
+      "basic": 134800,
+      "default": 40062
+    }
+  },
+  "cube05.3.stl": {
+    "fdmprinter": {
+      "basic": 68550,
+      "default": 21919
+    }
+  },
+  "cube04.6.stl": {
+    "fdmprinter": {
+      "basic": 45805,
+      "default": 15003
+    }
+  },
+  "C-Base.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "C-Cover.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Upper_Plate_Minimal_-_Upper_Plate_1.stl": {
+    "ultimaker2": {
+      "basic": 10504,
+      "default": 13069
+    },
+    "ultimaker3": {
+      "basic": 10496,
+      "default": 13058
+    }
+  },
+  "sphere02.0.stl": {
+    "fdmprinter": {
+      "basic": 4427,
+      "default": 2020
+    }
+  },
+  "cube09.6.stl": {
+    "fdmprinter": {
+      "basic": 389935,
+      "default": 104223
+    }
+  },
+  "cube05.8.stl": {
+    "fdmprinter": {
+      "basic": 88281,
+      "default": 26971
+    }
+  },
+  "sphere03.3.stl": {
+    "fdmprinter": {
+      "basic": 17895,
+      "default": 6670
+    }
+  },
+  "cube01.2.stl": {
+    "fdmprinter": {
+      "basic": 1095,
+      "default": 780
+    }
+  },
+  "sphere00.8.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere00.4.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Wheel_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Gnomon_Northen_Half_1_of_2.stl": {
+    "ultimaker2": {
+      "basic": 25472,
+      "default": 39304
+    },
+    "ultimaker3": {
+      "basic": 25479,
+      "default": 39318
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hull_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "ESC_Mount.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "PredatorActionPliers.stl": {
+    "ultimaker2": {
+      "basic": 22392,
+      "default": 29868
+    },
+    "ultimaker3": {
+      "basic": 22339,
+      "default": 29891
+    }
+  },
+  "cube09.4.stl": {
+    "fdmprinter": {
+      "basic": 365518,
+      "default": 99807
+    }
+  },
+  "Heart_X_Cam.stl": {
+    "ultimaker2": {
+      "basic": 492,
+      "default": 602
+    },
+    "ultimaker3": {
+      "basic": 491,
+      "default": 601
+    }
+  },
+  "Japanese_Fountain_Tube_Rev_C.stl": {
+    "ultimaker2": {
+      "basic": 19058,
+      "default": 34413
+    },
+    "ultimaker3": {
+      "basic": 19055,
+      "default": 34410
+    }
+  },
+  "Blue_box_engraved.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Club_Y_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere00.6.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Upper_Plate.stl": {
+    "ultimaker2": {
+      "basic": 10445,
+      "default": 12920
+    },
+    "ultimaker3": {
+      "basic": 10442,
+      "default": 12906
+    }
+  },
+  "V2_chassis_cog_cover.stl": {
+    "ultimaker2": {
+      "basic": 1695,
+      "default": 1669
+    },
+    "ultimaker3": {
+      "basic": 1695,
+      "default": 1661
+    }
+  },
+  "Green_box_solid.stl": {
+    "ultimaker2": {
+      "basic": 25975,
+      "default": 37648
+    },
+    "ultimaker3": {
+      "basic": 26004,
+      "default": 37638
+    }
+  },
+  "cube04.0.stl": {
+    "fdmprinter": {
+      "basic": 30066,
+      "default": 10585
+    }
+  },
+  "chain-600.stl": {
+    "ultimaker2": {
+      "basic": 86472,
+      "default": 99626
+    },
+    "ultimaker3": {
+      "basic": 86150,
+      "default": 99853
+    }
+  },
+  "cube40.stl": {
+    "ultimaker2": {
+      "basic": 15568,
+      "default": 6169
+    },
+    "fdmprinter": {
+      "basic": 15461,
+      "default": 6126
+    },
+    "ultimaker3": {
+      "basic": 15567,
+      "default": 6168
+    }
+  },
+  "moon9inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube06.1.stl": {
+    "fdmprinter": {
+      "basic": 103094,
+      "default": 31396
+    }
+  },
+  "AAA-Cover.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Rear_Axel_Ruler.stl": {
+    "ultimaker2": {
+      "basic": 2028,
+      "default": 2474
+    },
+    "ultimaker3": {
+      "basic": 2027,
+      "default": 2473
+    }
+  },
+  "cube03.6.stl": {
+    "fdmprinter": {
+      "basic": 22748,
+      "default": 8282
+    }
+  },
+  "moon3inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "MakerBot_Headphone_Stand.STL": {
+    "ultimaker2": {
+      "basic": 43828,
+      "default": 85485
+    },
+    "ultimaker3": {
+      "basic": 43804,
+      "default": 85443
+    }
+  },
+  "V3_Main_Chassis_3.stl": {
+    "ultimaker2": {
+      "basic": 655,
+      "default": 709
+    },
+    "ultimaker3": {
+      "basic": 655,
+      "default": 709
+    }
+  },
+  "Rear_Drive_Gear_PLA_V1.stl": {
+    "ultimaker2": {
+      "basic": 2249,
+      "default": 2794
+    },
+    "ultimaker3": {
+      "basic": 2249,
+      "default": 2795
+    }
+  },
+  "Heart_Y_Cam.stl": {
+    "ultimaker2": {
+      "basic": 3730,
+      "default": 4292
+    },
+    "ultimaker3": {
+      "basic": 3725,
+      "default": 4289
+    }
+  },
+  "Red_box_lattice.stl": {
+    "ultimaker2": {
+      "basic": 92414,
+      "default": 96407
+    },
+    "ultimaker3": {
+      "basic": 92489,
+      "default": 96450
+    }
+  },
+  "chain-70.stl": {
+    "ultimaker2": {
+      "basic": 7633,
+      "default": 8257
+    },
+    "ultimaker3": {
+      "basic": 7703,
+      "default": 8266
+    }
+  },
+  "thin_wall.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Phone_clamp_up_4mm_thicker_NO_tab.stl": {
+    "ultimaker2": {
+      "basic": 2983,
+      "default": 3885
+    },
+    "ultimaker3": {
+      "basic": 2984,
+      "default": 3885
+    }
+  },
+  "sphere02.3.stl": {
+    "fdmprinter": {
+      "basic": 6497,
+      "default": 2820
+    }
+  },
+  "USB-SD-MicroSD_Card_Holder_-_v2.0.stl": {
+    "ultimaker2": {
+      "basic": 19280,
+      "default": 30166
+    },
+    "ultimaker3": {
+      "basic": 19281,
+      "default": 30155
+    }
+  },
+  "FilleniumMalcon-AlignmentPeg.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy_-_Dualprint_-_Hull_Box_Bridge_walls_Rod-holder_Chimney_v02_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube70.stl": {
+    "ultimaker2": {
+      "basic": 78718,
+      "default": 25251
+    },
+    "fdmprinter": {
+      "basic": 78361,
+      "default": 25118
+    },
+    "ultimaker3": {
+      "basic": 78716,
+      "default": 25250
+    }
+  },
+  "cube05.5.stl": {
+    "fdmprinter": {
+      "basic": 76744,
+      "default": 24382
+    }
+  },
+  "cube10.stl": {
+    "ultimaker2": {
+      "basic": 604,
+      "default": 623
+    },
+    "fdmprinter": {
+      "basic": 691,
+      "default": 618
+    },
+    "ultimaker3": {
+      "basic": 602,
+      "default": 622
+    }
+  },
+  "Bottom_part_with_breakable_support_NETFABBED.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube08.6.stl": {
+    "fdmprinter": {
+      "basic": 281591,
+      "default": 76816
+    }
+  },
+  "cube01.1.stl": {
+    "fdmprinter": {
+      "basic": 879,
+      "default": 698
+    }
+  },
+  "cube01.7.stl": {
+    "fdmprinter": {
+      "basic": 2721,
+      "default": 1379
+    }
+  },
+  "Front_Plate.stl": {
+    "ultimaker2": {
+      "basic": 14405,
+      "default": 19351
+    },
+    "ultimaker3": {
+      "basic": 14519,
+      "default": 19503
+    }
+  },
+  "cube02.1.stl": {
+    "fdmprinter": {
+      "basic": 4946,
+      "default": 2309
+    }
+  },
+  "sphere04.0.stl": {
+    "fdmprinter": {
+      "basic": 30953,
+      "default": 10757
+    }
+  },
+  "cube00.4.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube05.0.stl": {
+    "fdmprinter": {
+      "basic": 57433,
+      "default": 18777
+    }
+  },
+  "Axle_Mount_Side_1.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube08.9.stl": {
+    "fdmprinter": {
+      "basic": 313357,
+      "default": 86313
+    }
+  },
+  "single-link-hires.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Black_box_mixed.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Club_X_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube07.7.stl": {
+    "fdmprinter": {
+      "basic": 203369,
+      "default": 58542
+    }
+  },
+  "cube09.0.stl": {
+    "fdmprinter": {
+      "basic": 323259,
+      "default": 87681
+    }
+  },
+  "Flying_Wing_v3.1_left.stl": {
+    "ultimaker2": {
+      "basic": 17892,
+      "default": 22749
+    },
+    "ultimaker3": {
+      "basic": 17892,
+      "default": 22737
+    }
+  },
+  "sphere00.1.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "FilleniumMalcon-RearHalf_Pegged.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Blue_box_solid.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Green_box_mixed.stl": {
+    "ultimaker2": {
+      "basic": 41196,
+      "default": 51969
+    },
+    "ultimaker3": {
+      "basic": 41217,
+      "default": 51852
+    }
+  },
+  "Clip_UM2.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere03.2.stl": {
+    "fdmprinter": {
+      "basic": 16396,
+      "default": 6208
+    }
+  },
+  "cube03.3.stl": {
+    "fdmprinter": {
+      "basic": 17345,
+      "default": 6647
+    }
+  },
+  "Gnomon_Southern_Half_1_of_2.stl": {
+    "ultimaker2": {
+      "basic": 25394,
+      "default": 37920
+    },
+    "ultimaker3": {
+      "basic": 25410,
+      "default": 37946
+    }
+  },
+  "jet_fighter_large_200.STL": {
+    "ultimaker2": {
+      "basic": 7653,
+      "default": 9666
+    },
+    "ultimaker3": {
+      "basic": 7650,
+      "default": 9664
+    }
+  },
+  "C-Label.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube60.stl": {
+    "ultimaker2": {
+      "basic": 50200,
+      "default": 17200
+    },
+    "fdmprinter": {
+      "basic": 49953,
+      "default": 17079
+    },
+    "ultimaker3": {
+      "basic": 50199,
+      "default": 17192
+    }
+  },
+  "cube06.3.stl": {
+    "fdmprinter": {
+      "basic": 114065,
+      "default": 33747
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Hawsepipe_starboard_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Gnomon_Northen.stl": {
+    "ultimaker2": {
+      "basic": 53290,
+      "default": 78076
+    },
+    "ultimaker3": {
+      "basic": 53239,
+      "default": 78034
+    }
+  },
+  "sphere02.4.stl": {
+    "fdmprinter": {
+      "basic": 7313,
+      "default": 3116
+    }
+  },
+  "Front_Wheel_Simple_-_Ninjaflex.stl": {
+    "ultimaker2": {
+      "basic": 9754,
+      "default": 23354
+    },
+    "ultimaker3": {
+      "basic": 9316,
+      "default": 22917
+    }
+  },
+  "cube100.stl": {
+    "ultimaker2": {
+      "basic": 222320,
+      "default": 64526
+    },
+    "fdmprinter": {
+      "basic": 221607,
+      "default": 64188
+    },
+    "ultimaker3": {
+      "basic": 222315,
+      "default": 64525
+    }
+  },
+  "V4_chassis_cog_cover_with_Turn_table_support.stl": {
+    "ultimaker2": {
+      "basic": 1865,
+      "default": 2146
+    },
+    "ultimaker3": {
+      "basic": 1865,
+      "default": 2138
+    }
+  },
+  "Bolt.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "oozebane_test.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube08.7.stl": {
+    "fdmprinter": {
+      "basic": 291733,
+      "default": 80526
+    }
+  },
+  "FilleniumMalcon-FrontThird.obj": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube06.9.stl": {
+    "fdmprinter": {
+      "basic": 147615,
+      "default": 42719
+    }
+  },
+  "cube02.3.stl": {
+    "fdmprinter": {
+      "basic": 6223,
+      "default": 2762
+    }
+  },
+  "cube80.stl": {
+    "ultimaker2": {
+      "basic": 116840,
+      "default": 35193
+    },
+    "fdmprinter": {
+      "basic": 116285,
+      "default": 35043
+    },
+    "ultimaker3": {
+      "basic": 116837,
+      "default": 35192
+    }
+  },
+  "sphere03.6.stl": {
+    "fdmprinter": {
+      "basic": 22904,
+      "default": 8309
+    }
+  },
+  "cube07.1.stl": {
+    "fdmprinter": {
+      "basic": 161834,
+      "default": 47197
+    }
+  },
+  "Connector_NETFABBED.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere03.1.stl": {
+    "fdmprinter": {
+      "basic": 14997,
+      "default": 5766
+    }
+  },
+  "V3_Turn_Table_Split_2.stl": {
+    "ultimaker2": {
+      "basic": 11774,
+      "default": 16817
+    },
+    "ultimaker3": {
+      "basic": 11773,
+      "default": 16805
+    }
+  },
+  "V2_crank_wheel.stl": {
+    "ultimaker2": {
+      "basic": 5884,
+      "default": 7658
+    },
+    "ultimaker3": {
+      "basic": 5888,
+      "default": 7661
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Gunwale_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "V2_Main_chassis_Combined.stl": {
+    "ultimaker2": {
+      "basic": 69391,
+      "default": 99564
+    },
+    "ultimaker3": {
+      "basic": 69388,
+      "default": 99580
+    }
+  },
+  "cube06.4.stl": {
+    "fdmprinter": {
+      "basic": 119157,
+      "default": 35573
+    }
+  },
+  "cube04.2.stl": {
+    "fdmprinter": {
+      "basic": 34740,
+      "default": 12188
+    }
+  },
+  "9g_Servo_Mount.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "moon5inches.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere.stl": {
+    "ultimaker2": {
+      "basic": 390,
+      "default": 396
+    },
+    "ultimaker3": {
+      "basic": 389,
+      "default": 395
+    },
+    "fdmprinter": {
+      "basic": 760,
+      "default": 670
+    }
+  },
+  "V2_crank_handle_2.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Red_box_with_wall_lattice.stl": {
+    "ultimaker2": {
+      "basic": 105240,
+      "default": 109822
+    },
+    "ultimaker3": {
+      "basic": 105310,
+      "default": 109857
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Deck_surface_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Turntable_Split_5pcs_3.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube05.9.stl": {
+    "fdmprinter": {
+      "basic": 93119,
+      "default": 28987
+    }
+  },
+  "cube09.8.stl": {
+    "fdmprinter": {
+      "basic": 415712,
+      "default": 110671
+    }
+  },
+  "Waving_Groot_15.5cm.stl": {
+    "ultimaker2": {
+      "basic": 39188,
+      "default": 84620
+    },
+    "ultimaker3": {
+      "basic": 39193,
+      "default": 84634
+    }
+  },
+  "Front_Wheel_Simple_-_PLA.stl": {
+    "ultimaker2": {
+      "basic": 6567,
+      "default": 10078
+    },
+    "ultimaker3": {
+      "basic": 6566,
+      "default": 9777
+    }
+  },
+  "cube07.3.stl": {
+    "fdmprinter": {
+      "basic": 174829,
+      "default": 50144
+    }
+  },
+  "cube01.3.stl": {
+    "fdmprinter": {
+      "basic": 1341,
+      "default": 871
+    }
+  },
+  "Rear_Wheel_Simple_-_Ninjaflex.stl": {
+    "ultimaker2": {
+      "basic": 12838,
+      "default": 32250
+    },
+    "ultimaker3": {
+      "basic": 12400,
+      "default": 31813
+    }
+  },
+  "fire_truck_egg.STL": {
+    "ultimaker2": {
+      "basic": 7470,
+      "default": 12138
+    },
+    "ultimaker3": {
+      "basic": 7473,
+      "default": 12133
+    }
+  },
+  "Gnomon_Northen_NETFABBED.stl": {
+    "ultimaker2": {
+      "basic": 53335,
+      "default": 78115
+    },
+    "ultimaker3": {
+      "basic": 53297,
+      "default": 78106
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Doorframe_port_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere02.7.stl": {
+    "fdmprinter": {
+      "basic": 10158,
+      "default": 4093
+    }
+  },
+  "crossbow_body_middle_2.stl": {
+    "ultimaker2": {
+      "basic": 1864,
+      "default": 2095
+    },
+    "ultimaker3": {
+      "basic": 1865,
+      "default": 2096
+    }
+  },
+  "C_Clamp_Bolt_40.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube07.6.stl": {
+    "fdmprinter": {
+      "basic": 195294,
+      "default": 56288
+    }
+  },
+  "3DBenchy_-_Multi-part_-_Single_-_Window_-_3DBenchy.com.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "3DBenchy.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere01.8.stl": {
+    "fdmprinter": {
+      "basic": 3317,
+      "default": 1611
+    }
+  },
+  "Head_with_brim_high_detail.stl": {
+    "ultimaker2": {
+      "basic": 16124,
+      "default": 38605
+    },
+    "ultimaker3": {
+      "basic": 16127,
+      "default": 38608
+    }
+  },
+  "Bottom_part_with_breakable_support.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere01.6.stl": {
+    "fdmprinter": {
+      "basic": 2425,
+      "default": 1242
+    }
+  },
+  "Arm_v3_Reverse_60.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "cube00.2.stl": {
+    "fdmprinter": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "Red_box_mixed.stl": {
+    "ultimaker2": {
+      "basic": 68737,
+      "default": 86057
+    },
+    "ultimaker3": {
+      "basic": 69226,
+      "default": 86658
+    }
+  },
+  "cube06.6.stl": {
+    "fdmprinter": {
+      "basic": 129122,
+      "default": 39072
+    }
+  },
+  "Star_X_Cam.stl": {
+    "ultimaker2": {
+      "basic": null,
+      "default": null
+    },
+    "ultimaker3": {
+      "basic": null,
+      "default": null
+    }
+  },
+  "sphere04.9.stl": {
+    "fdmprinter": {
+      "basic": 55443,
+      "default": 18023
+    }
+  },
+  "sphere05.0.stl": {
+    "fdmprinter": {
+      "basic": 58776,
+      "default": 18972
+    }
+  },
+  "sphere05.1.stl": {
+    "fdmprinter": {
+      "basic": 62231,
+      "default": 19939
+    }
+  },
+  "sphere05.2.stl": {
+    "fdmprinter": {
+      "basic": 65838,
+      "default": 20934
+    }
+  },
+  "sphere05.3.stl": {
+    "fdmprinter": {
+      "basic": 69545,
+      "default": 21945
+    }
+  },
+  "sphere05.4.stl": {
+    "fdmprinter": {
+      "basic": 73416,
+      "default": 23084
+    }
+  },
+  "sphere05.5.stl": {
+    "fdmprinter": {
+      "basic": 77418,
+      "default": 24222
+    }
+  },
+  "sphere05.6.stl": {
+    "fdmprinter": {
+      "basic": 81590,
+      "default": 25400
+    }
+  },
+  "sphere05.7.stl": {
+    "fdmprinter": {
+      "basic": 85873,
+      "default": 26551
+    }
+  },
+  "sphere05.8.stl": {
+    "fdmprinter": {
+      "basic": 90298,
+      "default": 27779
+    }
+  },
+  "sphere05.9.stl": {
+    "fdmprinter": {
+      "basic": 94918,
+      "default": 29001
+    }
+  },
+  "sphere06.0.stl": {
+    "fdmprinter": {
+      "basic": 99633,
+      "default": 30291
+    }
+  },
+  "sphere06.1.stl": {
+    "fdmprinter": {
+      "basic": 104557,
+      "default": 31666
+    }
+  },
+  "sphere06.2.stl": {
+    "fdmprinter": {
+      "basic": 109614,
+      "default": 33069
+    }
+  },
+  "sphere06.3.stl": {
+    "fdmprinter": {
+      "basic": 114794,
+      "default": 34428
+    }
+  },
+  "sphere06.4.stl": {
+    "fdmprinter": {
+      "basic": 120203,
+      "default": 35903
+    }
+  },
+  "sphere06.5.stl": {
+    "fdmprinter": {
+      "basic": 125772,
+      "default": 37358
+    }
+  },
+  "sphere06.6.stl": {
+    "fdmprinter": {
+      "basic": 131437,
+      "default": 38817
+    }
+  },
+  "sphere06.7.stl": {
+    "fdmprinter": {
+      "basic": 137311,
+      "default": 40437
+    }
+  },
+  "sphere06.8.stl": {
+    "fdmprinter": {
+      "basic": 143392,
+      "default": 42078
+    }
+  },
+  "sphere06.9.stl": {
+    "fdmprinter": {
+      "basic": 149637,
+      "default": 43745
+    }
+  },
+  "sphere07.0.stl": {
+    "fdmprinter": {
+      "basic": 156067,
+      "default": 45437
+    }
+  },
+  "sphere07.1.stl": {
+    "fdmprinter": {
+      "basic": 162605,
+      "default": 47085
+    }
+  },
+  "sphere07.2.stl": {
+    "fdmprinter": {
+      "basic": 169397,
+      "default": 48850
+    }
+  },
+  "sphere07.3.stl": {
+    "fdmprinter": {
+      "basic": 176379,
+      "default": 50720
+    }
+  },
+  "sphere07.4.stl": {
+    "fdmprinter": {
+      "basic": 183490,
+      "default": 52572
+    }
+  },
+  "sphere07.5.stl": {
+    "fdmprinter": {
+      "basic": 190849,
+      "default": 54505
+    }
+  },
+  "sphere07.6.stl": {
+    "fdmprinter": {
+      "basic": 198337,
+      "default": 56438
+    }
+  },
+  "sphere07.7.stl": {
+    "fdmprinter": {
+      "basic": 206112,
+      "default": 58436
+    }
+  },
+  "sphere07.8.stl": {
+    "fdmprinter": {
+      "basic": 214014,
+      "default": 60431
+    }
+  },
+  "sphere07.9.stl": {
+    "fdmprinter": {
+      "basic": 222159,
+      "default": 62502
+    }
+  },
+  "sphere08.0.stl": {
+    "fdmprinter": {
+      "basic": 230437,
+      "default": 64633
+    }
+  },
+  "sphere08.1.stl": {
+    "fdmprinter": {
+      "basic": 238988,
+      "default": 66873
+    }
+  },
+  "sphere08.2.stl": {
+    "fdmprinter": {
+      "basic": 247730,
+      "default": 69089
+    }
+  },
+  "sphere08.3.stl": {
+    "fdmprinter": {
+      "basic": 256671,
+      "default": 71317
+    }
+  },
+  "sphere08.4.stl": {
+    "fdmprinter": {
+      "basic": 265835,
+      "default": 73624
+    }
+  },
+  "sphere08.5.stl": {
+    "fdmprinter": {
+      "basic": 275187,
+      "default": 75929
+    }
+  },
+  "sphere08.6.stl": {
+    "fdmprinter": {
+      "basic": 284800,
+      "default": 78417
+    }
+  },
+  "sphere08.7.stl": {
+    "fdmprinter": {
+      "basic": 294607,
+      "default": 80936
+    }
+  },
+  "sphere08.8.stl": {
+    "fdmprinter": {
+      "basic": 304657,
+      "default": 83458
+    }
+  },
+  "sphere08.9.stl": {
+    "fdmprinter": {
+      "basic": 314889,
+      "default": 86002
+    }
+  },
+  "sphere09.0.stl": {
+    "fdmprinter": {
+      "basic": 325383,
+      "default": 88617
+    }
+  },
+  "sphere09.1.stl": {
+    "fdmprinter": {
+      "basic": 336169,
+      "default": 91269
+    }
+  },
+  "sphere09.2.stl": {
+    "fdmprinter": {
+      "basic": 347084,
+      "default": 93993
+    }
+  },
+  "sphere09.3.stl": {
+    "fdmprinter": {
+      "basic": 358257,
+      "default": 96810
+    }
+  },
+  "sphere09.4.stl": {
+    "fdmprinter": {
+      "basic": 369755,
+      "default": 99699
+    }
+  },
+  "sphere09.5.stl": {
+    "fdmprinter": {
+      "basic": 381383,
+      "default": 102580
+    }
+  },
+  "sphere09.6.stl": {
+    "fdmprinter": {
+      "basic": 393271,
+      "default": 105516
+    }
+  },
+  "sphere09.7.stl": {
+    "fdmprinter": {
+      "basic": 405414,
+      "default": 108426
+    }
+  },
+  "sphere09.8.stl": {
+    "fdmprinter": {
+      "basic": 417821,
+      "default": 111441
+    }
+  },
+  "sphere09.9.stl": {
+    "fdmprinter": {
+      "basic": 430474,
+      "default": 114624
+    }
+  },
+  "sphere10.0.stl": {
+    "fdmprinter": {
+      "basic": 443418,
+      "default": 117831
     }
   }
 }
