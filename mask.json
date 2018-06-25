@@ -1,8 +1,11 @@
 {
   "model_statistics": {
-    "volume": false
+    "volume": false,
+    "surface_area": false
   },
   "settings": {
-    "infill_line_distance": true
+    "layer_height": true,
+    "infill_line_distance": true,
+    "wall_line_count": false
   }
 }

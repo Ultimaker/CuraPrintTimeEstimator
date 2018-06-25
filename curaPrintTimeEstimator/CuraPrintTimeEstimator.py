@@ -36,11 +36,9 @@ class CuraPrintTimeEstimator:
         logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}"
                      .format(inputs=inputs, targets=targets))
 
-        neural_network = CuraNeuralNetworkModel(len(inputs[0]), 1)
+        neural_network = CuraNeuralNetworkModel(len(inputs[0]), len(targets[0]), [20, 5])
         neural_network.train(x_train, y_train)
         neural_network.validate(x_test, y_test)
-        predicted_time = neural_network.predict([[2.45935, 23.9366, 0.1, 4.0, 2]])
-        logging.debug("This is the predicted time for the alligator.stl = {prediction}. This is the error = {error}".format(prediction=predicted_time[0][0], error=predicted_time[0][0] - 0.004975))
 
     def _getMask(self) -> Dict[str, Dict[str, bool]]:
         """
