@@ -101,8 +101,7 @@ class Runner:
         cmd += ["--model-file", "/srv/model.stl"]
         cmd += ["--output-file", "/srv/results/%s" % result_file_name]
 
-        a = subprocess.Popen(cmd)
-        a.communicate()
+        a = subprocess.run(cmd)
 
 
 if __name__ == "__main__":
