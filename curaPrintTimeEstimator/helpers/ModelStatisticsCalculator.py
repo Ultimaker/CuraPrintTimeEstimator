@@ -26,10 +26,10 @@ class ModelStatisticsCalculator:
         file_size = os.path.getsize(file_name)
         mesh = trimesh.load(file_name)  # type: trimesh.Trimesh
         return {
-            "volume": mesh.volume / 1000,
-            "surface_area": mesh.area / 100,
+            "volume": mesh.volume / 1000,                   # in cm3
+            "surface_area": mesh.area / 100,                # in cm2
             "area_faces": mesh.area_faces.size,
-            "box_volume": mesh.bounding_box.volume / 1000,
+            "box_volume": mesh.bounding_box.volume / 1000,  # in cm3
             "edges": mesh.edges.size,
             "mass": mesh.mass,
             "vertices": mesh.vertices.size,

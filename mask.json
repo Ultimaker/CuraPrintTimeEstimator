@@ -4,8 +4,6 @@
     "surface_area": false
   },
   "settings": {
-    "layer_height": true,
-    "infill_line_distance": true,
-    "wall_line_count": false
+    "infill_line_distance": true
   }
 }

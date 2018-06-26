@@ -6,6 +6,7 @@ import json
 import copy
 from typing import List, Dict, Tuple, Optional
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import normalize, MinMaxScaler
 import numpy as np
 
 from Settings import Settings
@@ -32,13 +33,17 @@ class CuraPrintTimeEstimator:
 
     def run(self) -> None:
         inputs, targets = self._flattenData(self._getMask())
-        x_train, x_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
+        X_train, X_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
         logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}"
                      .format(inputs=inputs, targets=targets))
 
-        neural_network = CuraNeuralNetworkModel(len(inputs[0]), len(targets[0]), [20, 5])
-        neural_network.train(x_train, y_train)
-        neural_network.validate(x_test, y_test)
+        # Normalize training data
+        scaler = MinMaxScaler()
+        X_train_minmax = scaler.fit_transform(X_train)
+        X_test_minmax = scaler.fit_transform(X_test)
+        neural_network = CuraNeuralNetworkModel(len(inputs[0]), len(targets[0]), [10, 5])
+        neural_network.train(X_train_minmax, y_train)
+        neural_network.validate(X_test_minmax, y_test)
 
     def _getMask(self) -> Dict[str, Dict[str, bool]]:
         """
@@ -93,3 +98,4 @@ class CuraPrintTimeEstimator:
             contents = [line.split("=", 2) for line in s.readlines()]  # type: List[Tuple[str, str]]
 
         return {key.rstrip(): float(value.lstrip()) for key, value in contents}
+
