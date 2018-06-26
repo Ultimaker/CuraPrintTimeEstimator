@@ -1,0 +1,16 @@
+---
+machine:
+  name: um3
+  type: ultimaker3
+  quality_type: normal
+
+  extruders:
+    0:
+      variant_name: AA 0.4
+      material_root_id: generic_pla
+
+      settings:
+        infill_sparse_density: {{ infill_sparse_density }}
+
+    1:
+      enabled: false
