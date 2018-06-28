@@ -51,15 +51,16 @@ class CuraNeuralNetworkModel:
         # Create connections from the hidden layer to the output layer
         self.WOut = tf.Variable(tf.truncated_normal([hidden_layer_nr, output_nr], mean = mean, stddev = std_dev), name = "WOut")
         self.bOut = tf.Variable(tf.truncated_normal([output_nr], mean = mean, stddev = std_dev), name = "bOut")
-        self.output = tf.nn.relu(tf.add(tf.matmul(hidden_out, self.WOut), self.bOut))  # output value
+        self.output = tf.nn.relu(tf.add(tf.matmul(hidden_out, self.WOut), self.bOut), name = "output")  # output value
         tf.summary.histogram("activationOut".format(count), self.output)
 
         # Function used to calculate the cost between the right output and the predicted output
         self.cost_function = tf.reduce_mean(tf.square(tf.subtract(self.target, self.output)))
+        # self.accuracy = tf.metrics.mean_absolute_error(self.target, self.output)
         tf.summary.histogram("cost", self.cost_function)
 
     def train(self, data_train: List[List[float]], target_train: List[List[float]], learning_rate: float = 0.0001,
-              epochs: int = 10000, batch_size: int = 10):
+              epochs: int = 10, batch_size: int = 10):
         logging.info("################# TRAINING #################")
         optimizer = tf.train.GradientDescentOptimizer(learning_rate = learning_rate).minimize(self.cost_function)
         saver = tf.train.Saver()
@@ -68,6 +69,7 @@ class CuraNeuralNetworkModel:
             # Initialize the variables
             try:
                 saver.restore(sess, self.CURA_NN_FILE)
+                logging.debug("Restoring data from {}".format(self.CURA_NN_FILE))
             except:
                 sess.run(tf.global_variables_initializer())
             train_writer = tf.summary.FileWriter(self.LOG_FILE, sess.graph)
@@ -98,13 +100,14 @@ class CuraNeuralNetworkModel:
                     avg_cost += cost / batch_nr
                     if math.isnan(cost):
                         return
-                    if (epoch + 1) % 10 == 0 and index == 0:
+                    if (epoch + 1) % 10 == 0 and index == (batch_nr - 1):
                         w_value = sess.run(self.WOut)
                         b_value = sess.run(self.bOut)
+                        estimation = sess.run(self.output, feed_dict={self.input: data_batch})
                         logging.warning("############### Epoch: {epoch} - cost = {cost:.5f}".format(epoch = epoch + 1, cost = cost))
                         logging.debug("Estimation: {weights} + {bias} = {est} <> {target}".format(
-                            weights = w_value, bias = b_value, est = sess.run(self.output, feed_dict={self.input: data_batch})[0],
-                            target = target_batch[0]))
+                            weights = w_value, bias = b_value, est = estimation[0], target = target_batch[0]))
+                        # logging.debug("Accuracy: {acc}".format(acc = accuracy))
 
             # Store the training data
             save_path = saver.save(sess, self.CURA_NN_FILE)
@@ -122,7 +125,7 @@ class CuraNeuralNetworkModel:
                 logging.error("No model file found in {path}. Can't continue the validation.".format(path = self.CURA_NN_FILE))
                 return
             # Validate the NN with the provided test data
-            logging.debug("{data_test} and {target_test}")
+            logging.debug("{data_test} and {target_test}".format(data_test = data_test, target_test = target_test))
             logging.debug("{output}".format(output = sess.run(self.cost_function, feed_dict = {self.input: data_test, self.target: target_test})))
 
     def predict(self, data_predict: List[List[float]]) -> List[List[float]]:
@@ -133,11 +136,15 @@ class CuraNeuralNetworkModel:
             # Initialize the variables
             try:
                 saver.restore(sess, self.CURA_NN_FILE)
-            except:
-                logging.error("No model file found in {path}. Can't continue the prediction.".format(path = self.CURA_NN_FILE))
+                # Get the variables from the stored NN
+                graph = tf.get_default_graph()
+                input = graph.get_tensor_by_name("input:0")
+                output = graph.get_tensor_by_name("output:0")
+                # Validate the NN with the provided test data
+                predicted_value = sess.run(output, feed_dict = {input: data_predict})
+                logging.debug("{output}".format(output = predicted_value))
+            except Exception as e:
+                logging.error("No model file found in {path}. Can't continue the prediction. Exception:\n{exc}".format(path = self.CURA_NN_FILE, exc=str(e)))
                 return [[]]
-            # Validate the NN with the provided test data
-            predicted_value = sess.run(self.output, feed_dict = {self.input: data_predict})
-            logging.debug("{output}".format(output = predicted_value))
 
         return predicted_value

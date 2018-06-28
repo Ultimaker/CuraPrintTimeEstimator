@@ -4,6 +4,7 @@
     "surface_area": false
   },
   "settings": {
+    "layer_height": true,
     "infill_line_distance": true
   }
 }
