@@ -3,9 +3,10 @@
 # -*- coding: utf-8 -*-
 import logging
 import json
-import copy
 from typing import List, Dict, Tuple, Optional
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+import numpy as np
 
 from Settings import Settings
 from curaPrintTimeEstimator.ModelDataGenerator import ModelDataGenerator
@@ -31,15 +32,22 @@ class CuraPrintTimeEstimator:
 
     def run(self) -> None:
         inputs, targets = self._flattenData(self._getMask())
-        x_train, x_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
+        X_train, X_test, y_train, y_test = train_test_split(inputs, targets, test_size = 0.25)
         logging.info("These are the inputs and target for the NN:\nINPUTS: {inputs}\nTARGETS: {targets}"
                      .format(inputs=inputs, targets=targets))
 
-        neural_network = CuraNeuralNetworkModel(len(inputs[0]), 1)
-        neural_network.train(x_train, y_train)
-        neural_network.validate(x_test, y_test)
+        # Normalize training data
+        scaler = MinMaxScaler()
+        X_train_minmax = scaler.fit_transform(X_train)
+        X_test_minmax = scaler.fit_transform(X_test)
+        neural_network = CuraNeuralNetworkModel(len(inputs[0]), len(targets[0]), [10, 5])
+        logging.debug("Minimum {min}:".format(min = np.min(inputs, axis = 0)))
+        logging.debug("Maximum {max}:".format(max = np.max(inputs, axis = 0)))
+        neural_network.train(X_train_minmax, y_train)
+        neural_network.validate(X_test_minmax, y_test)
+        # print("This is the predicted value:", neural_network.predict([[0.49253, 0.6203, 0.0, 0.01316]]))
 
-    def _getMask(self) -> Dict[str, List[str]]:
+    def _getMask(self) -> Dict[str, Dict[str, bool]]:
         """
         Loads the settings we are using for train the the regression algorithm.
         :return: The parsed contents of the mask file.
@@ -47,7 +55,7 @@ class CuraPrintTimeEstimator:
         with open(CuraPrintTimeEstimator.MASK_FILE) as f:
             return json.load(f)
 
-    def _flattenData(self, mask_data: Dict[str, List[str]]) -> Tuple[List[List[Optional[float]]], List[List[float]]]:
+    def _flattenData(self, mask_data: Dict[str, Dict[str, bool]]) -> Tuple[List[List[Optional[float]]], List[List[float]]]:
         """
         Organizes the data collected in previous steps in inputs and target values.
         :return: A list of values used as the input for the NN and the printing times as the target values
@@ -76,12 +84,13 @@ class CuraPrintTimeEstimator:
                 for settings_profile, print_time in settings_profiles.items():
                     if not print_time:
                         continue
-                    targets.append(print_time)   # We store the target times
+                    targets.append([print_time / 3600])   # We store print time as a list, in hours
 
                     # Take the values from the setting profiles that are in the mask
                     settings = self._readSettings(settings_profile)
 
-                    settings_data = [settings.get(mask_setting) for mask_setting in mask_data["settings"]]
+                    # settings_data = [1 / settings.get(mask_setting) if is_inverse else settings.get(mask_setting) for mask_setting, is_inverse in mask_data["settings"].items()]
+                    settings_data = [settings.get(mask_setting) for mask_setting, is_inverse in mask_data["settings"].items()]
                     inputs.append(list(model_stats) + settings_data)
 
         return inputs, targets
@@ -91,3 +100,4 @@ class CuraPrintTimeEstimator:
             contents = [line.split("=", 2) for line in s.readlines()]  # type: List[Tuple[str, str]]
 
         return {key.rstrip(): float(value.lstrip()) for key, value in contents}
+
